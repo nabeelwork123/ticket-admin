@@ -187,12 +187,18 @@
 													</div>
 												</td>
 												<td>
-													<select class="form-select form-control">
-														<option selected="">Medium</option>
-														<option>High</option>
-														<option>Low</option>
-													</select>				
-													<p>This priority applies to tickets without a set priority</p>									
+													<div class="row">
+														<div class="col-lg-3 col-md-3">
+															<select class="form-select w-100 form-control">
+																<option selected>Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+														<div class="col-lg-9 col-md-9">
+															<p class="mb-0">This priority applies to tickets without a set priority</p>
+														</div>														
+													</div>							
 												</td>
 											</tr>
 
@@ -230,6 +236,20 @@
 														</div>
 													</div>
 												</td>
+												<td>
+													<div class="row">
+														<div class="col-lg-3 col-md-3">
+															<select class="form-select w-100 form-control">
+																<option selected>Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+														<div class="col-lg-9 col-md-9">
+															<p class="mb-0">This priority applies to tickets without a set priority</p>
+														</div>														
+													</div>							
+												</td>												
 											</tr>
 
 											<tr>
@@ -266,6 +286,20 @@
 														</div>
 													</div>
 												</td>
+												<td>
+													<div class="row">
+														<div class="col-lg-3 col-md-3">
+															<select class="form-select w-100 form-control">
+																<option selected>Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+														<div class="col-lg-9 col-md-9">
+															<p class="mb-0">This priority applies to tickets without a set priority</p>
+														</div>														
+													</div>							
+												</td>												
 											</tr>
 
 											<tr>
@@ -302,6 +336,20 @@
 														</div>
 													</div>
 												</td>
+												<td>
+													<div class="row">
+														<div class="col-lg-3 col-md-3">
+															<select class="form-select w-100 form-control">
+																<option selected>Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+														<div class="col-lg-9 col-md-9">
+															<p class="mb-0">This priority applies to tickets without a set priority</p>
+														</div>														
+													</div>							
+												</td>												
 											</tr>
 
 										</tbody>
@@ -311,6 +359,7 @@
 							</div>
 						</div>
 
+						<!--
 						<div class="row">
 							<div class="col-xl-8  col-lg-8">
 
@@ -328,8 +377,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
-
+						</div> -->
 
 						<div class="row align-items-center mb-3 px-2">
 							<h4 class="fs-15 fw-600 text-dark mb-3">Your default reminder  policy</h4>
