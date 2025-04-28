@@ -85,7 +85,7 @@
 								<div class="tick-dash-card d-flex align-items-center justify-content-between">
 									<div>
 										<h3 class="mb-1 fs-24">26 </h3>
-										<span class="fs-14 fw-medium ">New Tickets </span>								
+										<span class="fs-14">New Tickets </span>								
 									</div>
 									<div class="tick-dash-icon">
 										<img src="assets/img/icons/new-ticket.png" class="img-fluid">
@@ -136,7 +136,7 @@
 							<div class="tick-dash-card d-flex align-items-center justify-content-between">
 							<div>
 							<h3 class="mb-1 fs-24">3.67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
-								<span class="fs-14 fw-medium text-body">Avg. 1st Response Time</span>
+								<span class="fs-14">Avg. 1st Response Time</span>
 								<p class="fs-12  mb-0">from last month </p>
 								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
 								</div>
@@ -155,7 +155,7 @@
 							<div class="tick-dash-card d-flex align-items-center justify-content-between">
 							<div>
 							<h3 class="mb-1 fs-24">3.67<span class="fs-12 fw-medium text-danger"><i class="fa-solid fa-caret-up me-1"></i>+5.3%</span></h3>
-								<span class="fs-14 fw-medium text-body">Avg. Resolve Time</span>
+								<span class="fs-14">Avg. Resolve Time</span>
 								<p class="fs-12  mb-0">from last month </p>
 								<!-- <p class="fs-12 mb-0">&nbsp; </p> -->
 							</div>
@@ -887,7 +887,7 @@
 
 						<div class="card">
 							<div class="card-header d-flex justify-content-between">
-								<div class="card-title">Tickets by category</div>
+								<h5 class="">Tickets by category</h5>
 								<!-- <div class="dropdown mb-2">
                                 <a href="javascript:void(0);" class="btn btn-white border btn-sm d-inline-flex align-items-center" data-bs-toggle="dropdown">
                                     <i class="ti ti-calendar me-1"></i>This Month
@@ -946,7 +946,7 @@
 					<div class="col-xl-4 col-md-4">
 						<div class="card">
 							<div class="card-header d-flex justify-content-between">
-								<div class="card-title">Tickets by department</div>
+								<h5 class="">Tickets by department</h5>
 								<!-- <div class="dropdown mb-2">
                                 <a href="javascript:void(0);" class="btn btn-white border btn-sm d-inline-flex align-items-center" data-bs-toggle="dropdown">
                                     <i class="ti ti-calendar me-1"></i>This Month
@@ -993,7 +993,7 @@
 					<div class="col-xl-4 col-md-4">
 					<div class="card">
 							<div class="card-header">
-								<div class="card-title">Tickets by status</div>
+								<h5 class="">Tickets by status</h5>
 							</div>
 							<div class="card-body" style="height:500px;overflow-y:auto;">
 							<div id="chart-donut-2"></div>
@@ -1084,7 +1084,7 @@
 					<div class="col-xl-8  col-lg-12">
 					<div class="card">
 							<div class="card-header d-flex justify-content-between">
-								<div class="card-title">Support team overview</div>
+								<h5 class="">Support team overview</h5>
 								<!-- <div class="btn-group ">
 									<button type="button" class="btn btn-primary  dropdown-toggle"
 										data-bs-toggle="dropdown" aria-expanded="false">
@@ -1105,11 +1105,11 @@
 											<tr>
 												<th>Team</th>
 												<th>Assigned</th>
-												<th>Avg. Resolution</th>
-												<th>New Tickets</th>
-												<th>Tickets In Progress</th>
-												<th>Resolved Tickets</th>
-												<th>Overdue Tickets</th>
+												<th>Avg. <br />Resolution</th>
+												<th>New<br /> Tickets</th>
+												<th>Tickets<br /> In Progress</th>
+												<th>Resolved<br /> Tickets</th>
+												<th>Overdue<br /> Tickets</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -1277,7 +1277,7 @@
 							
 							<div class="card flex-fill">
                         <div class="card-header pb-2 d-flex align-items-center justify-content-between flex-wrap">
-                            <h5 class="card-title mb-2">Recent Activity</h5>
+                            <h5 class="mb-2">Recent Activity</h5>
                             <!-- <a href="" class="btn btn-light btn-md mb-2">View All</a> -->
                         </div>
                         <div class="card-body">
@@ -1285,7 +1285,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-38.webp" class="rounded-circle" alt="img">
+                                            <img src="assets/img/users/user-38.webp" class="" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1301,7 +1301,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-01.webp" class="rounded-circle" alt="img">
+                                            <img src="assets/img/users/user-01.webp" class="" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1317,7 +1317,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-11.webp" class="rounded-circle" alt="img">
+                                            <img src="assets/img/users/user-11.webp" class="" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1333,7 +1333,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-11.webp" class="rounded-circle" alt="img">
+                                            <img src="assets/img/users/user-11.webp" class="" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1349,7 +1349,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-20.webp" class="rounded-circle" alt="img">
+                                            <img src="assets/img/users/user-20.webp" class="" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1365,7 +1365,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-08.webp" class="rounded-circle" alt="img">
+                                            <img src="assets/img/users/user-08.webp" class="" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">

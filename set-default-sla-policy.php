@@ -145,9 +145,10 @@
 									<table class="table table-borderless table-white">
 										<thead class="">
 											<tr>
-											<th>Priority </th>
-											<th>Respond Within</th>
-											<th>Resolve Within</th>
+												<th>Priority </th>
+												<th>Respond Within</th>
+												<th>Resolve Within</th>
+												<th>Set your default Priority policy</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -184,6 +185,14 @@
 															</select>
 														</div>
 													</div>
+												</td>
+												<td>
+													<select class="form-select form-control">
+														<option selected="">Medium</option>
+														<option>High</option>
+														<option>Low</option>
+													</select>				
+													<p>This priority applies to tickets without a set priority</p>									
 												</td>
 											</tr>
 
