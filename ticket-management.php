@@ -89,7 +89,7 @@
 									<!-- <p class="text-body fs-12">List of ticket open by Customers</p> -->
 								</div>
 								<div class="d-flex align-items-center justify-content-end me-2">
-									<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1"class="btn btn-primary btn-sm h-25 me-0">filters</a>
+									<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1"class="btn btn-primary btn-sm h-25 me-0">Search by filters</a>
 									<!-- <div class="btn-group me-2 py-2">
 										<button type="button" class="btn btn-secondary btn-sm dropdown-toggle"
 											data-bs-toggle="dropdown" aria-expanded="false">
@@ -1418,6 +1418,16 @@
 								</div> -->
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
+									<input type="text" class="form-control" placeholder="Subject">
+									<!-- <select class="form-select">
+										<option></option>
+										<option></option>
+										<option></option>
+										<option></option>
+									</select> -->
+								</div>								
+								<div class="mb-0">
+									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Employee name ">
 									<!-- <select class="form-select">
 										<option></option>
@@ -1426,9 +1436,10 @@
 										<option></option>
 									</select> -->
 								</div>
+
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
-									<input type="text" class="form-control" placeholder="Subject">
+									<input type="text" class="form-control" placeholder="Floor Number">
 									<!-- <select class="form-select">
 										<option></option>
 										<option></option>
@@ -1438,14 +1449,14 @@
 								</div>
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
-									<input type="text" class="form-control" placeholder="Floor Number ">
-									<!-- <select class="form-select">
-										<option></option>
-										<option></option>
-										<option></option>
-										<option></option>
-									</select> -->
-								</div>
+									<select class="form-select" placeholder="">
+										<option selected>Assignee</option>
+										<option>Jack</option>
+										<option>Oliver</option>
+										<option>Sarah</option>
+
+									</select>
+								</div>								
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<select class="form-select" placeholder="">
