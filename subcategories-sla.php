@@ -97,8 +97,8 @@
 								<tr class="table-info">
 								<th rowspan="4" colspan="1" class="mb-4">Category</th>
 								<th rowspan="2" colspan="1">Subcategory</th>
-								<th colspan="4" class="">Response Time</th>
-								<th colspan="4" class="">Resolution Time</th>
+								<th colspan="4" class="text-center">Response Time</th>
+								<th colspan="4" class="text-center">Resolution Time</th>
 								<th rowspan="2">Action</th>
 								</tr>
 								<tr>
