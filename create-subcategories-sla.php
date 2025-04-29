@@ -383,7 +383,7 @@
 						<div class="row">
 							<div class="col-xl-8  col-lg-8">
 								<div class="row align-items-center mb-4">
-									<h4 class="fs-15 fw-600 text-dark mb-3">2.Set your default Priority policy</h4>
+									<h4 class="fs-15 fw-600 text-dark mb-3">2.Set your default Priority  policy</h4>
 									<div class="col-lg-3 col-md-3">
 										<select class="form-select form-control">
 											<option selected>Medium</option>
