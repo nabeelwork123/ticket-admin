@@ -138,7 +138,7 @@
 								</div>
 
 								<div class="col-lg-12 mt-4">
-									<a  class="btn btn-primary">Save & Submit  </a>
+									<a  class="btn btn-primary" id="show">Save & Submit  </a>
 								</div>
 							</div>
 							
@@ -146,9 +146,9 @@
 			    </div>
 				
 
-				<div class="card">
-					<div class="card-header border-0">
-						<h4 class="" </div>
+				<div class="card " id="box" style="display:none;">
+					<!-- <div class="card-header border-0">
+						</div> -->
 							<div class="card-body">
 								<div class="row">
 									<div class="col-lg-6">
@@ -172,18 +172,16 @@
 										<div class="mb-3">
 											<label for="" class="form-label text-primary">Assign sub-category to users</label>
 											<p>Enter the names or select the employees you want to assign to the above subcategories.</p>
-											<select class="js-example-placeholder-multiple select2 js-states" multiple="multiple" >
-												<option value="fr-1">Appple</option>
-												<option value="fr-2">Mango</option>
-												<option value="fr-3">Orange</option>
-												<option value="fr-4">Guava</option>
-												<option value="fr-5">Pineapple</option>
+											<select class="js-select2"  placeholder="Type to search">
+												<option>Assigned Agent </option>
+												<option>Label</option>
+												<option>Peter Holmes</option>
 											</select>
 											<div class="add-category mt-md-4 mt-2">
-												<a href="javascript:;" class="text-info fw-500" data-bs-toggle="modal" data-bs-target="#exampleModal12345">+ Add new sub-category</a>
+												<a href="" class="text-info fw-500">+ Add new sub-category</a>
 											</div>
 											<div class="mt-md-4 mt-2">
-												<a  class="btn btn-primary">Save & Submit  </a>
+												<a  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal123">Save & Submit  </a>
 											</div>
 										</div>
 									</div>
@@ -194,11 +192,7 @@
 				</div>
 			</div>
 
-
-
 			<!-- /Page Wrapper -->
-
-
 
 
 			<!-- Modal -->
@@ -218,7 +212,6 @@
 					</div>
 				</div>
 			</div>
-
 			<!-- Modal -->
 
 			<!-- Modal -->
@@ -268,11 +261,9 @@
 					</div>
 				</div>
 			</div>
-
 			<!-- Modal -->
 
 			<!-- ----------------- Table Modal Start ------------------------- -->
-
 			<div class="modal fade" id="exampleModal12345" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-lg">
 				  <div class="modal-content rounded-4">
@@ -505,58 +496,129 @@
 				  </div>
 				</div>
 			</div>
-
 			<!-- ----------------- Table Modal End ------------------------- -->
 
+			<!-- --------------------- 4th Edit Name Category Start -------------------- -->
 			<!-- Modal -->
 			<div class="modal fade" id="exampleModal123456" tabindex="-1" aria-labelledby="exampleModalLabel"	aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered">
-					<div class="modal-content">
-						<div class="modal-body rounded-4 py-4 hdBtn-align">
-							<h4 class="fs-18 text-dark py-3 text-center">Edit name of the subcategory</h4>
-							<button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-							
+					<div class="modal-content rounded-4">
+						<div class="modal-body py-2">														
 							<div class="row">
 								<div class="col-lg-12 mb-2">
+								<div class="card-header border-0 hdBtn-align mt-md-3 mt-2">
+										<h4 class="fs-20 fw-200 text-dark mb-md-3 mb-2">Edit name of the subcategory</h4>			
+										<button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+								</div>
 								<p>Enter one or more subcategories, separated by commas.<br>
-								<span>Example:</span>Password Reset, Account Access, Email Issues</p>
-									<label class="form-label">Select Category</label>
-									<select class="form-select">
-										<option selected></option>
-										<option></option>
-										<option></option>
-										<option></option>
-									</select>
+								<span class="text-primary">Example:</span> Password Reset, Account Access, Email Issues</p>
 								</div>
 
 								<div class="col-lg-12 mb-2">
-									<label class="form-label">Type in sub-category </label>
-									<select class="form-select">
-										<option selected></option>
-										<option></option>
-										<option></option>
-										<option></option>
-									</select>
-								</div>
-								<div class="col-lg-12 mb-3">
-									<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal1234"
-										class="d-flex justify-content-end align-items-center mt-1 fs-12 text-info">Add
-										new
-										sub-category <span class="text-info text-center ms-2 fs-10 mt-1"><i
-												class="fa-solid fa-plus"></i></span> </a>
+									<input type="text" class="form-control" placeholder="Type in an appropriate category titles, separated by comma">
 								</div>
 							</div>
 
 						</div>
-						<div class="d-flex justify-content-center mb-4">
+						<div class="ms-3 mb-md-4 mb-2">
 							<button type="button" class="btn btn-primary fs-14 me-2" data-bs-toggle="modal"
-								data-bs-target="#exampleModal123">Submit sub-category </button>
+								data-bs-target="">Save and Submit</button>
 						</div>
 					</div>
 				</div>
 			</div>
-
 			<!-- Modal -->
+
+			<!-- --------------------- 4th Popup End -------------------- -->
+
+			<!-- --------------------- 5th Assign SubCategory Start -------------------- -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1234567" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content rounded-4">
+                        <div class="modal-body py-2">
+                            <div class="row">
+                                <div class="col-lg-12 mb-2">
+                                    <div class="card-header border-0 hdBtn-align mt-md-3 mt-2">
+                                        <h4 class="fs-20 fw-200 text-dark mb-md-3 mb-2">Assign sub-category to users
+                                        </h4>
+                                        <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i
+                                                class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <p>Enter the names or select the employees you want to assign to the subcategory</p>
+                                </div>
+
+                                <div class="col-lg-12 mb-2">
+                                    <select class="js-example-placeholder-multiple select2 js-states" multiple="multiple" placeholder="Type to Search">
+                                        <option value="fr-1">Jack Tin</option>
+                                        <option value="fr-2">Henry Hill</option>
+                                        <option value="fr-3">Peter Holmes</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="ms-3 mb-md-4 mb-2">
+                            <button type="button" class="btn btn-primary fs-14 me-2" data-bs-toggle="modal"
+                                data-bs-target="">Save and Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+
+            <!-- --------------------- 5th Popup End -------------------- -->
+
+
+			<!-- --------------------- 6th Edit Category Start -------------------- -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal12345678" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content rounded-4">
+                        <div class="modal-body py-2">
+                            <div class="row">
+                                <div class="col-lg-12 mb-2">
+                                    <div class="card-header border-0 hdBtn-align mt-md-3 mt-2">
+                                        <h4 class="fs-20 fw-200 text-dark mb-md-3 mb-2">Edit Category</h4>
+                                        <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i
+                                                class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <p>Enter the names or select the employees you want to assign to the subcategory</p>
+                                </div>
+
+                                <div class="col-lg-12 mb-2">
+									<div>
+										<input type="text" class="form-control" placeholder="Type in an appropriate category titles, separated by comma">
+									</div>
+
+									<div>
+									<select class="js-example-placeholder-multiple select2 js-states" multiple="multiple" placeholder="Type to Search">
+                                        <option value="fr-1">Jack Tin</option>
+                                        <option value="fr-2">Henry Hill</option>
+                                        <option value="fr-3">Peter Holmes</option>
+                                    </select>
+								</div>                                    
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="ms-3 mb-md-4 mb-2">
+                            <button type="button" class="btn btn-primary fs-14 me-2" data-bs-toggle="modal"
+                                data-bs-target="">Save and Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+
+            <!-- --------------------- 6th Popup End -------------------- -->
+
 
 
 			<?php include 'includes/footer.php'; ?>
@@ -605,6 +667,19 @@
 			//     .addClass("material-icons")
 			//     .html("arrow_drop_down");
 		});
+	</script>
+
+	<script>
+		$(document).ready(function() {
+     $("#hide").click(function() {
+         $("#box").hide();
+     });
+
+     $("#show").click(function() {
+         $("#box").show();
+     });
+
+	});
 	</script>
 	</div>
 
