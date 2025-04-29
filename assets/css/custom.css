@@ -579,7 +579,7 @@ counter-reset: item;
     border-right: 1px dashed #ccc;
     padding:14px 0px ;
     flex: 1;
-    text-align: center;    
+    text-align: center;
 }
 
 .bg-li-bg{
@@ -591,7 +591,7 @@ counter-reset: item;
 }
 .esc-box-out{
     background-color: #FFF;
-    padding:60px 15px 20px 10px;
+    padding:30px 15px 20px 10px;
     margin-top:40px;
     border-radius:3px;
     box-shadow: 0px 0px 4px rgba(50, 119, 248, 0.24);
@@ -599,13 +599,13 @@ counter-reset: item;
 .esc-box{
     border:1px solid #A6A2A2;
     padding:15px 10px;
-    min-height:100px;
+    min-height:85px;
     background-color: #fff;
     max-width: 850px;
     position: relative;
-    border-radius:3px;
-    
+    border-radius:3px;    
 }
+
 .esc-box label{
     position: absolute;
     top: -10px;
