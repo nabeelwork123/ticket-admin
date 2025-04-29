@@ -652,7 +652,7 @@ counter-reset: item;
 
 }
 .sla-table input[type="number"]{
-    max-width: 50px;
+    max-width: 58px;
 }
 /* .imp-nt{
     color: #333;

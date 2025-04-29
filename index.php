@@ -1285,7 +1285,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-38.webp" class="" alt="img">
+                                            <img src="assets/img/users/user-38.webp" class="rounded-3" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1301,7 +1301,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-01.webp" class="" alt="img">
+                                            <img src="assets/img/users/user-01.webp" class="rounded-3" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1317,7 +1317,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-11.webp" class="" alt="img">
+                                            <img src="assets/img/users/user-11.webp" class="rounded-3" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1333,7 +1333,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-11.webp" class="" alt="img">
+                                            <img src="assets/img/users/user-11.webp" class="rounded-3" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1349,7 +1349,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-20.webp" class="" alt="img">
+                                            <img src="assets/img/users/user-20.webp" class="rounded-3" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1365,7 +1365,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div class="d-flex align-items-center w-100">
                                         <a href="javscript:void(0);" class="avatar  flex-shrink-0">
-                                            <img src="assets/img/users/user-08.webp" class="" alt="img">
+                                            <img src="assets/img/users/user-08.webp" class="rounded-3" alt="img">
                                         </a>
                                         <div class="ms-2 flex-fill">
                                             <div class="d-flex align-items-center justify-content-between">

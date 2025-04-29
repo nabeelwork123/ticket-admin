@@ -119,19 +119,28 @@
 									<div class="col-lg-6 mb-2">
 									<label class="form-label">Select Category</label>
 									<select class="form-select">
-										<option selected></option>
-										<option></option>
-										<option></option>
-										<option></option>
+										<option selected disabled>Select Category</option>
+										<option>IT Support</option>
 									</select>
 									</div>
 									<div class="col-lg-6 mb-2">
 									<label class="form-label">Select one or multiple sub-categories</label>
 									<select class="form-select">
-										<option selected></option>
-										<option></option>
-										<option></option>
-										<option></option>
+										<option selected disabled>Select sub-categories</option>
+										<option>Laptop</option>
+										<option>Work Station</option>
+										<option>Keyboard</option>
+										<option>Mouse</option>
+										<option>Headphone</option>
+										<option>Monitor</option>
+										<option>Printer</option>
+										<option>Attendance Machine</option>
+										<option>Software Installation</option>
+										<option>Email</option>
+										<option>Phone</option>
+										<option>Internet</option>
+										<option>HR Portal</option>
+										<option>Kiosk Portal</option>
 									</select>
 									 <a href="javascript:;"  data-bs-toggle="modal" data-bs-target="#exampleModal1234"  class="d-flex justify-content-end align-items-center mt-1 fs-12 text-info">Add new sub-category <span class="text-info text-center ms-2 fs-10 mt-1"><i class="fa-solid fa-plus"></i></span> </a>
 									</div>
@@ -143,7 +152,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-xl-6 col-lg-8">
+					<div class="col-xl-8 col-lg-8">
 						<div class="card bg-transparent border-0 shadow-none ">
 							<div class="card-header border-0">
 								<h4 class="fs-15 fw-600 text-dark mb-3">1.Set your selected subcategory SLA Policy </h4>
@@ -157,6 +166,7 @@
 											<th class="text-purple fs-16 fw-medium">Priority </th>
 											<th class="text-purple fs-16 fw-medium">Respond Within</th>
 											<th class="text-purple fs-16 fw-medium">Resolve Within</th>
+											<th class="text-purple fs-16 fw-medium">Set your default Priority policy</th>
 											</tr>
 										</thead>
 										<tbody class="bg-transparent">
@@ -194,6 +204,20 @@
 														</div>
 													</div>
 												</td>
+												<td>
+													<div class="row">
+														<div class="col-lg-4 col-md-4">
+															<select class="form-select w-100 form-control">
+																<option selected="">Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+														<div class="col-lg-5 col-md-5">
+															<p class="mb-0">This priority applies to tickets without a set priority</p>
+														</div>														
+													</div>							
+												</td>												
 											</tr>
 
 											<tr>
@@ -230,6 +254,20 @@
 														</div>
 													</div>
 												</td>
+												<td>
+													<div class="row">
+														<div class="col-lg-4 col-md-4">
+															<select class="form-select w-100 form-control">
+																<option selected="">Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+														<div class="col-lg-5 col-md-5">
+															<p class="mb-0">This priority applies to tickets without a set priority</p>
+														</div>														
+													</div>							
+												</td>												
 											</tr>
 
 											<tr>
@@ -266,6 +304,20 @@
 														</div>
 													</div>
 												</td>
+												<td>
+													<div class="row">
+														<div class="col-lg-4 col-md-4">
+															<select class="form-select w-100 form-control">
+																<option selected="">Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+														<div class="col-lg-5 col-md-5">
+															<p class="mb-0">This priority applies to tickets without a set priority</p>
+														</div>														
+													</div>							
+												</td>												
 											</tr>
 
 											<tr>
@@ -302,6 +354,20 @@
 														</div>
 													</div>
 												</td>
+												<td>
+													<div class="row">
+														<div class="col-lg-4 col-md-4">
+															<select class="form-select w-100 form-control">
+																<option selected="">Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+														<div class="col-lg-5 col-md-5">
+															<p class="mb-0">This priority applies to tickets without a set priority</p>
+														</div>														
+													</div>							
+												</td>												
 											</tr>
 
 										</tbody>
@@ -313,9 +379,9 @@
 						</div>
 						</div>
 
+						<!-- 
 						<div class="row">
 							<div class="col-xl-8  col-lg-8">
-
 								<div class="row align-items-center mb-4">
 									<h4 class="fs-15 fw-600 text-dark mb-3">2.Set your default Priority policy</h4>
 									<div class="col-lg-3 col-md-3">
@@ -331,6 +397,7 @@
 								</div>
 							</div>
 						</div>
+						-->
 
 
 						<div class="row align-items-center mb-3 px-2">

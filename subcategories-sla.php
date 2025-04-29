@@ -62,7 +62,7 @@
 						</div>
 					</div> -->
 					<div class="mb-2">
-						<a href="#" data-bs-toggle="modal" data-bs-target="#add_leaves" class="btn btn-primary d-flex align-items-center">Create mew subcategory SLA </a>
+						<a href="#" data-bs-toggle="modal" data-bs-target="#add_leaves" class="btn btn-primary d-flex align-items-center">Create new subcategory SLA </a>
 					</div>
 					<!-- <div class="head-icons ms-2">
 						<a href="javascript:void(0);" class="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Collapse" id="collapse-header">
@@ -102,14 +102,14 @@
 								<th rowspan="2">Action</th>
 								</tr>
 								<tr>
-								<th>Urgent</th>
-								<th>High</th>
-								<th>Medium</th>
-								<th>Low</th>
-								<th>Urgent</th>
-								<th>High</th>
-								<th>Medium</th>
-								<th>Low</th>
+									<th> <i class="ti ti-square-filled fs-10 me-1 text-danger"></i> Urgent</th>
+									<th> <i class="ti ti-square-filled fs-10 me-1 text-warning"></i> High</th>
+									<th> <i class="ti ti-square-filled fs-10 me-1 text-purple"></i>Medium</th>
+									<th> <i class="ti ti-square-filled fs-10 me-1 text-success"></i>Low</th>
+									<th> <i class="ti ti-square-filled fs-10 me-1 text-danger"></i> Urgent</th>
+									<th> <i class="ti ti-square-filled fs-10 me-1 text-warning"></i> High</th>
+									<th> <i class="ti ti-square-filled fs-10 me-1 text-purple"></i>Medium</th>
+									<th> <i class="ti ti-square-filled fs-10 me-1 text-success"></i>Low</th>
 								</tr>
 							</thead>
 							<tbody>
