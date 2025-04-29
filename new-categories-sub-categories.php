@@ -172,13 +172,15 @@
 										<div class="mb-3">
 											<label for="" class="form-label text-primary">Assign sub-category to users</label>
 											<p>Enter the names or select the employees you want to assign to the above subcategories.</p>
-											<select class="js-select2"  placeholder="Type to search">
-												<option>Assigned Agent </option>
-												<option>Label</option>
-												<option>Peter Holmes</option>
+											<select class="js-example-placeholder-multiple select2 js-states" multiple="multiple" >
+												<option value="fr-1">Appple</option>
+												<option value="fr-2">Mango</option>
+												<option value="fr-3">Orange</option>
+												<option value="fr-4">Guava</option>
+												<option value="fr-5">Pineapple</option>
 											</select>
 											<div class="add-category mt-md-4 mt-2">
-												<a href="" class="text-info fw-500" data-bs-toggle="modal" data-bs-target="#exampleModal12345">+ Add new sub-category</a>
+												<a href="javascript:;" class="text-info fw-500" data-bs-toggle="modal" data-bs-target="#exampleModal12345">+ Add new sub-category</a>
 											</div>
 											<div class="mt-md-4 mt-2">
 												<a  class="btn btn-primary">Save & Submit  </a>
@@ -224,9 +226,9 @@
 				<div class="modal-dialog modal-dialog-centered">
 					<div class="modal-content">
 						<!-- <div class="modal-header border-0">
-		<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-	  </div> -->
+				<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  			</div> -->
 						<div class="modal-body rounded-4 py-4">
 							<h4 class="fs-18 text-dark py-3 text-center">Add new sub-category </h4>
 							<div class="row">
@@ -505,6 +507,56 @@
 			</div>
 
 			<!-- ----------------- Table Modal End ------------------------- -->
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal123456" tabindex="-1" aria-labelledby="exampleModalLabel"	aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-body rounded-4 py-4 hdBtn-align">
+							<h4 class="fs-18 text-dark py-3 text-center">Edit name of the subcategory</h4>
+							<button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+							
+							<div class="row">
+								<div class="col-lg-12 mb-2">
+								<p>Enter one or more subcategories, separated by commas.<br>
+								<span>Example:</span>Password Reset, Account Access, Email Issues</p>
+									<label class="form-label">Select Category</label>
+									<select class="form-select">
+										<option selected></option>
+										<option></option>
+										<option></option>
+										<option></option>
+									</select>
+								</div>
+
+								<div class="col-lg-12 mb-2">
+									<label class="form-label">Type in sub-category </label>
+									<select class="form-select">
+										<option selected></option>
+										<option></option>
+										<option></option>
+										<option></option>
+									</select>
+								</div>
+								<div class="col-lg-12 mb-3">
+									<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal1234"
+										class="d-flex justify-content-end align-items-center mt-1 fs-12 text-info">Add
+										new
+										sub-category <span class="text-info text-center ms-2 fs-10 mt-1"><i
+												class="fa-solid fa-plus"></i></span> </a>
+								</div>
+							</div>
+
+						</div>
+						<div class="d-flex justify-content-center mb-4">
+							<button type="button" class="btn btn-primary fs-14 me-2" data-bs-toggle="modal"
+								data-bs-target="#exampleModal123">Submit sub-category </button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal -->
 
 
 			<?php include 'includes/footer.php'; ?>

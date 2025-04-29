@@ -100,9 +100,9 @@
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
-                                <li><a href="set-default-sla-policy.php" class="">Default Sla Policy</a></li>
-                                <li><a href="subcategories-sla.php" class="">Subcategories sla</a></li>
-                               <li><a href="create-subcategories-sla.php" class="">Create subcategories sla</a></li>
+                                <li><a href="set-default-sla-policy.php" class="">Default SLA Policy</a></li>
+                                <li><a href="subcategories-sla.php" class="">Subcategories SLA</a></li>
+                               <li><a href="create-subcategories-sla.php" class="">Create subcategories SLA</a></li>
                                 <!-- <li><a href="sister-concerned-company.php" class="">Sister concerned company</a></li>
                                 <li><a href="add-sister-company.php" class="">Add sister companies</a></li> -->
                                 
@@ -127,6 +127,7 @@
                             </a>
                             <ul>
                                 <li><a href="new-categories-sub-categories.php" class="">New Categories Sub Categories</a></li>
+                                <li><a href="categories-subcategories_management.php" class="">Categories Subcategories Management</a></li>
                                 
                           </ul>
                     </li>

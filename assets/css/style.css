@@ -8958,9 +8958,9 @@ kbd {
   transition: 0.3s all;
 }
 
-.accordion-button:after, .accordion-button:not(.collapsed)::after {
+/* .accordion-button:after, .accordion-button:not(.collapsed)::after {
   display: none;
-}
+} */
 
 .todo-accordion .accordion-item {
   background: transparent;
