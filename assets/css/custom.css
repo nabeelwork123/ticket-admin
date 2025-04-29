@@ -307,9 +307,9 @@ counter-reset: item;
     font-size: 34px;
 }
 
-.reportBox{
+/* .reportBox{
     min-height: ;
-}
+} */
 
 .avatar-upload {
     position: relative;
@@ -719,6 +719,47 @@ counter-reset: item;
 .sla-table1 .table tbody tr td{
     background-color: #f8f9fa!important;
 }
+
+
+/* ------------------- Samit Css Start ------------------ */
+.card-body p {
+    color: #6B7280;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.card-body p span {
+    color: #1374C3;
+    font-style: normal;
+}
+
+.add-category a {
+    color: #1374C3;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.hdBtn-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2px !important;
+}
+
+.hdBtn-align i {
+    font-size: 16px;
+    color: #fff;
+    background-color: #000 !important;
+    padding: 4px 6px;
+    border-radius: 20px;   
+}
+
+
+/* ------------------- Samit Css End ------------------ */
+
+
 
 @media(max-width:1399.98px){
 

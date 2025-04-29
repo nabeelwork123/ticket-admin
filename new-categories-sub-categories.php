@@ -111,63 +111,40 @@
 
 				<div class="card mb-4">
 					<div class="card-header border-0">
-						<h4 class=""></h4>
+						<h4 class="mb-0">Create a new category </h4>
 					</div>
 					<div class="card-body">
-						<div class="row">
-							<div class="col-lg-6">
-								<h4 class="fs-16 fw-600 text-dark mb-4 px-0">Create a new category</h4>
-
+						<div class="row align-items-center">
+							<div class="col-lg-8">
 								<div class="mb-3">
-									<label for="" class="form-label">Name of the category </label>
+									<label for="" class="form-label text-primary">Name of the category </label>
 									<input type="text" class="form-control" placeholder="Type in an appropriate title ">
 								</div>
-
-								<div class="mb-2">
-									<label for="" class="form-label">Description of the category </label>
-									<textarea class="form-control h-100"
-										placeholder="An appropriate description that helps employee while they are selecting the catgeory"></textarea>
 								</div>
-
-								<div class="mb-3">
-									<label for="" class="form-label">Category head </label>
-									<input type="text" class="form-control" placeholder="Search employee name ">
-								</div>
-
-								<div class="mb-3">
-									<label for="" class="form-label">Assign category to users </label>
-									<select class="form-select" multiple placeholder="Type to search">
+								
+							
+								<div class="col-lg-6">
+								<label for="" class="form-label text-primary">Category head </label>
+								<select class="form-select">
+									<option selected>Select department </option>
 										<option>Assigned Agent </option>
 										<option>Label</option>
 										<option>Peter Holmes</option>
 									</select>
 								</div>
+								<div class="col-lg-6 ">
+								<label for="" class="form-label text-primary">&nbsp;</label>
+									<input type="search" class="form-control" placeholder="Search employee name "/>
+								</div>
 
-								<div class="mb-3">
-									<label for="" class="form-label">Do you want to create subcategories? </label>
-									<div class="d-flex align-items-center">
-										<div class="form-check me-2">
-											<input class="form-check-input" type="radio" name="radioDefault"
-												id="radioDefault1">
-											<label class="form-check-label" for="radioDefault1">
-											Yes, further sub-categories are needed.
-											</label>
-										</div>
-										<div class="form-check">
-											<input class="form-check-input" type="radio" name="radioDefault"
-												id="radioDefault2" checked>
-											<label class="form-check-label" for="radioDefault2">
-												No
-											</label>
-										</div>
-									</div>
+								<div class="col-lg-12 mt-4">
+									<a  class="btn btn-primary">Save & Submit  </a>
 								</div>
 							</div>
+							
 						</div>
-					</div>
-				</div>
-
-
+			    </div>
+				
 
 				<div class="card">
 					<div class="card-header border-0">
@@ -175,44 +152,42 @@
 							<div class="card-body">
 								<div class="row">
 									<div class="col-lg-6">
-										<h4 class="fs-16 fw-600 text-dark mb-4 px-0">Add subcategory in the category
+										<h4 class="fs-16 fw-600 text-dark mb-4 px-0">Add Subcategories to a Category & Assign Employees
 										</h4>
 
 										<div class="mb-3">
-											<label for="" class="form-label">Name of the category </label>
+											<label for="" class="form-label text-primary">Name of the subcategory</label>
+											<p>Enter one or more subcategories, separated by commas. <br>
+												<span>Example</span> Password Reset, Account Access, Email Issues</p>
 											<input type="text" class="form-control"
-												placeholder="Type in an appropriate title ">
+												placeholder="Type in anappropriate category titles, seperated by comma ">
 										</div>
 
 										<div class="mb-2">
 											<label for="" class="form-label">Description of the category </label>
 											<textarea class="form-control h-100"
-												placeholder="An appropriate description that helps employee while they are selecting the catgeory"></textarea>
+												placeholder="Type to Search"></textarea>
 										</div>
 
-
-
 										<div class="mb-3">
-											<label for="" class="form-label">Assign category to users </label>
-											<select class="form-select" multiple placeholder="Type to search">
+											<label for="" class="form-label text-primary">Assign sub-category to users</label>
+											<p>Enter the names or select the employees you want to assign to the above subcategories.</p>
+											<select class="js-select2"  placeholder="Type to search">
 												<option>Assigned Agent </option>
 												<option>Label</option>
 												<option>Peter Holmes</option>
 											</select>
+											<div class="add-category mt-md-4 mt-2">
+												<a href="" class="text-info fw-500" data-bs-toggle="modal" data-bs-target="#exampleModal12345">+ Add new sub-category</a>
+											</div>
+											<div class="mt-md-4 mt-2">
+												<a  class="btn btn-primary">Save & Submit  </a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-					</div>
-
-
-
-
-
-
-
-
-
+				</div>
 
 				</div>
 			</div>
@@ -225,22 +200,18 @@
 
 
 			<!-- Modal -->
-			<div class="modal fade" id="exampleModal123" tabindex="-1" aria-labelledby="exampleModalLabel"
-				aria-hidden="true">
+			<div class="modal fade" id="exampleModal123" tabindex="-1" aria-labelledby="exampleModalLabel"	aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered">
 					<div class="modal-content">
 
 						<div class="modal-body text-center rounded-4 py-3">
-							<h4 class="fs-18 text-dark py-3">Notification successfully added</h4>
-							<p>Your notification has been successfully added to the system. Would you like to add
-								another one?</p>
-
+							<h4 class="fs-18 text-dark py-3">New category added </h4>
+						    <p>The new category along with the sub categories have been sucessfully added to the system. Would you like to add more categories?</p>		
 						</div>
 						<div class="d-flex justify-content-center mb-4">
-							<button type="button" class="btn btn-primary fs-14 me-2" data-bs-toggle="modal"
-								data-bs-target="#exampleModal123">Add more notifications </button>
-							<button type="button" class="btn btn-light fs-14" data-bs-dismiss="modal">No,
-								thankyou</button>
+							<button type="button" class="btn btn-primary fs-14 me-3" data-bs-toggle="modal"
+								data-bs-target="#exampleModal123">Add more categories </button>
+							<button type="button" class="btn btn-light fs-14" data-bs-dismiss="modal">No, thankyou </button>
 						</div>
 					</div>
 				</div>
@@ -248,17 +219,15 @@
 
 			<!-- Modal -->
 
-
 			<!-- Modal -->
-			<div class="modal fade" id="exampleModal1234" tabindex="-1" aria-labelledby="exampleModalLabel"
-				aria-hidden="true">
+			<div class="modal fade" id="exampleModal1234" tabindex="-1" aria-labelledby="exampleModalLabel"	aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered">
 					<div class="modal-content">
 						<!-- <div class="modal-header border-0">
 		<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
 		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 	  </div> -->
-						<div class="modal-body rounded-4 py-3">
+						<div class="modal-body rounded-4 py-4">
 							<h4 class="fs-18 text-dark py-3 text-center">Add new sub-category </h4>
 							<div class="row">
 								<div class="col-lg-12 mb-2">
@@ -280,7 +249,7 @@
 										<option></option>
 									</select>
 								</div>
-								<div class="col-lg-12 mb-2">
+								<div class="col-lg-12 mb-3">
 									<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal1234"
 										class="d-flex justify-content-end align-items-center mt-1 fs-12 text-info">Add
 										new
@@ -299,6 +268,243 @@
 			</div>
 
 			<!-- Modal -->
+
+			<!-- ----------------- Table Modal Start ------------------------- -->
+
+			<div class="modal fade" id="exampleModal12345" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+				  <div class="modal-content rounded-4">
+					<div class="modal-body px-md-4 px-3">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="card bg-transparent border-0 shadow-none ">
+									<div class="card-header border-0 hdBtn-align">
+										<h4 class="fs-15 fw-600 text-dark mb-3">1.Set your selected subcategory SLA Policy </h4>			
+										<button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+									</div>
+									<div class="">
+										<div class="table-responsive table-responsive-lg  sla-table sla-table1 ">
+											<table class="table table-borderless">
+												<thead class="">
+													<tr>
+													<th class="text-purple fs-16 fw-medium">Priority </th>
+													<th class="text-purple fs-16 fw-medium">Respond Within</th>
+													<th class="text-purple fs-16 fw-medium">Resolve Within</th>
+													<th class="text-purple fs-16 fw-medium">Default priority</th>
+													</tr>
+												</thead>
+												<tbody class="bg-transparent">
+													<tr>
+														<td>
+															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
+																	class="ti ti-square-filled fs-10 me-1 text-danger"></i>Urgent
+															</p>
+														</td>
+														<td>
+															<div class="d-flex align-items-center">
+																<div class=" me-2">
+																	<input type="number" class="form-control" placeholder="1">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="d-flex align-items-center ">
+																<div class=" me-2">
+																	<input type="number" class="form-control" placeholder="2">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="me-2">
+																<input type="number" class="form-control">
+															</div>
+														</td>
+													</tr>
+			
+													<tr>
+														<td>
+															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
+																	class="ti ti-square-filled fs-10 me-1 text-warning"></i>High
+															</p>
+														</td>
+														<td>
+															<div class="d-flex align-items-center">
+																<div class=" me-2">
+																	<input type="number" class="form-control" placeholder="2">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="d-flex align-items-center ">
+																<div class=" me-2">
+																	<input type="number" class="form-control" placeholder="6">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="me-2">
+																<input type="number" class="form-control">
+															</div>
+														</td>
+													</tr>
+			
+													<tr>
+														<td>
+															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
+																	class="ti ti-square-filled fs-10 me-1 text-purple"></i>Medium
+															</p>
+														</td>
+														<td>
+															<div class="d-flex align-items-center">
+																<div class=" me-2">
+																	<input type="number" class="form-control" placeholder="1">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="d-flex align-items-center ">
+																<div class=" me-2">
+																	<input type="number" class="form-control" placeholder="2">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="me-2">
+																<input type="number" class="form-control">
+															</div>
+														</td>
+													</tr>
+			
+													<tr>
+														<td>
+															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
+																	class="ti ti-square-filled fs-10 me-1 text-success"></i>Low
+															</p>
+														</td>
+														<td>
+															<div class="d-flex align-items-center">
+																<div class=" me-2">
+																	<input type="number" class="form-control" placeholder="2">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="d-flex align-items-center ">
+																<div class=" me-2">
+																	<input type="number" class="form-control" placeholder="4">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="me-2">
+																<input type="number" class="form-control">
+															</div>
+														</td>
+													</tr>
+			
+												</tbody>
+											</table>
+										</div>
+			
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row align-items-center mb-3 px-2">
+							<h4 class="fs-15 fw-600 text-dark mb-3">3.Your default reminder policy</h4>
+							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
+								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
+										class="text-primary">mins before response time ends:</span> Reminder to admin to
+									assign ticket and reminder to agents to begin action.</p>
+								<p class="mb-0"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
+										class="text-primary">5 mins before resolution time:</span> Reminder to agent to
+									resolve ticket and to the admin to follow up with the agent.</p>
+							</div>
+						</div>
+						<div class="row align-items-center mb-3 px-2">
+							<h4 class="fs-15 fw-600 text-dark mb-3">Your default escalation policy</h4>
+							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
+								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
+										class="text-primary">Immediately after response time ends:</span> Reminder to
+									admin to assign ticket and reminder to agents to begin action.</p>
+								<p class="mb-0"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
+										class="text-primary">Immediately after resolution time: </span> Reminder to
+									agent to resolve ticket and to the admin to follow up with the agent.</p>
+
+								<div class="esc-box-out">
+									<div class="esc-box">
+										<label>Escalation notification recieptents</label>
+										<ul class="esc-box-list">
+											<li>Assigned Agent <i class="fa-solid fa-xmark"></i></li>
+											<li>Label <i class="fa-solid fa-xmark"></i></li>
+											<li>Peter Holmes <i class="fa-solid fa-xmark"></i></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				  </div>
+				</div>
+			</div>
+
+			<!-- ----------------- Table Modal End ------------------------- -->
 
 
 			<?php include 'includes/footer.php'; ?>
