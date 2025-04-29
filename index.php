@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Admin Dashboard | Home</title>
+	<title>Admin Dashboard | Home 1</title>
 
 
 	<?php include 'includes/style.php'; ?>
