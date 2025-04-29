@@ -383,7 +383,7 @@
 							<h4 class="fs-15 fw-600 text-dark mb-3">Your default reminder  policy</h4>
 							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
 								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
-										class="text-primary">mins before response time ends:</span> Reminder to admin to
+										class="text-primary">5 mins before response time ends:</span> Reminder to admin to
 									assign ticket and reminder to agents to begin action.</p>
 								<p class="mb-0"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
 										class="text-primary">5 mins before resolution time:</span> Reminder to agent to
