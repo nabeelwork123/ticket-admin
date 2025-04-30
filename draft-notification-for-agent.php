@@ -241,20 +241,45 @@
 			$("#box").toggle();
 		});
 
-		$('#summernote').summernote({
-        placeholder: 'Hello stand alone ui',
-        tabsize: 2,
-        height: 150,
-        toolbar: [
-          ['style', ['style']],
-          ['font', ['bold', 'underline', 'clear']],
-          ['color', ['color']],
-          ['para', ['ul', 'ol', 'paragraph']],
-          ['table', ['table']],
-          ['insert', ['link', 'picture', 'video']],
-          ['view', ['fullscreen', 'codeview', 'help']]
-        ]
-      });
+	// 	$('#summernote').summernote({
+    //     placeholder: 'Hi  ',
+    //     tabsize: 2,
+    //     height: 150,
+    //     toolbar: [
+    //       ['style', ['style']],
+    //       ['font', ['bold', 'underline', 'clear']],
+    //       ['color', ['color']],
+    //       ['para', ['ul', 'ol', 'paragraph']],
+    //       ['table', ['table']],
+    //       ['insert', ['link', 'picture', 'video']],
+    //       ['view', ['fullscreen', 'codeview', 'help']]
+    //     ]
+    //   });
+
+	$('#summernote').summernote({
+  placeholder: 'Hi',
+  tabsize: 2,
+  height: 200,
+  toolbar: [
+    ['style', ['style']],
+    ['font', ['bold', 'underline', 'clear']],
+    ['color', ['color']],
+    ['para', ['ul', 'ol', 'paragraph']],
+    ['table', ['table']],
+    ['insert', ['link', 'picture', 'video']],
+    ['view', ['fullscreen', 'codeview', 'help']]
+  ]
+});
+
+// Set the initial content
+$('#summernote').summernote('code', `
+  Hi,<br><br>
+  Ticket number {{ticket.number}} is unanswered for more than {{ticket.timeSinceCreation}}.<br>
+  The SLA Response Time arrives in {{ticket.timeUntil Response Due}}.<br><br>
+  You can view the status and history of this ticket anytime through the following link (requires login):<br>
+  {{ticket.agentUrl}}
+`);
+
 	</script>
 	</div>
 

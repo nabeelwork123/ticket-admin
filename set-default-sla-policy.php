@@ -39,7 +39,7 @@
 									<a href="index.php"><i class="ti ti-smart-home"></i></a>
 								</li>
 								<li class="breadcrumb-item">
-								SLA Management
+									SLA Management
 								</li>
 								<li class="breadcrumb-item active" aria-current="page">Default SLA Policy</li>
 							</ol>
@@ -73,8 +73,8 @@
 
 					<div class="imp-hvr">
 						<div class="imp-hover-trigger d-flex justify-content-end" style="position: relative;">
-							<a href="javascript:;" class="imp-nt">Important Notes <i
-									class="fa-solid fa-circle-exclamation"></i></a>
+							<a href="javascript:;" class="imp-nt">Important Notes
+								<i class="fa-solid fa-circle-exclamation"></i></a>
 
 							<div class="imp-hvr-box">
 								<div class="row">
@@ -135,229 +135,230 @@
 
 				<div class="row">
 					<div class="col-xl-12 col-lg-12">
+
 						<div class="card">
 							<div class="card-header border-0">
-								<h4 class="card-title mb-0">Set your default SLA Policy</h4>
+								<h4 class="card-title mb-0">Set your default SLA policy</h4>
 
 							</div>
-							<div class="card-body">
-								<div class="table-responsive table-responsive-lg  sla-table">
-									<table class="table table-borderless table-white">
-										<thead class="">
-											<tr>
-												<th>Priority </th>
-												<th>Respond Within</th>
-												<th>Resolve Within</th>
-												<th>Set your default Priority policy</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>
-													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-square-filled fs-10 me-1 text-danger"></i>Urgent
-													</p>
-												</td>
-												<td>
-													<div class="d-flex align-items-center">
-														<div class=" me-2">
-															<input type="number" class="form-control" placeholder="1">
-														</div>
-														<div class="">
-															<select class="form-select">
-																<option>Hrs</option>
-																<option>Mins</option>
-																<option>Sec</option>
-															</select>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="d-flex align-items-center ">
-														<div class=" me-2">
-															<input type="number" class="form-control" placeholder="2">
-														</div>
-														<div class="">
-															<select class="form-select">
-																<option>Hrs</option>
-																<option>Mins</option>
-																<option>Sec</option>
-															</select>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="row">
-														<div class="col-lg-3 col-md-3">
-															<select class="form-select w-100 form-control">
-																<option selected>Medium</option>
-																<option>High</option>
-																<option>Low</option>
-															</select>
-														</div>
-														<div class="col-lg-9 col-md-9">
-															<p class="mb-0">This priority applies to tickets without a set priority</p>
-														</div>														
-													</div>							
-												</td>
-											</tr>
+							<div class="row">
+								<div class="col-xl-8 col-lg-10">
+									<div class="card-body">
+										<div class="table-responsive table-responsive-lg  sla-table">
+											<table class="table table-borderless table-white">
+												<thead class="">
+													<tr>
+														<th>Priority </th>
+														<th>Respond within</th>
+														<th>Resolve within</th>
+														<th>Select default priority
+															<a class="text-dark" data-bs-toggle="tooltip"
+																data-bs-placement="bottom" title=""
+																data-bs-original-title="This priority applies to tickets without a set priority">
+																<i class="fa-solid fa-circle-exclamation"></i>
 
-											<tr>
-												<td>
-													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-square-filled fs-10 me-1 text-warning"></i>High
-													</p>
-												</td>
-												<td>
-													<div class="d-flex align-items-center">
-														<div class=" me-2">
-															<input type="number" class="form-control" placeholder="2">
-														</div>
-														<div class="">
-															<select class="form-select">
-																<option>Hrs</option>
-																<option>Mins</option>
-																<option>Sec</option>
-															</select>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="d-flex align-items-center ">
-														<div class=" me-2">
-															<input type="number" class="form-control" placeholder="6">
-														</div>
-														<div class="">
-															<select class="form-select">
-																<option>Hrs</option>
-																<option>Mins</option>
-																<option>Sec</option>
-															</select>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="row">
-														<div class="col-lg-3 col-md-3">
-															<select class="form-select w-100 form-control">
-																<option selected>Medium</option>
-																<option>High</option>
-																<option>Low</option>
-															</select>
-														</div>
-														<div class="col-lg-9 col-md-9">
-															<p class="mb-0">This priority applies to tickets without a set priority</p>
-														</div>														
-													</div>							
-												</td>												
-											</tr>
+															</a>
+														</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>
+															<p class="fs-14 d-inline-flex align-items-center mb-0">
+																<i
+																	class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Urgent
+															</p>
+														</td>
+														<td>
+															<div class="d-flex align-items-center">
+																<div class=" me-2">
+																	<input type="number" class="form-control"
+																		placeholder="1">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="d-flex align-items-center ">
+																<div class=" me-2">
+																	<input type="number" class="form-control"
+																		placeholder="2">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value=""
+																	id="defaultCheck1">
+																<label class="form-check-label" for="defaultCheck1">
 
-											<tr>
-												<td>
-													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-square-filled fs-10 me-1 text-purple"></i>Medium
-													</p>
-												</td>
-												<td>
-													<div class="d-flex align-items-center">
-														<div class=" me-2">
-															<input type="number" class="form-control" placeholder="1">
-														</div>
-														<div class="">
-															<select class="form-select">
-																<option>Hrs</option>
-																<option>Mins</option>
-																<option>Sec</option>
-															</select>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="d-flex align-items-center ">
-														<div class=" me-2">
-															<input type="number" class="form-control" placeholder="2">
-														</div>
-														<div class="">
-															<select class="form-select">
-																<option>Hrs</option>
-																<option>Mins</option>
-																<option>Sec</option>
-															</select>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="row">
-														<div class="col-lg-3 col-md-3">
-															<select class="form-select w-100 form-control">
-																<option selected>Medium</option>
-																<option>High</option>
-																<option>Low</option>
-															</select>
-														</div>
-														<div class="col-lg-9 col-md-9">
-															<p class="mb-0">This priority applies to tickets without a set priority</p>
-														</div>														
-													</div>							
-												</td>												
-											</tr>
+																</label>
+															</div>
+														</td>
+													</tr>
 
-											<tr>
-												<td>
-													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-square-filled fs-10 me-1 text-success"></i>Low
-													</p>
-												</td>
-												<td>
-													<div class="d-flex align-items-center">
-														<div class=" me-2">
-															<input type="number" class="form-control" placeholder="2">
-														</div>
-														<div class="">
-															<select class="form-select">
-																<option>Hrs</option>
-																<option>Mins</option>
-																<option>Sec</option>
-															</select>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="d-flex align-items-center ">
-														<div class=" me-2">
-															<input type="number" class="form-control" placeholder="4">
-														</div>
-														<div class="">
-															<select class="form-select">
-																<option>Hrs</option>
-																<option>Mins</option>
-																<option>Sec</option>
-															</select>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="row">
-														<div class="col-lg-3 col-md-3">
-															<select class="form-select w-100 form-control">
-																<option selected>Medium</option>
-																<option>High</option>
-																<option>Low</option>
-															</select>
-														</div>
-														<div class="col-lg-9 col-md-9">
-															<p class="mb-0">This priority applies to tickets without a set priority</p>
-														</div>														
-													</div>							
-												</td>												
-											</tr>
+													<tr>
+														<td>
+															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
+																	class="ti ti-circle-filled fs-10 me-1 text-warning"></i>High
+															</p>
+														</td>
+														<td>
+															<div class="d-flex align-items-center">
+																<div class=" me-2">
+																	<input type="number" class="form-control"
+																		placeholder="2">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="d-flex align-items-center ">
+																<div class=" me-2">
+																	<input type="number" class="form-control"
+																		placeholder="6">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value=""
+																	id="defaultCheck1">
+																<label class="form-check-label" for="defaultCheck1">
 
-										</tbody>
-									</table>
+																</label>
+															</div>
+														</td>
+													</tr>
+
+													<tr>
+														<td>
+															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
+																	class="ti ti-circle-filled fs-10 me-1 text-purple"></i>Medium
+															</p>
+														</td>
+														<td>
+															<div class="d-flex align-items-center">
+																<div class=" me-2">
+																	<input type="number" class="form-control"
+																		placeholder="1">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="d-flex align-items-center ">
+																<div class=" me-2">
+																	<input type="number" class="form-control"
+																		placeholder="2">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value=""
+																	id="defaultCheck1">
+																<label class="form-check-label" for="defaultCheck1">
+
+																</label>
+															</div>
+														</td>
+													</tr>
+
+													<tr>
+														<td>
+															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
+																	class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low
+															</p>
+														</td>
+														<td>
+															<div class="d-flex align-items-center">
+																<div class=" me-2">
+																	<input type="number" class="form-control"
+																		placeholder="2">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="d-flex align-items-center ">
+																<div class=" me-2">
+																	<input type="number" class="form-control"
+																		placeholder="4">
+																</div>
+																<div class="">
+																	<select class="form-select">
+																		<option>Hrs</option>
+																		<option>Mins</option>
+																		<option>Sec</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														<td>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value=""
+																	id="defaultCheck1">
+																<label class="form-check-label" for="defaultCheck1">
+
+																</label>
+															</div>
+														</td>
+													</tr>
+
+												</tbody>
+											</table>
+										</div>
+									</div>
 								</div>
-
 							</div>
 						</div>
+
 
 						<!--
 						<div class="row">
@@ -380,10 +381,11 @@
 						</div> -->
 
 						<div class="row align-items-center mb-3 px-2">
-							<h4 class="fs-15 fw-600 text-dark mb-3">Your default reminder  policy</h4>
+							<h4 class="fs-15 fw-600 text-dark mb-3">Your default reminder policy</h4>
 							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
 								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
-										class="text-primary">5 mins before response time ends:</span> Reminder to admin to
+										class="text-primary">5 mins before response time ends:</span> Reminder to admin
+									to
 									assign ticket and reminder to agents to begin action.</p>
 								<p class="mb-0"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
 										class="text-primary">5 mins before resolution time:</span> Reminder to agent to
@@ -402,16 +404,52 @@
 										class="text-primary">Immediately after resolution time: </span> Reminder to
 									agent to resolve ticket and to the admin to follow up with the agent.</p>
 
-								<div class="esc-box-out">
+
+								<div class="col-lg-8 bg-white py-3 px-3 rounded-3 mt-3">
+								<label class="form-label">Select recipients you wish to send escalation notice to</label>
+								<select class="js-example-placeholder-multiple select2 js-states "
+									multiple="multiple">
+									<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+								</select>
+								</div>
+
+								<div class="col-lg-8 py-3 px-3 rounded-3 mt-3">
+
+									<span class="fs-14 fw-bold text-dark mb-3">Important</span>
+									<p class="fs-12 text-body">Do you wish to create unique SLA for every subcategory?
+										set in this category</p>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="radioDefault"
+											id="radioDefault1">
+										<label class="form-check-label" for="radioDefault1">
+											Yes
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="radioDefault"
+											id="radioDefault2" checked>
+										<label class="form-check-label" for="radioDefault2">
+											No
+										</label>
+									</div>
+
+								</div>
+								<!-- <div class="esc-box-out">
 									<div class="esc-box">
 										<label>Escalation notification recieptents</label>
 										<ul class="esc-box-list">
 											<li>Assigned Agent <i class="fa-solid fa-xmark"></i></li>
 											<li>Label <i class="fa-solid fa-xmark"></i></li>
 											<li>Peter Holmes <i class="fa-solid fa-xmark"></i></li>
+											
 										</ul>
 									</div>
-								</div>
+								</div> -->
 							</div>
 
 

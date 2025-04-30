@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Ticketing System</title>
+	<title>Ticketing System | Admin</title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -32,7 +32,7 @@
 				<!-- Breadcrumb -->
 				<div class="d-md-flex d-block align-items-center justify-content-between page-breadcrumb mb-3">
 					<div class="my-auto mb-2">
-						<h2 class="mb-1">Notifications settings for Agents</h2>
+						<h2 class="mb-1">Subcategory SLA Overview</h2>
 						<nav>
 							<ol class="breadcrumb mb-0">
 								<li class="breadcrumb-item">
@@ -41,7 +41,7 @@
 								<li class="breadcrumb-item">
 								SLA Management 
 								</li>
-								<li class="breadcrumb-item active" aria-current="page">SLA Category Wise</li>
+								<li class="breadcrumb-item active" aria-current="page">Subcategory SLA Overview</li>
 							</ol>
 						</nav>
 					</div>
@@ -62,7 +62,7 @@
 						</div>
 					</div> -->
 					<div class="mb-2">
-						<a href="#" data-bs-toggle="modal" data-bs-target="#add_leaves" class="btn btn-primary d-flex align-items-center">Create new subcategory SLA </a>
+						<a href="create-subcategories-sla.php"  class="btn btn-primary d-flex align-items-center">Create new subcategory SLA </a>
 					</div>
 					<!-- <div class="head-icons ms-2">
 						<a href="javascript:void(0);" class="" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Collapse" id="collapse-header">
@@ -75,13 +75,24 @@
 
 				<div class="card">
 				<div class="card-header border-0">
-						<div class="row">
-							<div class="col-lg-10 col-md-12">
-							<h4 class="card-title mt-2">SLAs set for categories </h4>
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-md-6">
+							<h4 class="card-title mt-2">Subcategory-wise SLA Settings</h4>
+							</div>
+							<div class="col-lg-2 col-md-12 text-end">
+								<span class="fs-14">Search by</span>
 							</div>
 							<div class="col-lg-2 col-md-12 text-end">
 								<select class="form-select">
-									<option selected>Search by category </option>
+									<option selected>Category </option>
+									<option></option>
+									<option></option>
+									<option></option>
+								</select>
+							</div>
+							<div class="col-lg-2 col-md-12 text-end">
+								<select class="form-select">
+									<option selected> Sub category </option>
 									<option></option>
 									<option></option>
 									<option></option>
@@ -92,24 +103,24 @@
 						</div>
 					<div class="card-body">
 						<div class="table-responsive">
-							<table class="table table-bordered border-dark">
+							<table class="table table-bordered border-dark mywise ">
 							<thead>
 								<tr class="table-info">
-								<th rowspan="4" colspan="1" class="mb-4">Category</th>
-								<th rowspan="2" colspan="1">Subcategory</th>
-								<th colspan="4" class="text-center">Response Time</th>
-								<th colspan="4" class="text-center">Resolution Time</th>
+								<th rowspan="4" colspan="1" class="fs-20">Category</th>
+								<th rowspan="2" colspan="1" class="fs-20">Subcategory</th>
+								<th colspan="4" class="text-center fs-20">Response Time</th>
+								<th colspan="4" class="text-center fs-20">Resolution Time</th>
 								<th rowspan="2">Action</th>
 								</tr>
-								<tr>
-									<th> <i class="ti ti-square-filled fs-10 me-1 text-danger"></i> Urgent</th>
-									<th> <i class="ti ti-square-filled fs-10 me-1 text-warning"></i> High</th>
-									<th> <i class="ti ti-square-filled fs-10 me-1 text-purple"></i>Medium</th>
-									<th> <i class="ti ti-square-filled fs-10 me-1 text-success"></i>Low</th>
-									<th> <i class="ti ti-square-filled fs-10 me-1 text-danger"></i> Urgent</th>
-									<th> <i class="ti ti-square-filled fs-10 me-1 text-warning"></i> High</th>
-									<th> <i class="ti ti-square-filled fs-10 me-1 text-purple"></i>Medium</th>
-									<th> <i class="ti ti-square-filled fs-10 me-1 text-success"></i>Low</th>
+								<tr class="smth">
+									<th class="bg-primary-subtle smth"> <i class="ti ti-circle-filled fs-10 me-1 text-danger"></i> Urgent</th>
+									<th class="bg-primary-subtle smth"> <i class="ti ti-circle-filled fs-10 me-1 text-warning"></i> High</th>
+									<th class="bg-primary-subtle smth"> <i class="ti ti-circle-filled fs-10 me-1 text-purple"></i>Medium</th>
+									<th class="bg-primary-subtle smth"> <i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low</th>
+									<th class="bg-primary-subtle smth"> <i class="ti ti-circle-filled fs-10 me-1 text-danger"></i> Urgent</th>
+									<th class="bg-primary-subtle smth"> <i class="ti ti-circle-filled fs-10 me-1 text-warning"></i> High</th>
+									<th class="bg-primary-subtle smth"> <i class="ti ti-circle-filled fs-10 me-1 text-purple"></i>Medium</th>
+									<th class="bg-primary-subtle smth"> <i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -126,9 +137,9 @@
 								<td>4 days</td>
 								<td>
 									<div class="d-flex justify-content-between">
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-pen"></i></a>
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-trash"></i></a>
+										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>
+										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-pen"></i></a>
+										<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaldel" class="fs-10 text-body"><i class="fa-solid fa-trash"></i></a>
 									</div>	
 								</td>
 								</tr>
@@ -146,9 +157,9 @@
 								<td>4 days</td>
 								<td>
 									<div class="d-flex justify-content-between">
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-pen"></i></a>
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-trash"></i></a>
+										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>
+										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-pen"></i></a>
+										<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaldel" class="fs-10 text-body"><i class="fa-solid fa-trash"></i></a>
 									</div>	
 								</td>
 								</tr>
@@ -168,9 +179,10 @@
 								<td>4 days</td>
 								<td>
 									<div class="d-flex justify-content-between">
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-pen"></i></a>
-										<a href="" class="fs-10 text-body"><i class="fa-solid fa-trash"></i></a>
+										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>
+										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-pen"></i></a>
+										<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaldel" class="fs-10 text-body"><i class="fa-solid fa-trash"></i></a>
+										
 									</div>	
 								</td>
 								</tr>
@@ -190,7 +202,25 @@
 			
 
 
-				
+				<!-- Modal -->
+<div class="modal fade" id="exampleModaldel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body text-center py-3">
+      	<span class="fs-18 text-dark fw-600">Are you sure you want to delete this subcategory</span>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Yes</button>
+        <button type="button" class="btn btn-primary">No</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
 
 
 			<!-- /Page Wrapper -->

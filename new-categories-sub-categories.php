@@ -117,24 +117,37 @@
 						<div class="row align-items-center">
 							<div class="col-lg-8">
 								<div class="mb-3">
-									<label for="" class="form-label text-primary">Name of the category </label>
+									<label for="" class="form-label text-primary">1. Name of the category </label>
 									<input type="text" class="form-control" placeholder="Type in an appropriate title ">
 								</div>
 								</div>
 								
 							
 								<div class="col-lg-6">
-								<label for="" class="form-label text-primary">Category head </label>
+								<label for="" class="form-label text-primary">2. Mark category admin </label>
 								<select class="form-select">
 									<option selected>Select department </option>
-										<option>Assigned Agent </option>
-										<option>Label</option>
-										<option>Peter Holmes</option>
+										<option>Admin</option>
+										<option>Procurement </option>
+										<option>Customer Support</option>
+										<option>IT Support</option>
+										
+
+
+
 									</select>
 								</div>
 								<div class="col-lg-6 ">
-								<label for="" class="form-label text-primary">&nbsp;</label>
-									<input type="search" class="form-control" placeholder="Search employee name "/>
+								<label for="" class="text-body fs-10 mb-1 d-block">You can mark one or multiple employees as the category head.</label>
+								<select class="js-example-placeholder-multiple select2 js-states "
+									multiple="multiple">
+									<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+								</select>
 								</div>
 
 								<div class="col-lg-12 mt-4">
@@ -152,13 +165,13 @@
 							<div class="card-body">
 								<div class="row">
 									<div class="col-lg-6">
-										<h4 class="fs-16 fw-600 text-dark mb-4 px-0">Add Subcategories to a Category & Assign Employees
+										<h4 class="fs-16 fw-600 text-dark mb-4 px-0">Add subcategories to a category & assign employees
 										</h4>
 
 										<div class="mb-3">
-											<label for="" class="form-label text-primary">Name of the subcategory</label>
-											<p>Enter one or more subcategories, separated by commas. <br>
-												<span>Example</span> Password Reset, Account Access, Email Issues</p>
+											<label for="" class="form-label text-primary">1. Name of the subcategory</label>
+											<!-- <p>Enter one or more subcategories, separated by commas. <br>
+												<span>Example</span> Password Reset, Account Access, Email Issues</p> -->
 											<input type="text" class="form-control"
 												placeholder="Type in anappropriate category titles, seperated by comma ">
 										</div>
@@ -170,7 +183,7 @@
 										</div>
 
 										<div class="mb-3">
-											<label for="" class="form-label text-primary">Assign sub-category to users</label>
+											<label for="" class="form-label text-primary">2. Assign subcategories to employees</label>
 											<p>Enter the names or select the employees you want to assign to the above subcategories.</p>
 											<select class="js-select2"  placeholder="Type to search">
 												<option>Assigned Agent </option>
@@ -178,7 +191,7 @@
 												<option>Peter Holmes</option>
 											</select>
 											<div class="add-category mt-md-4 mt-2">
-												<a href="" class="text-info fw-500">+ Add new sub-category</a>
+												<a href="" class="text-info fs-14 fw-500">+ Add new sub-category</a>
 											</div>
 											<div class="mt-md-4 mt-2">
 												<a  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal123">Save & Submit  </a>
@@ -576,8 +589,7 @@
 			<!-- --------------------- 6th Edit Category Start -------------------- -->
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal12345678" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal fade" id="exampleModal12345678" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content rounded-4">
                         <div class="modal-body py-2">
@@ -588,22 +600,36 @@
                                         <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i
                                                 class="fa-solid fa-xmark"></i></button>
                                     </div>
-                                    <p>Enter the names or select the employees you want to assign to the subcategory</p>
+								</div>
+
+
+								<div class="col-lg-12 mb-2">
+									<div class="row inputSelect-div  mb-md-3 mb-2">
+										<p class="text-primary">Name of the Category</p>
+										<div class="col-md-5">
+											<input type="text" class="form-control" placeholder="Type in an appropriate titles">
+										</div>
+									</div>									                                    
                                 </div>
 
                                 <div class="col-lg-12 mb-2">
-									<div>
-										<input type="text" class="form-control" placeholder="Type in an appropriate category titles, separated by comma">
-									</div>
+									<div class="row inputSelect-div">
+										<p class="text-primary">Choose Category head</p>
+										<div class="col-md-5">
+											<input type="text" class="form-control" placeholder="Type in an appropriate category titles, separated by comma">
+										</div>
 
-									<div>
-									<select class="js-example-placeholder-multiple select2 js-states" multiple="multiple" placeholder="Type to Search">
-                                        <option value="fr-1">Jack Tin</option>
-                                        <option value="fr-2">Henry Hill</option>
-                                        <option value="fr-3">Peter Holmes</option>
-                                    </select>
-								</div>                                    
+										<div class="col-md-7 mt-md-0 mt-2">
+											<select class="js-example-placeholder-multiple select2 js-states placeholder" multiple="multiple" placeholder="Type to Search">
+                                        		<option>Search employee name</option>
+												<option value="fr-1">Jack Tin</option>
+                                        		<option value="fr-2">Henry Hill</option>
+                                        		<option value="fr-3">Peter Holmes</option>
+                                    		</select>
+										</div>
+									</div>									                                    
                                 </div>
+
                             </div>
 
                         </div>

@@ -85,7 +85,7 @@
 						<div class="card-header bg-transparent ">
 							<div class="d-flex align-items-center justify-content-between flex-wrap">
 								<div class="flex-column">
-									<h5 class="mb-1">Ticket Management</h5>
+									<h5 class="mb-1">Ticket management</h5>
 									<!-- <p class="text-body fs-12">List of ticket open by Customers</p> -->
 								</div>
 								<div class="d-flex align-items-center justify-content-end me-2">
@@ -251,7 +251,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -353,7 +353,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -456,7 +456,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -558,7 +558,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -661,7 +661,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -766,7 +766,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -868,7 +868,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -946,7 +946,7 @@
 												<p class="fs-12 mb-0">Mouse</p>
 
 											</td>
-											<td><p class="fs-12 mb-0"> Due today</p></td>
+											<td><p class="fs-12 mb-0"><span class="text-danger fs-10"><i class="fa-solid fa-triangle-exclamation"></i></span> Overdue</p></td>
 											<td>
 											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>High</p>
 											
@@ -956,7 +956,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -1025,7 +1025,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -1093,7 +1093,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -1160,7 +1160,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -1228,7 +1228,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -1298,7 +1298,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -1365,7 +1365,7 @@
 													<button type="button"
 														class="btn btn-outline-primary btn-sm dropdown-toggle"
 														data-bs-toggle="dropdown" aria-expanded="false">
-														Assignee
+														Assign
 													</button>
 													<ul class="dropdown-menu  dropdown-menu-end p-3">
 														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
@@ -1400,9 +1400,9 @@
 					</div> -->
 					<div class="offcanvas-body">
 						<div class="">
-							<div class="card-header">
+							<div class="card-header py-0 mt-2">
 								<div class="d-flex align-items-center justify-content-between mb-0">
-									<span class="fs-20 fw-bold text-dark">Search by:</span>
+									<span class="fs-18 fw-bold text-dark mb-0">Search by:</span>
 									<!-- <a href="#" class="fs-18 text-success">Clear</a> -->
 								</div>
 							</div>

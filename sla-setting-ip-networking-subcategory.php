@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Admin Dashboard | Create Subcategories SLA  </title>
+	<title>Admin Dashboard | Sla setting ip networking subcategory  </title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -32,7 +32,7 @@
 				<!-- Breadcrumb -->
 				<div class="d-md-flex d-block align-items-center justify-content-between page-breadcrumb mb-3">
 					<div class="my-auto mb-2">
-						<h2 class="mb-1">Create Subcategories SLA </h2>
+						<h2 class="mb-1">SLA setting for IP Networking Subcategory</h2>
 						<nav>
 							<ol class="breadcrumb mb-0">
 								<li class="breadcrumb-item">
@@ -41,7 +41,7 @@
 								<li class="breadcrumb-item">
 								SLA Management
 								</li>
-								<li class="breadcrumb-item active" aria-current="page">Create Subcategories SLA </li>
+								<li class="breadcrumb-item active" aria-current="page">Sla setting for IP Networking Subcategory </li>
 							</ol>
 						</nav>
 					</div>
@@ -109,69 +109,16 @@
 				<!-- /Breadcrumb -->
 
 
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="card">
-							<div class="card-body">
-								<h4 class="card-title mb-3">Set SLA of sub-categories</h4>
-
-								<div class="row">
-									<div class="col-lg-6 mb-2">
-									<label class="form-label">Select category</label>
-									<select class="form-select">
-										<option selected disabled>Select category</option>
-										<option>IT Support</option>
-									</select>
-									</div>
-									<div class="col-lg-6 mb-2">
-									<label class="form-label">Select one or multiple sub-categories</label>
-									<select class="js-example-placeholder-multiple select2 js-states" multiple="multiple">
-                                <option value="fr-1">Laptop</option>
-                                <option value="fr-2">Work Station</option>
-                                <option value="fr-3">Keyboard</option>
-                                <option value="fr-4">Mouse</option>
-                                <option value="fr-5">Headphone</option>
-								<option value="fr-6">Monitor</option>
-								<option value="fr-7">Printer</option>
-								<option value="fr-8">Attendance Machine</option>
-								<option value="fr-9">Software Installation</option>
-								<option value="fr-10">Email</option>
-                            </select>
-									<!-- <select class="form-select">
-										<option selected disabled>Select sub-categories</option>
-										<option>Laptop</option>
-										<option>Work Station</option>
-										<option>Keyboard</option>
-										<option>Mouse</option>
-										<option>Headphone</option>
-										<option>Monitor</option>
-										<option>Printer</option>
-										<option>Attendance Machine</option>
-										<option>Software Installation</option>
-										<option>Email</option>
-										<option>Phone</option>
-										<option>Internet</option>
-										<option>HR Portal</option>
-										<option>Kiosk Portal</option>
-									</select> -->
-									 <a href="javascript:;"  data-bs-toggle="modal" data-bs-target="#exampleModal1234"  class="d-flex justify-content-end align-items-center mt-1 fs-12 text-info">Add new sub-category <span class="text-info text-center ms-2 fs-10 mt-1"><i class="fa-solid fa-plus"></i></span> </a>
-									</div>
-								</div>
-								 	
-							</div>
-						</div>
-					</div>
-				</div>
+				
 
 				<div class="row">
-					<div class="col-xl-12 col-lg-12">
+					<div class="col-xl-8 col-lg-12">
 						<div class="card bg-transparent border-0 shadow-none ">
 							<div class="card-header border-0 px-0">
 								<h4 class="fs-15 fw-600 text-dark mb-3 px-2">1.Set your selected subcategory SLA policy </h4>
 
 							</div>
-							<div class="row">
-								<div class="col-xl-8">
+							<div class="">
 								<div class="table-responsive table-responsive-lg  sla-table sla-table1 ">
 									<table class="table table-borderless">
 										<thead class="">
@@ -193,7 +140,7 @@
 											<tr>
 												<td>
 													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Urgent
+															class="ti ti-square-filled fs-10 me-1 text-danger"></i>Urgent
 													</p>
 												</td>
 												<td>
@@ -225,19 +172,19 @@
 													</div>
 												</td>
 												<td>
-												<div class="form-check">
+													<div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="checkDefault">
   <label class="form-check-label" for="checkDefault">
    
   </label>
-</div>						
+</div>							
 												</td>												
 											</tr>
 
 											<tr>
 												<td>
 													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-circle-filled fs-10 me-1 text-warning"></i>High
+															class="ti ti-square-filled fs-10 me-1 text-warning"></i>High
 													</p>
 												</td>
 												<td>
@@ -269,19 +216,19 @@
 													</div>
 												</td>
 												<td>
-												<div class="form-check">
+													<div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="checkDefault">
   <label class="form-check-label" for="checkDefault">
    
   </label>
-</div>						
+</div>							
 												</td>												
 											</tr>
 
 											<tr>
 												<td>
 													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-circle-filled fs-10 me-1 text-purple"></i>Medium
+															class="ti ti-square-filled fs-10 me-1 text-purple"></i>Medium
 													</p>
 												</td>
 												<td>
@@ -313,19 +260,19 @@
 													</div>
 												</td>
 												<td>
-												<div class="form-check">
+													<div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="checkDefault">
   <label class="form-check-label" for="checkDefault">
    
   </label>
-</div>						
+</div>							
 												</td>												
 											</tr>
 
 											<tr>
 												<td>
 													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low
+															class="ti ti-square-filled fs-10 me-1 text-success"></i>Low
 													</p>
 												</td>
 												<td>
@@ -357,26 +304,23 @@
 													</div>
 												</td>
 												<td>
-												<div class="form-check">
+													<div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="checkDefault">
   <label class="form-check-label" for="checkDefault">
    
   </label>
-</div>						
+</div>							
 												</td>												
 											</tr>
 
 										</tbody>
 									</table>
 								</div>
-								</div>
-							</div>
-								
 
 							</div>
 						</div>
 						</div>
-						
+						</div>
 
 						<!-- 
 						<div class="row">
@@ -434,42 +378,19 @@
 									</div>
 								</div> -->
 							</div>
+
 							<div class="col-lg-8 bg-white py-3 px-3 rounded-3 mt-3">
-
-<label class="form-label">Select recipients you wish to send escalation notice to</label>
-<select class="js-example-placeholder-multiple select2 js-states "
-	multiple="multiple">
-	<option value="fr-1">Michael Anderson</option>
-	<option value="fr-2">Emily Thompson</option>
-	<option value="fr-3">Daniel Brooks</option>
-	<option value="fr-4">Sophia Carter</option>
-	<option value="fr-5">James Preston</option>
-	<option value="fr-6">Olivia Bennett</option>
-</select>
-</div>
-
-<!-- <div class="col-lg-8 bg-white py-3 px-3 rounded-3 mt-3">
-
-<span class="fs-14 fw-bold text-dark mb-3">Important</span>
-<p class="fs-12 text-body">Do you wish to create unique SLA for every subcategory
-	set in this category</p>
-<div class="form-check form-check-inline">
-	<input class="form-check-input" type="radio" name="radioDefault"
-		id="radioDefault1">
-	<label class="form-check-label" for="radioDefault1">
-		Yes
-	</label>
-</div>
-<div class="form-check form-check-inline">
-	<input class="form-check-input" type="radio" name="radioDefault"
-		id="radioDefault2" checked>
-	<label class="form-check-label" for="radioDefault2">
-		No
-	</label>
-</div> -->
-
-</div>
-
+								<label class="form-label">Select recipients you wish to send escalation notice to</label>
+								<select class="js-example-placeholder-multiple select2 js-states "
+									multiple="multiple">
+									<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+								</select>
+								</div>
 						</div>
 
 

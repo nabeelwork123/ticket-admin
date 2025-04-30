@@ -740,6 +740,10 @@ counter-reset: item;
     background-color:#D8F2FF;
 }
 
+.accordion-item .a-crown-boxex{
+    display:flex;
+    align-items: center;
+}
 .accordion-item .a-crown-box{
     margin-left: 15px;
 }
@@ -759,9 +763,11 @@ counter-reset: item;
     border: 0;
     border-radius:30px;
     padding:8px 20px;
+    display: inline-block;
 }
 .faq-sidebar{
     border: 1px solid #D9E2EF;
+    margin-bottom:30px;
    
 }
 .faq-sidebar .faq-sidebar-header{
@@ -829,7 +835,15 @@ counter-reset: item;
     border: 0;
     background: transparent;
 }
-
+.note-editable {
+    color: grey ;
+  }
+ .mywise th{
+    font-size:16px!important;
+ } 
+ .mywise .smth{
+    font-size:13px!important;
+ }
 /* ------------------- Samit Css End ------------------ */
 @media(max-width:1399.98px){
 
@@ -911,12 +925,34 @@ counter-reset: item;
     .reportBox {
         min-height: auto !important;
     }
+
+   
 }
 
 @media(max-width:767.98px){
-
+    .imp-hvr-box{
+        width: 250px;
+    }
     .card.flex-fill {
         min-height: auto;
+    }
+    .accordion-item .cts-badge {
+        font-size: 10px;
+        position: relative;
+        right: 0;
+        top: 4px;
+        padding: 5px 15px;
+        display: inline-block;
+        text-align: center;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+    .accordion-item .a-crown-box {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .cst-accordian .accordion-header .accordion-button{
+        display:inline-grid;
     }
 
 }

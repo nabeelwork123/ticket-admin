@@ -82,17 +82,18 @@
                 <ul>
                    
                     <li><a href="index.php"><i class="ti ti-home"></i><span>Dashboard</span></a></li>
-                    <li><a href="ticket-management.php"><i class="ti ti-ticket"></i><span>Ticket Management</span></a></li>
-                    <!-- <li><a href=""><i class="ti ti-report"></i><span>Set </span></a></li>
-                    <li><a href="ticket-details.php"><i class="ti ti-article"></i><span>Ticket details</span></a></li> -->
-                    
-                   <!--  <li><a href="quick-statics.php"><i class="ti ti-chart-dots-2"></i><span>Quick statics</span></a></li>
-                    <li><a href="ticket-details.php"><i class="ti ti-list"></i><span>Tickets details</span></a></li> -->
-                     <!-- <li><a href="add-department.php"><i class="fa-regular fa-building"></i><span>Add Department</span></a></li>
-                    <li><a href="add-designations.php"><i class="fa-solid fa-user"></i><span>Add Designations</span></a></li>
-                    <li><a href="add-policy.php"><i class="fa-solid fa-book"></i><span>Add Policy</span></a></li>
-                    <li><a href="add-company.php"><i class="fa-solid fa-building"></i><span>Add Company</span></a></li>
--->
+                  
+                    <li class="submenu">
+                           <a href="javascript:void(0);" class="">
+                                <i class="ti ti-category"></i><span>Categories </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="new-categories-sub-categories.php" class="">Create new category</a></li>
+                                <li><a href="all-categories.php" class="">All Categories</a></li>
+                                
+                          </ul>
+                    </li>
                   
                     <li class="submenu">
                            <a href="javascript:void(0);" class="">
@@ -103,15 +104,13 @@
                                 <li><a href="set-default-sla-policy.php" class="">Default SLA Policy</a></li>
                                 <li><a href="subcategories-sla.php" class="">Subcategories SLA</a></li>
                                <li><a href="create-subcategories-sla.php" class="">Create subcategories SLA</a></li>
-                                <!-- <li><a href="sister-concerned-company.php" class="">Sister concerned company</a></li>
-                                <li><a href="add-sister-company.php" class="">Add sister companies</a></li> -->
                                 
                             </ul>
                     </li> 
 
                     <li class="submenu">
                            <a href="javascript:void(0);" class="">
-                                <i class="ti ti-bell"></i><span>Notification </span>
+                                <i class="ti ti-bell"></i><span>Notifications<br> Management</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
@@ -119,18 +118,8 @@
                                 <li><a href="draft-notification-for-agent.php" class="">Draft Notification for Agent</a></li>
                           </ul>
                     </li>
-                    
-                    <li class="submenu">
-                           <a href="javascript:void(0);" class="">
-                                <i class="ti ti-bell"></i><span>Categories </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <ul>
-                                <li><a href="new-categories-sub-categories.php" class="">New Categories Sub Categories</a></li>
-                                <li><a href="categories-subcategories_management.php" class="">Categories Subcategories Management</a></li>
-                                
-                          </ul>
-                    </li>
+                    <li><a href="ticket-management.php"><i class="ti ti-ticket"></i><span>Ticket Management</span></a></li>
+                   
                     
                     
                 </ul>

@@ -113,7 +113,7 @@
 
 				<div class="card">
 					<div class="card-header border-0">
-						<h4 class="card-title mb-2">Agent Notifications</h4>
+						<h4 class="card-title mb-2">Agent notifications</h4>
 						<p>These notifications are sent via Email or Microsoft Teams or both, depending on the
 							individual agent's configuration in their 'My Profile' settings</p>
 					</div>
@@ -124,9 +124,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">New ticket assigned</label>
 									</div>
-									<p class="mb-0">New ticket assigned</p>
+								
 								</div>
 
 							</div>
@@ -141,9 +141,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">Ticket reassigned to you</label>
 									</div>
-									<p class="mb-0">Ticket reassigned to you</p>
+									
 								</div>
 
 							</div>
@@ -159,9 +159,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">Ticket marked as high prior</label>
 									</div>
-									<p class="mb-0">Ticket marked as high prior</p>
+									
 								</div>
 							</div>
 							<div class="col-xl-3 col-lg-3 text-end">
@@ -176,9 +176,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">Ticket closed</label>
 									</div>
-									<p class="mb-0">Ticket closed</p>
+									<p class="mb-0"></p>
 								</div>
 							</div>
 							<div class="col-xl-3 col-lg-3 text-end">
@@ -193,9 +193,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">Feedback Received on Resolved Ticket</label>
 									</div>
-									<p class="mb-0">Feedback Received on Resolved Ticket </p>
+									
 								</div>
 							</div>
 							<div class="col-xl-3 col-lg-3 text-end">
@@ -211,7 +211,7 @@
 
 				<div class="card">
 					<div class="card-header border-0">
-						<h4 class="card-title mb-2">Agent SLA Notifications</h4>
+						<h4 class="card-title mb-2">Agent SLA notifications</h4>
 						<p>These notifications are sent via Email or Microsoft Teams or both, depending on the individual agent's configuration in their 'My Profile' settings.</p>
 					</div>
 					<div class="card-body">
@@ -221,9 +221,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">5 mins before response time</label>
 									</div>
-									<p class="mb-0">5 mins before response time</p>
+								
 								</div>
 
 							</div>
@@ -238,9 +238,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">5 mins before resolution time</label>
 									</div>
-									<p class="mb-0">5 mins before resolution time</p>
+									
 								</div>
 
 							</div>
@@ -256,9 +256,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">Missed Response Time</label>
 									</div>
-									<p class="mb-0">Missed Response Time</p>
+									
 								</div>
 							</div>
 							<div class="col-xl-3 col-lg-3 text-end">
@@ -273,9 +273,9 @@
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
 											id="switchCheckChecked" checked>
-										<label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+										<label class="form-check-label" for="switchCheckChecked">Missed Resolution Time (Ticket Unresolved) </label>
 									</div>
-									<p class="mb-0">Missed Resolution Time (Ticket Unresolved)  </p>
+									
 								</div>
 							</div>
 							<div class="col-xl-3 col-lg-3 text-end">

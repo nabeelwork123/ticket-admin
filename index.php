@@ -324,7 +324,7 @@
 						<div class="card-header bg-transparent ">
 							<div class="d-flex align-items-center justify-content-between flex-wrap">
 								<div class="flex-column">
-									<h5 class="mb-1">Recent Tickets</h5>
+									<h5 class="mb-1">Recent tickets</h5>
 									<!-- <p class="text-body fs-12">List of ticket open by Customers</p> -->
 								</div>
 								<div class="d-flex justify-content-end me-2">
@@ -1277,7 +1277,7 @@
 							
 							<div class="card flex-fill">
                         <div class="card-header pb-2 d-flex align-items-center justify-content-between flex-wrap">
-                            <h5 class="mb-2">Recent Activity</h5>
+                            <h5 class="mb-2">Recent activity</h5>
                             <!-- <a href="" class="btn btn-light btn-md mb-2">View All</a> -->
                         </div>
                         <div class="card-body">
