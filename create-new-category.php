@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Admin Dashboard | New Categories Sub Categories </title>
+	<title>Admin Dashboard | Create New Category </title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -32,7 +32,7 @@
 				<!-- Breadcrumb -->
 				<div class="d-md-flex d-block align-items-center justify-content-between page-breadcrumb mb-3">
 					<div class="my-auto mb-2">
-						<h2 class="mb-1">New categories and sub categories creation</h2>
+						<h2 class="mb-1">Create new category </h2>
 						<nav>
 							<ol class="breadcrumb mb-0">
 								<li class="breadcrumb-item">
@@ -41,8 +41,7 @@
 								<li class="breadcrumb-item">
 									Categories management
 								</li>
-								<li class="breadcrumb-item active" aria-current="page"> Create new categories and sub
-									categories </li>
+								<li class="breadcrumb-item active" aria-current="page"> Create new category </li>
 							</ol>
 						</nav>
 					</div>
@@ -170,8 +169,8 @@
 
 										<div class="mb-3">
 											<label for="" class="form-label text-primary">1. Name of the subcategory</label>
-											<!-- <p>Enter one or more subcategories, separated by commas. <br>
-												<span>Example</span> Password Reset, Account Access, Email Issues</p> -->
+											<p>Enter one or more subcategories, separated by commas. <br>
+												<span>Example</span> Password Reset, Account Access, Email Issues</p>
 											<input type="text" class="form-control"
 												placeholder="Type in anappropriate category titles, seperated by comma ">
 										</div>
@@ -184,14 +183,17 @@
 
 										<div class="mb-3">
 											<label for="" class="form-label text-primary">2. Assign subcategories to employees</label>
-											<p class="mb-0">Enter the names or select the employees you want to assign to the above subcategories.</p>
-												<select class="js-example-placeholder-multiple select2 js-states" multiple="multiple">
-													<option value="fr-1">Appple</option>
-													<option value="fr-2">Mango</option>
-													<option value="fr-3">Orange</option>
-													<option value="fr-4">Guava</option>
-													<option value="fr-5">Pineapple</option>
-												</select>
+											<p class="mb-1">Enter the names or select the employees you want to assign to the above subcategories.</p>
+											<select class="js-example-placeholder-multiple select2 js-states "
+									multiple="multiple">
+									<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+								</select>
+
 											<!-- <select class="js-select2"  placeholder="Type to search">
 												<option>Assigned Agent </option>
 												<option>Label</option>
@@ -227,7 +229,7 @@
 						<div class="d-flex justify-content-center mb-4">
 							<button type="button" class="btn btn-primary fs-14 me-3" data-bs-toggle="modal"
 								data-bs-target="#exampleModal123">Add more categories </button>
-							<button type="button" class="btn btn-light fs-14" data-bs-dismiss="modal">No, thankyou </button>
+							<a href="set-default-sla-policy.php"  class="btn btn-light fs-14" >No, thankyou </a>
 						</div>
 					</div>
 				</div>

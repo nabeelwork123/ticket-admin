@@ -85,17 +85,16 @@
 							<div class="col-lg-2 col-md-12 text-end">
 								<select class="form-select">
 									<option selected>Category </option>
-									<option></option>
-									<option></option>
-									<option></option>
+									<option>Networking</option>
+									
 								</select>
 							</div>
 							<div class="col-lg-2 col-md-12 text-end">
 								<select class="form-select">
 									<option selected> Sub category </option>
-									<option></option>
-									<option></option>
-									<option></option>
+									<option>IP issue</option>
+									<option>Ethernet issue</option>
+									<option>Broadcasting issue</option>
 								</select>
 							</div>
 						</div>
@@ -210,10 +209,10 @@
         <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div> -->
-      <div class="modal-body text-center py-3">
-      	<span class="fs-18 text-dark fw-600">Are you sure you want to delete this subcategory</span>
+      <div class="modal-body text-center">
+      	<p class="fs-18 text-dark fw-600 mt-2 mb-3">Are you sure you want to delete this subcategory?</p>
       </div>
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center mb-3">
         <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Yes</button>
         <button type="button" class="btn btn-primary">No</button>
       </div>

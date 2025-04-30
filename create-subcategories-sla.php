@@ -646,7 +646,7 @@
       <div class="modal-body rounded-4 py-3">
          <h4 class="fs-18 text-dark py-3 text-center">Add new sub-category  </h4>
 		 <div class="row">
-			<div class="col-lg-12 mb-2">
+			<!-- <div class="col-lg-12 mb-2">
 			<label class="form-label">Select Category</label>
 			<select class="form-select">
 				<option selected></option>
@@ -654,16 +654,17 @@
 				<option></option>
 				<option></option>
 			</select>
-			</div>
+			</div> -->
 
 			<div class="col-lg-12 mb-2">
-			<label class="form-label">Type in sub-category </label>
-			<select class="form-select">
+			<label class="form-label text-primary">Name of the subcategory </label>
+			<input type="text" class="form-control" placeholder="Type in an appropriate category title(s), separated by comma">
+			<!-- <select class="form-select">
 				<option selected></option>
 				<option></option>
 				<option></option>
 				<option></option>
-			</select>
+			</select> -->
 			</div>
 			<div class="col-lg-12 mb-2">
 			<a href="javascript:;"  data-bs-toggle="modal" data-bs-target="#exampleModal1234"  class="d-flex justify-content-end align-items-center mt-1 fs-12 text-info">Add new sub-category <span class="text-info text-center ms-2 fs-10 mt-1"><i class="fa-solid fa-plus"></i></span> </a>

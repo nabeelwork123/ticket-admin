@@ -41,7 +41,7 @@
 								<li class="breadcrumb-item">
 									Categories management
 								</li>
-								<li class="breadcrumb-item active" aria-current="page">Create new categories and sub categories  </li>
+								<li class="breadcrumb-item active" aria-current="page">All categories </li>
 							</ol>
 						</nav>
 					</div>
@@ -119,42 +119,31 @@
 
 
 
-				<div class="card ">
+				<div class=" ">
 					<div class="card-body p-0 ">
 					<div class="accordions-items-seperate cst-accordian" id="accordionSpacingExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingSpacingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SpacingOne" aria-expanded="false" aria-controls="SpacingOne">
-									Customer Support
+									IT support
 									<div class="a-crown-box">
 											<span class="fs-12 px-2"><i class="fa-solid fa-crown"></i></span>	
 											<span class="fs-12">Muhammad Fareed</span>	
-											<span class="fs-12 px-2"><i class="fa-solid fa-pen"></i></span>	
+											<a class="fs-12 px-2" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaledit"><i class="fa-solid fa-pen"></i></a> 
 										</div>
-									<!-- <div class="a-crown-boxex">
-										<div class="a-crown-box">
-											<span class="fs-12 px-2"><i class="fa-solid fa-crown"></i></span>	
-											<span class="fs-12">Muhammad Fareed</span>	
-											<span class="fs-12 px-2"><i class="fa-solid fa-pen"></i></span>	
-										</div>
-										<div>
-											<span class="cts-badge">3 subcategories</span>
-										</div>
-									</div> -->
+								
 									<span class="cts-badge">3 subcategories</span>
                                     </button>
                                 </h2>
-                                <div id="SpacingOne" class="accordion-collapse collapse show" aria-labelledby="headingSpacingOne" data-bs-parent="#accordionSpacingExample">
+                                <div id="SpacingOne" class="accordion-collapse collapse " aria-labelledby="headingSpacingOne" data-bs-parent="#accordionSpacingExample">
                                     <div class="accordion-body py-xl-2 px-xl-4 px-lg-1 px-md-0">
 	                                 
 										<div class="row mt-2">
 											<div class="col-lg-4 ">
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<span class="fs-14">Sales Issue  <a href="#"><i class="fa-solid fa-pen fs-10"></i></a></span>
-														<!-- <div class="form-check form-switch">
-															<input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
-															</div> -->
+														<span class="fs-16 text-dark">Sales Issue  <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname"><i class="fa-solid fa-pen fs-10"></i></a></span>
+														
 													</div>
 													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
@@ -286,7 +275,7 @@
 											<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
 														<div>
-														<span class="fs-14 text-dark d-block">Sales Issue  </span>
+														<span class="fs-16 text-dark d-block">Sales Issue  </span>
 														<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
 														<div></div>
@@ -332,7 +321,7 @@
 											<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
 														<div>
-														<span class="fs-14 text-dark d-block">Sales Issue  </span>
+														<span class="fs-16 text-dark d-block">Sales Issue  </span>
 														<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
 														<div></div>
@@ -381,11 +370,11 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingSpacingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SpacingTwo" aria-expanded="false" aria-controls="SpacingTwo">
-									Customer Support
+									Customer support
 									<div class="a-crown-box">
 											<span class="fs-12 px-2"><i class="fa-solid fa-crown"></i></span>	
 											<span class="fs-12">Muhammad Fareed</span>	
-											<span class="fs-12 px-2"><i class="fa-solid fa-pen"></i></span>	
+											<a class="fs-12 px-2" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaledit"><i class="fa-solid fa-pen"></i></a> 
 										</div>
 									
 									<span class="cts-badge">3 subcategories</span>
@@ -397,11 +386,8 @@
 											<div class="col-lg-4">
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<span class="fs-14">Sales Issue  <a href="#"><i class="fa-solid fa-pen fs-10"></i></a></span>
-														<div class="form-check form-switch">
-															<input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
-															<!-- <label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label> -->
-															</div>
+														<span class="fs-16 text-dark">Sales Issue  <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname"><i class="fa-solid fa-pen fs-10"></i></a></span>
+														
 													</div>
 													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
@@ -533,7 +519,7 @@
 											<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
 														<div>
-														<span class="fs-14 text-dark d-block">Sales Issue  </span>
+														<span class="fs-16 text-dark d-block">Sales Issue  </span>
 														<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
 														<div></div>
@@ -579,7 +565,7 @@
 											<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
 														<div>
-														<span class="fs-14 text-dark d-block">Sales Issue  </span>
+														<span class="fs-16 text-dark d-block">Sales Issue  </span>
 														<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
 														<div></div>
@@ -629,21 +615,245 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#SpacingThree"
                                         aria-expanded="false" aria-controls="SpacingThree">
-                                        Accordion Item #3
+										Admin support
+									<div class="a-crown-box">
+											<span class="fs-12 px-2"><i class="fa-solid fa-crown"></i></span>	
+											<span class="fs-12">Muhammad Fareed</span>	
+											<a class="fs-12 px-2" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaledit"><i class="fa-solid fa-pen"></i></a> 
+										</div>
+									
+									<span class="cts-badge">0 categories</span>
                                     </button>
                                 </h2>
                                 <div id="SpacingThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingSpacingThree"
                                     data-bs-parent="#accordionSpacingExample">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by
-                                        default, until the collapse plugin adds the appropriate classes that we
-                                        use to style each element. These classes control the overall appearance,
-                                        as well as the showing and hiding via CSS transitions. You can modify
-                                        any of this with custom CSS or overriding our default variables. It's
-                                        also worth noting that just about any HTML can go within the
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
+									<div class="row mt-2">
+											<div class="col-lg-4">
+												<div class="faq-sidebar">
+													<div class="faq-sidebar-header">
+														<span class="fs-16 text-dark">Sales Issue  <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname"><i class="fa-solid fa-pen fs-10"></i></a></span>
+														
+													</div>
+													<div class="faq-sidebar-body">
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info d-block fs-14">SLA Status</span>
+															<span class="text-body d-block fs-14 mb-2">Default/User defined</span>
+															<div class="table-responsive">
+															<table class="table table-borderless ">
+															<thead>
+																<tr>
+																<th scope="col"></th>
+																<th scope="col" class="text-primary">Respose</th>
+																<th scope="col" class="text-primary">Resolve</th>
+																<th scope="col"></th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																<td><b class="text-dark">Urgent</b> </td>
+																<td>3 hrs</td>
+																<td>3 hrs</td>
+																<td></td>
+																</tr>
+																<tr>
+																<td><b class="text-dark">High</b> </td>
+																<td>3 mis</td>
+																<td>3 mis</td>
+																<td></td>
+																</tr>
+																<tr class="etrbg" style="background-color:#D8F2FF!important;">
+																<td><b class="text-dark">Medium</b> </td>
+																<td>5 days</td>
+																<td>5 days</td>
+																<td><b class="text-purple"><i>Default</i></b> </td>
+																</tr>
+																<tr>
+																<td><b class="text-dark">Low</b> </td>
+																<td>7 days</td>
+																<td>7 days</td>
+																<td></td>
+																</tr>
+															</tbody>
+															</table>
+															</div>
+														</div>
+
+
+														<div class="faq-sidebar-body-inner mt-2">
+															<div class="d-flex align-items-center justify-content-between mb-3">
+															<span class="text-info d-block fs-14">Assigned Support Agents (4) </span>
+															<span class="text-body d-block fs-12 mb-2"><a href=""> <i class="fa-solid fa-pen"></i></a></span>
+															</div>
+													
+														<div class="d-flex align-items-start mb-2">
+															<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
+																<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3 " alt="img">
+															</a>
+															<div class="ms-2 mb-2">
+																<p class="text-dark mb-0 fs-14">Michael Philips </p>
+																<span class="fs-12 d-block mb-0 fs-12">Product manager</span>
+															</div>
+														</div>
+
+														<div class="d-flex align-items-start mb-3">
+															<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
+																<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3 " alt="img">
+															</a>
+															<div class="ms-2 mb-2">
+																<p class="text-dark mb-0 fs-14">Michael Philips </p>
+																<span class="fs-12 d-block mb-0 fs-12">Product manager</span>
+															</div>
+														</div>
+
+														<div class="d-flex align-items-start mb-3">
+															<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
+																<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3 " alt="img">
+															</a>
+															<div class="ms-2 mb-2">
+																<p class="text-dark mb-0 fs-14">Michael Philips </p>
+																<span class="fs-12 d-block mb-0 fs-12">Product manager</span>
+															</div>
+														</div>
+
+														<div class="d-flex align-items-start mb-3">
+															<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
+																<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3 " alt="img">
+															</a>
+															<div class="ms-2 mb-2">
+																<p class="text-dark mb-0 fs-14">Michael Philips </p>
+																<span class="fs-12 d-block mb-0 fs-12">Product manager</span>
+															</div>
+														</div>
+														
+														</div>
+
+														<div class="faq-sidebar-body-inner mt-2">
+															<div class="d-flex align-items-center justify-content-between mb-3">
+															<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
+															<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
+															</div>
+													
+														<div class="d-flex align-items-start mb-2">
+															<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
+																<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3 " alt="img">
+															</a>
+															<div class="ms-2 mb-2">
+																<p class="text-dark mb-0 fs-14">Michael Philips </p>
+																<span class="fs-12 d-block mb-0 fs-12">Product manager</span>
+															</div>
+														</div>
+
+														<div class="d-flex align-items-start mb-3">
+															<a href="assets/img/users/user-32.webp" data-fancycard="gallery" data-caption="" class="avatar avatar-lg">
+																<img src="assets/img/users/user-32.webp" class="img-fluid rounded-3 " alt="img">
+															</a>
+															<div class="ms-2 mb-2">
+																<p class="text-dark mb-0 fs-14">Michael Philips </p>
+																<span class="fs-12 d-block mb-0 fs-12">Product manager</span>
+															</div>
+														</div>
+
+														
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4">
+
+
+											<div class="faq-sidebar">
+													<div class="faq-sidebar-header">
+														<div>
+														<span class="fs-16 text-dark d-block">Sales Issue  </span>
+														<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
+														</div>
+														<div></div>
+													</div>
+													
+													<div class="faq-sidebar-body">
+														<div class="faq-sidebar-body-inner">
+														<span class="text-info d-block fs-14">SLA Status:</span>
+														<span class="text-body d-block fs-14 mb-0">Default/User defined</span>
+														</div>
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Assigned Support Agents(4)</span>
+														</div>
+
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+														<button class="btn btn-primary collapsed d-flex justify-content-center rounded-0 w-100" type="button"
+																data-bs-toggle="collapse" data-bs-target="#collapseExample"
+																aria-expanded="false" aria-controls="collapseExample">
+																Expand the view  
+															</button>
+
+														<div class="collapse" id="collapseExample">
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+													</div>
+													</div>
+											</div>
+											</div>
+											<div class="col-lg-4">
+
+
+											<div class="faq-sidebar">
+													<div class="faq-sidebar-header">
+														<div>
+														<span class="fs-16 text-dark d-block">Sales Issue  </span>
+														<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
+														</div>
+														<div></div>
+													</div>
+													
+													<div class="faq-sidebar-body">
+														<div class="faq-sidebar-body-inner">
+														<span class="text-info d-block fs-14">SLA Status:</span>
+														<span class="text-body d-block fs-14 mb-0">Default/User defined</span>
+														</div>
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Assigned Support Agents(4)</span>
+														</div>
+
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+														<button class="btn btn-primary collapsed mb-0 d-flex justify-content-center rounded-0 w-100" type="button"
+																data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+																aria-expanded="false" aria-controls="collapseExample1">
+																Expand the view  
+															</button>
+
+														<div class="collapse" id="collapseExample1">
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+													</div>
+													</div>
+											</div>
+											</div>
+										</div>
+								</div>
                                 </div>
                             </div>
                         </div>
@@ -654,10 +864,91 @@
 
 				</div>
 
-				
-					
-					
+				  <!-- Modal -->
+				  <div class="modal fade" id="exampleModaledit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content rounded-4">
+                        <div class="modal-body py-2">
+                            <div class="row">
+                                <div class="col-lg-12 mb-2">
+                                    <div class="card-header border-0 hdBtn-align mt-md-3 mt-2">
+                                        <h4 class="fs-20 fw-200 text-dark mb-md-3 mb-2">Edit Category</h4>
+                                        <button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i
+                                                class="fa-solid fa-xmark"></i></button>
+                                    </div>
+								</div>
 
+
+								<div class="col-lg-12 mb-2">
+									<div class="row inputSelect-div  mb-md-3 mb-2">
+										<p class="text-primary">Name of the Category</p>
+										<div class="col-md-5">
+											<input type="text" class="form-control" placeholder="Type in an appropriate titles">
+										</div>
+									</div>									                                    
+                                </div>
+
+                                <div class="col-lg-12 mb-2">
+									<div class="row inputSelect-div">
+										<p class="text-primary">Choose Category head</p>
+										<div class="col-md-5">
+											<input type="text" class="form-control" placeholder="Type in an appropriate category titles, separated by comma">
+										</div>
+
+										<div class="col-md-7 mt-md-0 mt-2">
+											<select class="js-example-placeholder-multiple select2 js-states placeholder" multiple="multiple" placeholder="Type to Search">
+                                        		<option>Search employee name</option>
+												<option value="fr-1">Jack Tin</option>
+                                        		<option value="fr-2">Henry Hill</option>
+                                        		<option value="fr-3">Peter Holmes</option>
+                                    		</select>
+										</div>
+									</div>									                                    
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="ms-3 mb-md-4 mb-2">
+                            <button type="button" class="btn btn-primary fs-14 me-2" data-bs-toggle="modal"
+                                data-bs-target="">Save and Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+					
+					
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModaleditname" tabindex="-1" aria-labelledby="exampleModalLabel"	aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content rounded-4">
+						<div class="modal-body py-2">														
+							<div class="row">
+								<div class="col-lg-12 mb-2">
+								<div class="card-header border-0 hdBtn-align mt-md-3 mt-2">
+										<h4 class="fs-20 fw-200 text-dark mb-md-3 mb-1">Edit name of the subcategory</h4>			
+										<button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+								</div>
+								<!-- <p>Enter one or more subcategories, separated by commas.<br>
+								<span class="text-primary">Example:</span> Password Reset, Account Access, Email Issues</p> -->
+								</div>
+
+								<div class="col-lg-12 mb-2">
+									<input type="text" class="form-control" placeholder="Type in an appropriate category title(s), separated by comma">
+								</div>
+							</div>
+
+						</div>
+						<div class="ms-3 mb-md-4 mb-2">
+							<button type="button" class="btn btn-primary fs-14 me-2" data-bs-toggle="modal"
+								data-bs-target="">Save and Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Modal -->
 			
 
 

@@ -119,7 +119,7 @@
 					</div>
 					<div class="card-body">
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -130,13 +130,16 @@
 								</div>
 
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -147,14 +150,17 @@
 								</div>
 
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 
 
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -164,14 +170,17 @@
 									
 								</div>
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 
 
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -181,14 +190,17 @@
 									<p class="mb-0"></p>
 								</div>
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 
 						
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -198,8 +210,11 @@
 									
 								</div>
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 
@@ -216,7 +231,7 @@
 					</div>
 					<div class="card-body">
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -227,13 +242,17 @@
 								</div>
 
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+								<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
+								<!-- <a href="" class="text-info">view/edit notification </a> -->
 							</div>
 						</div>
 
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -244,14 +263,17 @@
 								</div>
 
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 
 
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -261,14 +283,17 @@
 									
 								</div>
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 
 
 						<div class="row mb-3">
-							<div class="col-xl-9 col-lg-9">
+							<div class="col-xl-11 col-lg-11">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -278,8 +303,11 @@
 									
 								</div>
 							</div>
-							<div class="col-xl-3 col-lg-3 text-end">
-								<a href="" class="text-info">view/edit notification </a>
+							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="d-flex justify-content-between w-25">
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
+								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
+								</div>
 							</div>
 						</div>
 

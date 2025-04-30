@@ -747,6 +747,10 @@ counter-reset: item;
 .accordion-item .a-crown-box{
     margin-left: 15px;
 }
+.a-crown-box a{
+    position: relative;
+    z-index: 10;
+}
 .cst-accordian .accordion-button:after {
   
     background-color: transparent;
@@ -768,7 +772,11 @@ counter-reset: item;
 .faq-sidebar{
     border: 1px solid #D9E2EF;
     margin-bottom:30px;
-   
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .faq-sidebar .faq-sidebar-header{
     display: flex;
@@ -777,6 +785,12 @@ counter-reset: item;
     border-bottom: 1px solid #D9E2EF;
     padding: 2px 10px;
     height: 44px;
+    background-color: #e0e9f2;
+    border-radius: 10px 10px 0 0 ;
+    -webkit-border-radius: 10px 10px 0 0 ;
+    -moz-border-radius: 10px 10px 0 0 ;
+    -ms-border-radius: 10px 10px 0 0 ;
+    -o-border-radius: 10px 10px 0 0 ;
 }
 .faq-sidebar .faq-sidebar-body-inner{
     padding:8px 20px;

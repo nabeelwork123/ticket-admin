@@ -89,7 +89,7 @@
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
-                                <li><a href="new-categories-sub-categories.php" class="">Create new category</a></li>
+                                <li><a href="create-new-category.php" class="">Create new category</a></li>
                                 <li><a href="all-categories.php" class="">All Categories</a></li>
                                 
                           </ul>

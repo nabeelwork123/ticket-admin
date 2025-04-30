@@ -154,12 +154,12 @@
 		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 	  </div> -->
 					<div class="modal-body text-center rounded-4 py-3">
-						<h4 class="fs-18 text-dark py-3">Notification successfully added</h4>
-						<p>Your notification has been successfully added to the system. Would you like to add another one?</p>
+						<h4 class="fs-18 text-dark py-3">Notification successfully edited</h4>
+						<p>Your notification has been successfully edited to the system. Would you like to add another one?</p>
 
 					</div>
 					<div class="d-flex justify-content-center mb-4">
-						<button type="button" class="btn btn-primary fs-14 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal123" >Add more notifications </button>
+						<a href="agent-notifications-settings.php" class="btn btn-primary fs-14 me-2" >Edit more notifications </a>
 						<button type="button" class="btn btn-light fs-14" data-bs-dismiss="modal">No, thankyou</button>
 					</div>
 				</div>
