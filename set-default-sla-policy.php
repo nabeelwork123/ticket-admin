@@ -144,18 +144,18 @@
 							<div class="row">
 								<div class="col-xl-8 col-lg-10">
 									<div class="card-body">
-										<div class="table-responsive table-responsive-lg  sla-table">
-											<table class="table table-borderless table-white">
+										<div class="table-responsive table-responsive-lg  ">
+											<table class="table table-borderless sla-table">
 												<thead class="">
 													<tr>
-														<th>Priority </th>
-														<th>Respond within</th>
-														<th>Resolve within</th>
-														<th>Select default priority
+														<th class="text-purple">Priority </th>
+														<th class="text-purple">Respond within</th>
+														<th class="text-purple">Resolve within</th>
+														<th class="text-purple">Select default priority
 															<a class="text-dark" data-bs-toggle="tooltip"
 																data-bs-placement="bottom" title=""
 																data-bs-original-title="This priority applies to tickets without a set priority">
-																<i class="fa-solid fa-circle-exclamation"></i>
+																<i class="fa-solid fa-circle-exclamation text-purple"></i>
 
 															</a>
 														</th>
@@ -405,7 +405,7 @@
 									agent to resolve ticket and to the admin to follow up with the agent.</p>
 
 
-								<div class="col-lg-8 bg-white py-3 px-3 rounded-3 mt-3">
+								<div class="col-lg-8 sest py-3 px-3 rounded-3 mt-3">
 								<label class="form-label">Select recipients you wish to send escalation notice to</label>
 								<select class="js-example-placeholder-multiple select2 js-states "
 									multiple="multiple">
@@ -418,11 +418,11 @@
 								</select>
 								</div>
 
-								<div class="col-lg-8 py-3 px-3 rounded-3 mt-3">
+								<div class="col-lg-8 py-3 px-3 rounded-3 lg-org-bg mt-3">
 
-									<span class="fs-14 fw-bold text-dark mb-3">Important</span>
-									<p class="fs-12 text-body">Do you wish to create unique SLA for every subcategory?
-										set in this category</p>
+									<span class="fs-14 fw-bold text-dark mb-3">Important <i class="fa-solid fa-circle-exclamation text-dark ms-1"></i></span>
+									<p class="fs-12 text-body">Do you wish to create unique SLA for every subcategory
+										set in this category?</p>
 									<div class="form-check form-check-inline">
 										<input class="form-check-input" type="radio" name="radioDefault"
 											id="radioDefault1">

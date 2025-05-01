@@ -355,18 +355,18 @@
 							</div>
 						</div>
 						<div class="card-body p-0">
-							<div class="table-responsive table-responsive-lg">
+							<div class="table-responsive table-responsive-xl">
 								<table class="table ">
 									<thead class="thead-light">
 										<tr>
 
-											<th scope="col">Ticket ID</th>
-											<th scope="col">Employee Name</th>
-											<th scope="col">Ticket Detail</th>
-											<th scope="col">Category</th>
-											<th scope="col">Status</th>
-
-											<th scope="col">Action</th>
+											<th scope="col" width="100">Ticket ID</th>
+											<th scope="col" width="200">Employee Name</th>
+											<th scope="col" width="250">Ticket Detail</th>
+											<th scope="col" width="100">Category</th>
+											<th scope="col" width="100">Status</th>
+											<th scope="col" width="100">Prority</th>
+											<th scope="col" width="350">Action</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -417,26 +417,22 @@
 											</td>
 											<td>
 												<p class="fs-12 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
+													<i class="ti ti-circle-filled fs-10 me-1 clrb"></i>Open
 												</p>
 											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Urgent</p>
+											
+											</td>
 										<td>
-												<div class="btn-group  py-2">
-													<button type="button"
-														class="btn btn-outline-primary btn-sm dropdown-toggle"
-														data-bs-toggle="dropdown" aria-expanded="false">
-														Assign
-													</button>
-													<ul class="dropdown-menu  dropdown-menu-end p-3">
-														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
-														</li>
-														<li><a class="dropdown-item" href="javascript:void(0);">
-																Oliver</a></li>
-														<li><a class="dropdown-item"
-																href="javascript:void(0);">Sarah</a></li>
-
-													</ul>
-												</div>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
 											</td>
 										</tr>
 										<tr>
@@ -458,7 +454,6 @@
 														<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
 													</div>
 												</div>
-
 											</td>
 
 											<td>
@@ -473,7 +468,6 @@
 														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
 														<p class="mb-0 fs-12">12 Apr 2025</p>
 														<p class="mb-0 fs-12">10:00 AM</p>
-
 													</div>
 												</div>
 											</td>
@@ -485,26 +479,22 @@
 											</td>
 											<td>
 												<p class="fs-12 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
+												<i class="fa-solid fa-triangle-exclamation clrr px-2 fs-10"></i>  Overdue
 												</p>
 											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>High</p>
+											
+											</td>
 										<td>
-												<div class="btn-group  py-2">
-													<button type="button"
-														class="btn btn-outline-primary btn-sm dropdown-toggle"
-														data-bs-toggle="dropdown" aria-expanded="false">
-														Assign
-													</button>
-													<ul class="dropdown-menu  dropdown-menu-end p-3">
-														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
-														</li>
-														<li><a class="dropdown-item" href="javascript:void(0);">
-																Oliver</a></li>
-														<li><a class="dropdown-item"
-																href="javascript:void(0);">Sarah</a></li>
-
-													</ul>
-												</div>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
 											</td>
 										</tr>
 										<tr>
@@ -524,7 +514,6 @@
 														<span class="fs-12 d-block mb-0">Brand</span>
 														<span class="fs-12 d-block mb-0">Content writer</span>
 														<p class="mb-0 fs-13">1st Floor / Seat no 05 </p>
-
 													</div>
 												</div>
 
@@ -554,27 +543,23 @@
 											</td>
 											<td>
 												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-secondary"></i>Not
-													picked
+													<i class="ti ti-circle-filled fs-10 me-1 clrg"></i>
+													Resolved
 												</p>
 											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low</p>
+											
+											</td>
 										<td>
-												<div class="btn-group  py-2">
-													<button type="button"
-														class="btn btn-outline-primary btn-sm dropdown-toggle"
-														data-bs-toggle="dropdown" aria-expanded="false">
-														Assign
-													</button>
-													<ul class="dropdown-menu  dropdown-menu-end p-3">
-														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
-														</li>
-														<li><a class="dropdown-item" href="javascript:void(0);">
-																Oliver</a></li>
-														<li><a class="dropdown-item"
-																href="javascript:void(0);">Sarah</a></li>
-
-													</ul>
-												</div>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
 											</td>
 										</tr>
 										<tr>
@@ -623,27 +608,22 @@
 											</td>
 											<td>
 												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-secondary"></i>Not
-													picked
+													<i class="ti ti-circle-filled fs-10 me-1 clri"></i>
+													Closed
 												</p>
 											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-purple"></i>Medium</p>
+											</td>
 										<td>
-												<div class="btn-group  py-2">
-													<button type="button"
-														class="btn btn-outline-primary btn-sm dropdown-toggle"
-														data-bs-toggle="dropdown" aria-expanded="false">
-														Assign
-													</button>
-													<ul class="dropdown-menu  dropdown-menu-end p-3">
-														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
-														</li>
-														<li><a class="dropdown-item" href="javascript:void(0);">
-																Oliver</a></li>
-														<li><a class="dropdown-item"
-																href="javascript:void(0);">Sarah</a></li>
-
-													</ul>
-												</div>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
 											</td>
 										</tr>
 										<tr>
@@ -693,26 +673,21 @@
 											</td>
 											<td>
 												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>On going
+													<i class="ti ti-circle-filled fs-10 me-1 clro"></i>Reopened
 												</p>
 											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low</p>
+											</td>
 										<td>
-												<div class="btn-group  py-2">
-													<button type="button"
-														class="btn btn-outline-primary btn-sm dropdown-toggle"
-														data-bs-toggle="dropdown" aria-expanded="false">
-														Assign
-													</button>
-													<ul class="dropdown-menu  dropdown-menu-end p-3">
-														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
-														</li>
-														<li><a class="dropdown-item" href="javascript:void(0);">
-																Oliver</a></li>
-														<li><a class="dropdown-item"
-																href="javascript:void(0);">Sarah</a></li>
-
-													</ul>
-												</div>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
 											</td>
 										</tr>
 										<tr>
@@ -764,26 +739,21 @@
 											</td>
 											<td>
 												<p class="fs-12 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>On going
+												<i class="fa-solid fa-triangle-exclamation clrr px-1"></i>Overdue
 												</p>
 											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Urgent</p>
+											</td>
 										<td>
-												<div class="btn-group  py-2">
-													<button type="button"
-														class="btn btn-outline-primary btn-sm dropdown-toggle"
-														data-bs-toggle="dropdown" aria-expanded="false">
-														Assign
-													</button>
-													<ul class="dropdown-menu  dropdown-menu-end p-3">
-														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
-														</li>
-														<li><a class="dropdown-item" href="javascript:void(0);">
-																Oliver</a></li>
-														<li><a class="dropdown-item"
-																href="javascript:void(0);">Sarah</a></li>
-
-													</ul>
-												</div>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                            		<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
 											</td>
 										</tr>
 										<tr>
@@ -831,27 +801,22 @@
 
 											</td>
 											<td>
-												<p class="fs-13 d-inline-flex align-items-center mb-1">
-													<i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Resolved
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 clry"></i>Not picked
 												</p>
 											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>High</p>
+											</td>
 										<td>
-												<div class="btn-group  py-2">
-													<button type="button"
-														class="btn btn-outline-primary btn-sm dropdown-toggle"
-														data-bs-toggle="dropdown" aria-expanded="false">
-														Assign
-													</button>
-													<ul class="dropdown-menu  dropdown-menu-end p-3">
-														<li><a class="dropdown-item" href="javascript:void(0);">Jack</a>
-														</li>
-														<li><a class="dropdown-item" href="javascript:void(0);">
-																Oliver</a></li>
-														<li><a class="dropdown-item"
-																href="javascript:void(0);">Sarah</a></li>
-
-													</ul>
-												</div>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
 											</td>
 										</tr>
 
@@ -1559,6 +1524,15 @@
 				});
 			});
 		</script>
+		<script>
+    $(document).ready(function() {
+        $('.js-example-placeholder-multiple').select2({
+            placeholder: "Mark to employee",
+            allowClear: true
+        });
+    });
+</script>
+
 
 </body>
 

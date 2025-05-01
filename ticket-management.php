@@ -886,7 +886,9 @@
 									</tbody>
 								</table>
 							</div> -->
-							<div class="table-responsive table-responsive-lg ">
+							<!-- <div class="table-responsive table-responsive-lg ">
+
+
 								<table class="table ">
 									<thead class="thead-light">
 										<tr>
@@ -1377,6 +1379,944 @@
 
 													</ul>
 												</div>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div> -->
+						
+							<!-- <div class="table-responsive table-responsive-xl">
+								<table class="table ">
+									<thead class="thead-light">
+										<tr>
+
+											<th scope="col" width="100">Ticket ID</th>
+											<th scope="col" width="200">Employee Name</th>
+											<th scope="col" width="250">Ticket Detail</th>
+											<th scope="col" width="100">Category</th>
+											<th scope="col" width="100">Status</th>
+											<th scope="col" width="100">Prority</th>
+											<th scope="col" width="350">Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09834</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td class="">
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-32.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark mb-0 fs-12">James MIller </p>
+														<span class="fs-12 d-block mb-0 fs-12">International Sales
+														</span>
+														<span class="fs-12 d-block mb-0 fs-12">Vice President</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 22 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Unable to Connect to Office Wi-Fi</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Due today
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>High</p>
+											
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09835</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-33.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Henry Full </p>
+														<span class="fs-12  d-block mb-0">Aministration</span>
+														<span class="fs-12 d-block mb-0">Manager</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
+													</div>
+												</div>
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Frequent Wi-Fi Disconnection</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+												</div>
+											</td>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+												<i class="fa-solid fa-triangle-exclamation text-warning px-2 fs-10"></i>  Overdue
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>High</p>
+											
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09836</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-34.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Dickson Joe</p>
+														<span class="fs-12 d-block mb-0">Brand</span>
+														<span class="fs-12 d-block mb-0">Content writer</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 05 </p>
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">LAN Cable Not Detecting Network</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 text-success"></i>
+													Not picked
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low</p>
+											
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09837</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-35.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Sarah Thompson</p>
+														<span class="fs-12 d-block mb-0">Human Resources</span>
+														<span class="fs-12 d-block mb-0">HR Manager</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">IP Conflict Error</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 text-purple"></i>
+													Resolved
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-purple"></i>Medium</p>
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09838</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-36.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Emily Rodriguez</p>
+														<span class="fs-12 d-block mb-0">Finance</span>
+														<span class="fs-12 d-block mb-0">Finance Analyst</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 17 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Network Printer Not Found</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Closed
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low</p>
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09839</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-28.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-18.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Sophia Patel </p>
+														<span class="fs-12 d-block mb-0">Human Resources</span>
+														<span class="fs-12 d-block mb-0">Talent Acquisition
+															Specialist</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 35 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Access Denied to Shared Network Drive
+												</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Not picked
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Urgent</p>
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                            		<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09840</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-38.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Isabella Morris</p>
+														<span class="fs-12 d-block mb-0">Operations</span>
+														<span class="fs-12 d-block mb-0">Project Coordinator</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 42 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Unable to Ping Server</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-13 d-inline-flex align-items-center mb-1">
+												<i class="fa-solid fa-triangle-exclamation text-danger me-2"></i> Overdue
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>High</p>
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div> -->
+						
+							<div class="table-responsive table-responsive-xl">
+								<table class="table ">
+									<thead class="thead-light">
+										<tr>
+
+											<th scope="col" width="100">Ticket ID</th>
+											<th scope="col" width="200">Employee Name</th>
+											<th scope="col" width="250">Ticket Detail</th>
+											<th scope="col" width="100">Category</th>
+											<th scope="col" width="100">Status</th>
+											<th scope="col" width="100">Prority</th>
+											<th scope="col" width="350">Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09834</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td class="">
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-32.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark mb-0 fs-12">James MIller </p>
+														<span class="fs-12 d-block mb-0 fs-12">International Sales
+														</span>
+														<span class="fs-12 d-block mb-0 fs-12">Vice President</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 22 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Unable to Connect to Office Wi-Fi</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 clrb"></i>Open
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Urgent</p>
+											
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09835</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-33.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Henry Full </p>
+														<span class="fs-12  d-block mb-0">Aministration</span>
+														<span class="fs-12 d-block mb-0">Manager</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
+													</div>
+												</div>
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Frequent Wi-Fi Disconnection</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+												</div>
+											</td>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+												<i class="fa-solid fa-triangle-exclamation clrr px-2 fs-10"></i>  Overdue
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>High</p>
+											
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09836</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-34.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Dickson Joe</p>
+														<span class="fs-12 d-block mb-0">Brand</span>
+														<span class="fs-12 d-block mb-0">Content writer</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 05 </p>
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">LAN Cable Not Detecting Network</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 clrg"></i>
+													Resolved
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low</p>
+											
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09837</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-35.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Sarah Thompson</p>
+														<span class="fs-12 d-block mb-0">Human Resources</span>
+														<span class="fs-12 d-block mb-0">HR Manager</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 18 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">IP Conflict Error</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 clri"></i>
+													Closed
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-purple"></i>Medium</p>
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09838</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-36.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Emily Rodriguez</p>
+														<span class="fs-12 d-block mb-0">Finance</span>
+														<span class="fs-12 d-block mb-0">Finance Analyst</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 17 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Network Printer Not Found</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-13 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 clro"></i>Reopened
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low</p>
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09839</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-28.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-18.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Sophia Patel </p>
+														<span class="fs-12 d-block mb-0">Human Resources</span>
+														<span class="fs-12 d-block mb-0">Talent Acquisition
+															Specialist</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 35 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Access Denied to Shared Network Drive
+												</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+												<i class="fa-solid fa-triangle-exclamation clrr px-1"></i>Overdue
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Urgent</p>
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                            		<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="mb-0 d-block"> 09840</p>
+												<span class="badge bg-soft-primary">Low</span>
+											</td>
+											<td>
+												<div class="d-flex align-items-start">
+													<a href="assets/img/users/user-32.webp" data-fancycard="gallery"
+														data-caption="" class="avatar avatar-lg">
+														<img src="assets/img/users/user-38.webp"
+															class="img-fluid rounded-3 " alt="img">
+													</a>
+													<div class="ms-2">
+														<p class="text-dark fs-12 mb-0">Isabella Morris</p>
+														<span class="fs-12 d-block mb-0">Operations</span>
+														<span class="fs-12 d-block mb-0">Project Coordinator</span>
+														<p class="mb-0 fs-13">1st Floor / Seat no 42 </p>
+
+													</div>
+												</div>
+
+											</td>
+
+											<td>
+												<p class="fs-12 text-dark mb-1">Unable to Ping Server</p>
+												<div class="row">
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Created on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+													</div>
+													<div class="col-lg-6">
+														<span class="fs-12 d-block mb-0 fs-12"><i>Due on:</i></span>
+														<p class="mb-0 fs-12">12 Apr 2025</p>
+														<p class="mb-0 fs-12">10:00 AM</p>
+
+													</div>
+												</div>
+											</td>
+											<td>
+												<p class="fs-12 mb-0 text-dark fw-600">Hardware</p>
+												<p class="fs-12 mb-0">Mouse</p>
+
+											</td>
+											<td>
+												<p class="fs-12 d-inline-flex align-items-center mb-1">
+													<i class="ti ti-circle-filled fs-10 me-1 clry"></i>Not picked
+												</p>
+											</td>
+											<td>
+											<p class="fs-12 d-inline-flex align-items-center mb-1"><i class="ti ti-circle-filled fs-10 me-1 text-warning"></i>High</p>
+											</td>
+										<td>
+												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+                              <option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
 											</td>
 										</tr>
 

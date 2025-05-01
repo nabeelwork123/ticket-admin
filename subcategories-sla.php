@@ -77,7 +77,7 @@
 				<div class="card-header border-0">
 						<div class="row align-items-center">
 							<div class="col-lg-6 col-md-6">
-							<h4 class="card-title mt-2">Subcategory-wise SLA Settings</h4>
+							<h4 class="card-title mt-2">Subcategory-wise SLA settings</h4>
 							</div>
 							<div class="col-lg-2 col-md-12 text-end">
 								<span class="fs-14">Search by</span>

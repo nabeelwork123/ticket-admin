@@ -649,7 +649,11 @@ counter-reset: item;
 }
 .sla-table tr th{
     background-color: transparent!important;
+   
 
+}
+.sla-table thead tr th {
+    font-size:15px!important;
 }
 .sla-table input[type="number"]{
     max-width: 58px;
@@ -782,7 +786,8 @@ counter-reset: item;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #D9E2EF;
+    border: 0;
+    /* border-bottom: 1px solid #D9E2EF; */
     padding: 2px 10px;
     height: 44px;
     background-color: #e0e9f2;
@@ -809,7 +814,51 @@ counter-reset: item;
 .cst-accordian .accordion-opened .accordion-toggle:after {    
     content: "\f054";    
 }
-
+.js-example-placeholder-multiple{
+    font-size: 12px;
+    padding:0!important;
+}
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+    display: inline-grid;
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+    margin: 0;
+}
+.select2-container--classic .select2-selection--multiple .select2-selection__choice, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  
+    font-size: 10px;
+}
+.select2-container--default .select2-selection--multiple {
+    padding:0px 2px!important;
+    font-size:10px;
+}
+.select2-selection--multiple option{
+    font-size:12px;
+}
+.innser-table tr td{
+    font-size: 12px!important;
+}
+.toggleIcon{
+    font-size:20px;
+    background-color: transparent;
+}
+.toggleIcon:hover,
+.toggleIcon:active,
+.toggleIcon:focus{
+    background-color: transparent;
+    border: 0;
+}
+.select2-container .select2-search--inline .select2-search__field{
+    height:28px;
+    font-size:12px!important;
+}
+.card a:hover{
+    color: #f46925!important;
+}
+.select2-results__options li{
+    font-size:11px!important;
+}
 /* ------------------- Samit Css Start ------------------ */
 .card-body p {
     color: #6B7280;
@@ -858,7 +907,64 @@ counter-reset: item;
  .mywise .smth{
     font-size:13px!important;
  }
+ .sest .select2-container--default .select2-selection--multiple{
+    border: 1px solid #000;
+    opacity: 1;
+ }
+ .mywise tbody tr td a:hover{
+    color: #f46925!important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
 /* ------------------- Samit Css End ------------------ */
+
+/* New colors */
+
+.lg-org-bg{
+    background-color: #ffa37852;
+}
+
+
+.clrb{
+    color: #007bff;
+}
+.clrr{
+    color: #dc3545;
+}
+.clrg{
+   color: #28a745; 
+}
+.clrg{
+   color: #6c757d; 
+}
+.clro{
+ color: #fd7e14;   
+}
+.clrp{
+    color: #6f42c1;
+}
+.clri{
+    color:#6610f2;
+}
+.clry{
+    color:#ffc107;
+}
+.admor-plus{
+    border: 2px dashed #e5e7eb;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 0;
+    background-color: #e5e7eb2e;
+    position: relative;
+    top: -2px;
+}
+/* New colors */
 @media(max-width:1399.98px){
 
     .profile-banner-txt .profile-banner-img {

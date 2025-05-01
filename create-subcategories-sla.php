@@ -183,7 +183,7 @@
 															<a class="text-dark" data-bs-toggle="tooltip"
 																data-bs-placement="bottom" title=""
 																data-bs-original-title="This priority applies to tickets without a set priority">
-																<i class="fa-solid fa-circle-exclamation"></i>
+																<i class="fa-solid fa-circle-exclamation text-purple"></i>
 
 															</a>
 														</th>
@@ -433,20 +433,20 @@
 										</ul>
 									</div>
 								</div> -->
+								<div class="col-lg-8 sest">
+								<label class="form-label mt-3">Select recipients you wish to send escalation notice to</label>
+								<select class="js-example-placeholder-multiple select2 js-states border-primary border-1"
+									multiple="multiple">
+									<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+								</select>
+								</div>
 							</div>
-							<div class="col-lg-8 bg-white py-3 px-3 rounded-3 mt-3">
-
-<label class="form-label">Select recipients you wish to send escalation notice to</label>
-<select class="js-example-placeholder-multiple select2 js-states "
-	multiple="multiple">
-	<option value="fr-1">Michael Anderson</option>
-	<option value="fr-2">Emily Thompson</option>
-	<option value="fr-3">Daniel Brooks</option>
-	<option value="fr-4">Sophia Carter</option>
-	<option value="fr-5">James Preston</option>
-	<option value="fr-6">Olivia Bennett</option>
-</select>
-</div>
+							
 
 <!-- <div class="col-lg-8 bg-white py-3 px-3 rounded-3 mt-3">
 

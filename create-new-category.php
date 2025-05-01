@@ -110,7 +110,7 @@
 
 				<div class="card mb-4">
 					<div class="card-header border-0">
-						<h4 class="mb-0">Create a new category </h4>
+						<h4 class="fs-16 fw-600 text-dark mb-0 px-0">Create a new category </h4>
 					</div>
 					<div class="card-body">
 						<div class="row align-items-center">
@@ -137,7 +137,7 @@
 									</select>
 								</div>
 								<div class="col-lg-6 ">
-								<label for="" class="text-body fs-10 mb-1 d-block">You can mark one or multiple employees as the category head.</label>
+								<label for="" class="text-body fs-10 mb-2 d-block">You can mark one or multiple employees as the category head.</label>
 								<select class="js-example-placeholder-multiple select2 js-states "
 									multiple="multiple">
 									<option value="fr-1">Michael Anderson</option>

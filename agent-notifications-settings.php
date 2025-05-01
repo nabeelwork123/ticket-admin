@@ -114,12 +114,11 @@
 				<div class="card">
 					<div class="card-header border-0">
 						<h4 class="card-title mb-2">Agent notifications</h4>
-						<p>These notifications are sent via Email or Microsoft Teams or both, depending on the
-							individual agent's configuration in their 'My Profile' settings</p>
+						<p>These notifications will be sent via notifications on the HRMS and on the email registered in the user’s profile.</p>
 					</div>
 					<div class="card-body">
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -130,7 +129,7 @@
 								</div>
 
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 							<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
@@ -139,7 +138,7 @@
 						</div>
 
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -150,7 +149,7 @@
 								</div>
 
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 							<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
@@ -160,7 +159,7 @@
 
 
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -170,7 +169,7 @@
 									
 								</div>
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 							<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
@@ -180,7 +179,7 @@
 
 
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -190,7 +189,7 @@
 									<p class="mb-0"></p>
 								</div>
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 							<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
@@ -200,7 +199,7 @@
 
 						
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -210,7 +209,7 @@
 									
 								</div>
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 							<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
@@ -227,11 +226,11 @@
 				<div class="card">
 					<div class="card-header border-0">
 						<h4 class="card-title mb-2">Agent SLA notifications</h4>
-						<p>These notifications are sent via Email or Microsoft Teams or both, depending on the individual agent's configuration in their 'My Profile' settings.</p>
+						<p>These notifications will be sent via notifications on the HRMS and on the email registered in the user’s profile. </p>
 					</div>
 					<div class="card-body">
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -242,7 +241,7 @@
 								</div>
 
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 								<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
@@ -252,7 +251,7 @@
 						</div>
 
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -263,7 +262,7 @@
 								</div>
 
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 							<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
@@ -273,7 +272,7 @@
 
 
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -283,7 +282,7 @@
 									
 								</div>
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 							<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>
@@ -293,7 +292,7 @@
 
 
 						<div class="row mb-3">
-							<div class="col-xl-11 col-lg-11">
+							<div class="col-xl-10 col-lg-10">
 								<div class="d-flex align-items-baseline">
 									<div class="form-check form-switch">
 										<input class="form-check-input" type="checkbox" role="switch"
@@ -303,7 +302,7 @@
 									
 								</div>
 							</div>
-							<div class="col-xl-1 col-lg-1 text-end">
+							<div class="col-xl-2 col-lg-2 text-end">
 							<div class="d-flex justify-content-between w-25">
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-eye"></i></a>
 								<a href="draft-notification-for-agent.php" class="fs-10 text-body px-4"><i class="fa-solid fa-pen"></i></a>

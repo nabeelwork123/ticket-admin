@@ -141,30 +141,27 @@
 									aria-labelledby="headingSpacingOne" data-bs-parent="#accordionSpacingExample">
 									<div class="accordion-body py-xl-2 px-xl-4 px-lg-1 px-md-0">
 
-										<div class="row align-items-baseline">
-											<div class="col-xl-11 col-lg-11">
-											<div class="row mt-2">
+										<div class="row mt-2">
 											<div class="col-lg-4 ">
-												
+												<!-- <button class="btn  collapsed d-flex justify-content-between rounded-0 w-100"
+													type="button" data-bs-toggle="collapse"
+													data-bs-target="#collapseExample" aria-expanded="false"
+													aria-controls="collapseExample" id="toggleButton">
+													<span id="toggleIcon">+</span> 
+												</button>
 
-												
+												<div class="collapse" id="collapseExample">
+													
+												</div> -->
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<div><span class="fs-16 text-dark">Sales Issue <a href="javascript:;"
+														<span class="fs-16 text-dark">Sales Issue <a href="javascript:;"
 																data-bs-toggle="modal"
 																data-bs-target="#exampleModaleditname"><i
-																	class="fa-solid fa-pen fs-10"></i></a></span></div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between"
-															type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
-														<span class="toggleIcon">+</span> 
-													</button>
-														</div>
-													
-														
+																	class="fa-solid fa-pen fs-10"></i></a></span>
 
 													</div>
-													<div class="faq-sidebar-body collapse" id="collapse1">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status</span>
 															<span class="text-body d-block fs-14 mb-2">Default/User
@@ -332,15 +329,10 @@
 															<span class="fs-16 text-dark d-block">Sales Issue </span>
 															<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between"
-															type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
-														<span class="toggleIcon">+</span> 
-													</button>
-														</div>
+														<div></div>
 													</div>
 
-													<div class="faq-sidebar-body collapse" id="collapse2">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status:</span>
 															<span class="text-body d-block fs-14 mb-0">Default/User
@@ -353,7 +345,30 @@
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-														
+														<button
+															class="btn btn-primary collapsed d-flex justify-content-center rounded-0 w-100"
+															type="button" data-bs-toggle="collapse"
+															data-bs-target="#collapseExample" aria-expanded="false"
+															aria-controls="collapseExample">
+															Expand the view
+														</button>
+
+														<div class="collapse" id="collapseExample">
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -366,15 +381,10 @@
 															<span class="fs-16 text-dark d-block">Sales Issue </span>
 															<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between"
-															type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
-														<span class="toggleIcon">+</span> 
-													</button>
-														</div>
+														<div></div>
 													</div>
 
-													<div class="faq-sidebar-body collapse" id="collapse3">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status:</span>
 															<span class="text-body d-block fs-14 mb-0">Default/User
@@ -387,20 +397,34 @@
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-														
+														<button
+															class="btn btn-primary collapsed mb-0 d-flex justify-content-center rounded-0 w-100"
+															type="button" data-bs-toggle="collapse"
+															data-bs-target="#collapseExample1" aria-expanded="false"
+															aria-controls="collapseExample1">
+															Expand the view
+														</button>
+
+														<div class="collapse" id="collapseExample1">
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-											</div>
-											<div class="col-xl-1 col-lg-1">
-												<a class="admor-plus">
-												<i class="fa-solid fa-plus"></i>
-												</a>
-											</div>
-										</div>
-
-									
 
 
 									</div>
@@ -424,30 +448,17 @@
 								<div id="SpacingTwo" class="accordion-collapse collapse"
 									aria-labelledby="headingSpacingTwo" data-bs-parent="#accordionSpacingExample">
 									<div class="accordion-body py-xl-2 px-xl-4 px-lg-1 px-md-0">
-										
-										<div class="row align-items-baseline">
-											<div class="col-xl-11 col-lg-11">
-											<div class="row mt-2">
+										<div class="row mt-2">
 											<div class="col-lg-4">
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<div>
 														<span class="fs-16 text-dark">Sales Issue <a href="javascript:;"
 																data-bs-toggle="modal"
 																data-bs-target="#exampleModaleditname"><i
-																	class="fa-solid fa-pen fs-10"></i>
-																</a></span>
-														</div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between"
-															type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
-														<span class="toggleIcon">+</span> 
-													</button>
-														</div>
-													
+																	class="fa-solid fa-pen fs-10"></i></a></span>
 
 													</div>
-													<div class="faq-sidebar-body collapse" id="collapse4">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status</span>
 															<span class="text-body d-block fs-14 mb-2">Default/User
@@ -615,15 +626,10 @@
 															<span class="fs-16 text-dark d-block">Sales Issue </span>
 															<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between"
-															type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
-														<span class="toggleIcon">+</span> 
-													</button>
-														</div>
+														<div></div>
 													</div>
 
-													<div class="faq-sidebar-body collapse" id="collapse5">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status:</span>
 															<span class="text-body d-block fs-14 mb-0">Default/User
@@ -636,7 +642,30 @@
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-														
+														<button
+															class="btn btn-primary collapsed d-flex justify-content-center rounded-0 w-100"
+															type="button" data-bs-toggle="collapse"
+															data-bs-target="#collapseExample" aria-expanded="false"
+															aria-controls="collapseExample">
+															Expand the view
+														</button>
+
+														<div class="collapse" id="collapseExample">
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -649,15 +678,10 @@
 															<span class="fs-16 text-dark d-block">Sales Issue </span>
 															<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between align-items-center mb-0"
-														type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
-															<span class="toggleIcon">+</span>
-                                                      </button>
-														</div>
+														<div></div>
 													</div>
 
-													<div class="faq-sidebar-body collapse" id="collapse6">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status:</span>
 															<span class="text-body d-block fs-14 mb-0">Default/User
@@ -670,24 +694,34 @@
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-														
+														<button
+															class="btn btn-primary collapsed mb-0 d-flex justify-content-center rounded-0 w-100"
+															type="button" data-bs-toggle="collapse"
+															data-bs-target="#collapseExample1" aria-expanded="false"
+															aria-controls="collapseExample1">
+															Expand the view
+														</button>
 
-														
+														<div class="collapse" id="collapseExample1">
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-											</div>
-										
-											<div class="col-xl-1 col-lg-1">
-												<a class="admor-plus"   href="create-new-category.php">
-												<i class="fa-solid fa-plus"></i>
-												</a>
-											
-											</div>
-										</div>
-
-								
 
 									</div>
 								</div>
@@ -711,28 +745,17 @@
 								<div id="SpacingThree" class="accordion-collapse collapse"
 									aria-labelledby="headingSpacingThree" data-bs-parent="#accordionSpacingExample">
 									<div class="accordion-body">
-
-										<div class="row align-items-baseline">
-											<div class="col-xl-11 col-lg-11">
-											<div class="row mt-2">
+										<div class="row mt-2">
 											<div class="col-lg-4">
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<div>
 														<span class="fs-16 text-dark">Sales Issue <a href="javascript:;"
-																data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
-																<i class="fa-solid fa-pen fs-10"></i></a></span>
-														</div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between align-items-center mb-0"
-														type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
-															<span class="toggleIcon">+</span>
-                                                      </button>
-														</div>
-														
+																data-bs-toggle="modal"
+																data-bs-target="#exampleModaleditname"><i
+																	class="fa-solid fa-pen fs-10"></i></a></span>
 
 													</div>
-													<div class="faq-sidebar-body collapse" id="collapse7">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status</span>
 															<span class="text-body d-block fs-14 mb-2">Default/User
@@ -900,15 +923,10 @@
 															<span class="fs-16 text-dark d-block">Sales Issue </span>
 															<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between align-items-center mb-0"
-														type="button" data-bs-toggle="collapse" data-bs-target="#collapse8">
-															<span class="toggleIcon">+</span>
-                                                      </button>
-														</div>
+														<div></div>
 													</div>
 
-													<div class="faq-sidebar-body collapse" id="collapse8">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status:</span>
 															<span class="text-body d-block fs-14 mb-0">Default/User
@@ -921,7 +939,30 @@
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-														
+														<button
+															class="btn btn-primary collapsed d-flex justify-content-center rounded-0 w-100"
+															type="button" data-bs-toggle="collapse"
+															data-bs-target="#collapseExample" aria-expanded="false"
+															aria-controls="collapseExample">
+															Expand the view
+														</button>
+
+														<div class="collapse" id="collapseExample">
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -934,15 +975,10 @@
 															<span class="fs-16 text-dark d-block">Sales Issue </span>
 															<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
 														</div>
-														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between align-items-center mb-0"
-																type="button" data-bs-toggle="collapse" data-bs-target="#collapse9">
-															<span class="toggleIcon">+</span>
-														</button>
-														</div>
+														<div></div>
 													</div>
 
-													<div class="faq-sidebar-body collapse" id="collapse9">
+													<div class="faq-sidebar-body">
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info d-block fs-14">SLA Status:</span>
 															<span class="text-body d-block fs-14 mb-0">Default/User
@@ -955,21 +991,34 @@
 														<div class="faq-sidebar-body-inner">
 															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-														
+														<button
+															class="btn btn-primary collapsed mb-0 d-flex justify-content-center rounded-0 w-100"
+															type="button" data-bs-toggle="collapse"
+															data-bs-target="#collapseExample1" aria-expanded="false"
+															aria-controls="collapseExample1">
+															Expand the view
+														</button>
+
+														<div class="collapse" id="collapseExample1">
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+
+															<div class="faq-sidebar-body-inner">
+																<span class="text-info">Escalation Contact
+																	Points(2)</span>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-											</div>
-											
-											<div class="col-xl-1 col-lg-1">
-												<a class="admor-plus">
-												<i class="fa-solid fa-plus"></i>
-												</a>
-											
-											</div>
-										</div>
-									
 									</div>
 								</div>
 							</div>
@@ -997,41 +1046,35 @@
 								</div>
 
 
-								<div class="col-lg-12 mb-3">
-									<div class="row inputSelect-div  mb-0">
+								<div class="col-lg-12 mb-2">
+									<div class="row inputSelect-div  mb-md-3 mb-2">
 										<p class="text-primary">Name of the Category</p>
 										<div class="col-md-5">
 											<input type="text" class="form-control"
-												placeholder="Type in an appropriate title">
+												placeholder="Type in an appropriate titles">
 										</div>
 									</div>
 								</div>
 
-								<div class="col-lg-6">
-								<label for="" class="form-label text-primary">2. Mark category admin </label>
-								<select class="form-select">
-									<option selected>Select department </option>
-										<option>Admin</option>
-										<option>Procurement </option>
-										<option>Customer Support</option>
-										<option>IT Support</option>
-										
+								<div class="col-lg-12 mb-2">
+									<div class="row inputSelect-div">
+										<p class="text-primary">Choose Category head</p>
+										<div class="col-md-5">
+											<input type="text" class="form-control"
+												placeholder="Type in an appropriate category titles, separated by comma">
+										</div>
 
-
-
-									</select>
-								</div>
-								<div class="col-lg-6 ">
-								<label for="" class="text-body fs-10 mb-3 d-block">You can mark one or multiple employees as the category head.</label>
-								<select class="form-select js-example-placeholder-multiple select2 js-states form-select "
-									multiple="multiple">
-									<option value="fr-1">Michael Anderson</option>
-									<option value="fr-2">Emily Thompson</option>
-									<option value="fr-3">Daniel Brooks</option>
-									<option value="fr-4">Sophia Carter</option>
-									<option value="fr-5">James Preston</option>
-									<option value="fr-6">Olivia Bennett</option>
-								</select>
+										<div class="col-md-7 mt-md-0 mt-2">
+											<select
+												class="js-example-placeholder-multiple select2 js-states placeholder"
+												multiple="multiple" placeholder="Type to Search">
+												<option>Search employee name</option>
+												<option value="fr-1">Jack Tin</option>
+												<option value="fr-2">Henry Hill</option>
+												<option value="fr-3">Peter Holmes</option>
+											</select>
+										</div>
+									</div>
 								</div>
 
 							</div>
@@ -1088,20 +1131,7 @@
 		</div>
 		<!-- /Main Wrapper -->
 
-		<script>
-  document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(button => {
-    const icon = button.querySelector('.toggleIcon');
-    const collapseEl = document.querySelector(button.getAttribute('data-bs-target'));
 
-    collapseEl.addEventListener('show.bs.collapse', () => {
-      icon.textContent = '−';
-    });
-
-    collapseEl.addEventListener('hide.bs.collapse', () => {
-      icon.textContent = '+';
-    });
-  });
-</script>
 
 		<?php include 'includes/script.php'; ?>
 		<script>
@@ -1145,10 +1175,19 @@
 			});
 		</script>
 
+		<script>
+			const toggleButton = document.getElementById('toggleButton');
+			const toggleIcon = document.getElementById('toggleIcon');
+			const collapseElement = document.getElementById('collapseExample');
 
+			collapseElement.addEventListener('show.bs.collapse', function () {
+				toggleIcon.textContent = '−';
+			});
 
-
-
+			collapseElement.addEventListener('hide.bs.collapse', function () {
+				toggleIcon.textContent = '+';
+			});
+		</script>
 	</div>
 
 

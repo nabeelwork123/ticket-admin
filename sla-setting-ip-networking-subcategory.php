@@ -127,7 +127,7 @@
 											<th class="text-purple fs-16 fw-medium">Respond Within</th>
 											<th class="text-purple fs-16 fw-medium">Resolve Within</th>
 											<th class="text-purple fs-16 fw-medium">Select default priority
-															<a class="text-dark" data-bs-toggle="tooltip"
+															<a class="text-purple" data-bs-toggle="tooltip"
 																data-bs-placement="bottom" title=""
 																data-bs-original-title="This priority applies to tickets without a set priority">
 																<i class="fa-solid fa-circle-exclamation"></i>
@@ -139,8 +139,8 @@
 										<tbody class="bg-transparent">
 											<tr>
 												<td>
-													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-square-filled fs-10 me-1 text-danger"></i>Urgent
+													<p class="fs-14 d-inline-flex align-items-center mb-0">
+														<i class="ti ti-cirlce-filled fs-10 me-1 text-danger"></i>Urgent
 													</p>
 												</td>
 												<td>
@@ -184,7 +184,7 @@
 											<tr>
 												<td>
 													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-square-filled fs-10 me-1 text-warning"></i>High
+															class="ti ti-cirlce-filled fs-10 me-1 text-warning"></i>High
 													</p>
 												</td>
 												<td>
@@ -228,7 +228,7 @@
 											<tr>
 												<td>
 													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-square-filled fs-10 me-1 text-purple"></i>Medium
+															class="ti ti-cirlce-filled fs-10 me-1 text-purple"></i>Medium
 													</p>
 												</td>
 												<td>
@@ -272,7 +272,7 @@
 											<tr>
 												<td>
 													<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-															class="ti ti-square-filled fs-10 me-1 text-success"></i>Low
+															class="ti ti-cirlce-filled fs-10 me-1 text-success"></i>Low
 													</p>
 												</td>
 												<td>
@@ -379,9 +379,9 @@
 								</div> -->
 							</div>
 
-							<div class="col-lg-8 bg-white py-3 px-3 rounded-3 mt-3">
+							<div class="col-lg-8 sest py-3 px-3 rounded-3 mt-3">
 								<label class="form-label">Select recipients you wish to send escalation notice to</label>
-								<select class="js-example-placeholder-multiple select2 js-states "
+								<select class="js-example-placeholder-multiple select2 js-states  "
 									multiple="multiple">
 									<option value="fr-1">Michael Anderson</option>
 									<option value="fr-2">Emily Thompson</option>
