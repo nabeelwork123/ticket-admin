@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Admin Dashboard | Create New Category </title>
+	<title>Create New Category  | Admin Ticketing </title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -200,7 +200,7 @@
 												<option>Peter Holmes</option>
 											</select> -->
 											<div class="add-category mt-md-4 mt-2">
-												<a href=""  class="text-info fs-14 fw-500">+ Add new sub-category</a>
+												<a href="javascript:;"  class="text-info fs-14 fw-500">+ Add new sub-category</a>
 											</div>
 											<div class="mt-md-4 mt-2">
 												<a  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal123">Save & Submit  </a>

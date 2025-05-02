@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Admin Dashboard | Default SLA Policy </title>
+	<title>  Default SLA Policy | Admin Ticketing </title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -409,11 +409,11 @@
 								<label class="form-label">Select recipients you wish to send escalation notice to</label>
 								<select class="js-example-placeholder-multiple select2 js-states "
 									multiple="multiple">
-									<option value="fr-1">Michael Anderson</option>
-									<option value="fr-2">Emily Thompson</option>
-									<option value="fr-3">Daniel Brooks</option>
-									<option value="fr-4">Sophia Carter</option>
-									<option value="fr-5">James Preston</option>
+									<option value="fr-1">Noah Thompson</option>
+									<option value="fr-2">Sophia Martinez</option>
+									<option value="fr-3">James Patel</option>
+									<option value="fr-4">Isabella Nguyen</option>
+									<option value="fr-5">Ethan Roberts</option>
 									<option value="fr-6">Olivia Bennett</option>
 								</select>
 								</div>

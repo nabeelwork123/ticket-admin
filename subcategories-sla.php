@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Ticketing System | Admin</title>
+	<title> Subcategory SLA Overview | Admin Ticketing</title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -126,14 +126,14 @@
 								<tr>
 								<td>Networking</td>
 								<td>IP Issue</td>
-								<td>2 hr</td>
-								<td>3 mins</td>
-								<td>4 hrs</td>
-								<td>30 mins</td>
-								<td>15 mins</td>
-								<td>45 mins</td>
-								<td>2 days</td>
-								<td>4 days</td>
+								<td>15 Mins</td>
+								<td>1 Hr</td>
+								<td>3 Hrs</td>
+								<td>5 Hrs</td>
+								<td>3 Hrs</td>
+								<td>6 Hrs</td>
+								<td>1 Day</td>
+								<td>2 Days</td>
 								<td>
 									<div class="d-flex justify-content-between">
 										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>
@@ -145,15 +145,15 @@
 								<!-- Add more rows as needed -->
 								<tr>
 								<td>Networking</td>
-								<td>IP Issue</td>
-								<td>2 hr</td>
-								<td>3 mins</td>
-								<td>4 hrs</td>
-								<td>30 mins</td>
-								<td>15 mins</td>
-								<td>45 mins</td>
-								<td>2 days</td>
-								<td>4 days</td>
+								<td>Ethernet Issue</td>
+								<td>10 Mins</td>
+								<td>45 Mins</td>
+								<td>2 Hrs</td>
+								<td>4 Hrs</td>
+								<td>2 Hrs</td>
+								<td>4 Hrs</td>
+								<td>8 Hrs</td>
+								<td>1 Day</td>
 								<td>
 									<div class="d-flex justify-content-between">
 										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>
@@ -167,15 +167,15 @@
 								<!-- Add more rows as needed -->
 								<tr>
 								<td>Networking</td>
-								<td>IP Issue</td>
-								<td>2 hr</td>
-								<td>3 mins</td>
-								<td>4 hrs</td>
-								<td>30 mins</td>
-								<td>15 mins</td>
-								<td>45 mins</td>
-								<td>2 days</td>
-								<td>4 days</td>
+								<td>Broadcasting Issue</td>
+								<td>20 Mins</td>
+								<td>2 Hrs</td>
+								<td>3 Hrs</td>
+								<td>4 Hrs</td>
+								<td>4 Hrs</td>
+								<td>8 Hrs</td>
+								<td>1 Day</td>
+								<td>2 Days</td>
 								<td>
 									<div class="d-flex justify-content-between">
 										<a href="sla-setting-ip-networking-subcategory.php" class="fs-10 text-body"><i class="fa-solid fa-eye"></i></a>

@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Admin Dashboard | Create Subcategories SLA  </title>
+	<title>Create Subcategories SLA  | Admin Ticketing  </title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -437,12 +437,12 @@
 								<label class="form-label mt-3">Select recipients you wish to send escalation notice to</label>
 								<select class="js-example-placeholder-multiple select2 js-states border-primary border-1"
 									multiple="multiple">
-									<option value="fr-1">Michael Anderson</option>
-									<option value="fr-2">Emily Thompson</option>
-									<option value="fr-3">Daniel Brooks</option>
-									<option value="fr-4">Sophia Carter</option>
-									<option value="fr-5">James Preston</option>
-									<option value="fr-6">Olivia Bennett</option>
+									<option value="fr-1">Noah Thompson</option>
+									<option value="fr-2">Sophia Martinez</option>
+									<option value="fr-3">James Patel</option>
+									<option value="fr-4">Isabella Nguyen</option>
+									<option value="fr-5">Ethan Roberts</option>
+								
 								</select>
 								</div>
 							</div>

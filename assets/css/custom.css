@@ -933,7 +933,7 @@ counter-reset: item;
 .clrg{
    color: #28a745; 
 }
-.clrg{
+.clrgr{
    color: #6c757d; 
 }
 .clro{
@@ -950,11 +950,11 @@ counter-reset: item;
 }
 .admor-plus{
     border: 2px dashed #e5e7eb;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
     display: flex;
     justify-content: center;
     width: 100%;

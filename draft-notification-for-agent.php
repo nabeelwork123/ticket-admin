@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Admin Dashboard | Draft Notification for Agent </title>
+	<title> Draft Notifications	| Admin Ticketing  </title>
 
 
 	<?php include 'includes/style.php'; ?>

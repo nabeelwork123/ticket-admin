@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="robots" content="">
-	<title>Admin Dashboard | All Categories </title>
+	<title>All Categories | Admin Ticketing</title>
 
 
 	<?php include 'includes/style.php'; ?>
@@ -145,24 +145,18 @@
 											<div class="col-xl-11 col-lg-11">
 											<div class="row mt-2">
 											<div class="col-lg-4 ">
-												
-
-												
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<div><span class="fs-16 text-dark">Sales Issue <a href="javascript:;"
-																data-bs-toggle="modal"
-																data-bs-target="#exampleModaleditname"><i
-																	class="fa-solid fa-pen fs-10"></i></a></span></div>
+														<div><span class="fs-16 text-dark">Sales Issue 
+															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
+																<i class="fa-solid fa-pen fs-10"></i></a></span>
+																</div>
 														<div>
 														<button class="btn collapsed w-100 d-flex justify-content-between"
 															type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
 														<span class="toggleIcon">+</span> 
 													</button>
 														</div>
-													
-														
-
 													</div>
 													<div class="faq-sidebar-body collapse" id="collapse1">
 														<div class="faq-sidebar-body-inner">
@@ -216,8 +210,7 @@
 
 
 														<div class="faq-sidebar-body-inner mt-2">
-															<div
-																class="d-flex align-items-center justify-content-between mb-3">
+															<div class="d-flex align-items-baseline justify-content-between mb-3">
 																<span class="text-info d-block fs-14">Assigned Support
 																	Agents (4) </span>
 																<span class="text-body d-block fs-12 mb-2"><a href="">
@@ -225,58 +218,54 @@
 															</div>
 
 															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-25.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-25.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Oliver Smith  </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Senior IT Support Specialist</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-18.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-18.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Ava Johnson </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Network Administrator</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-30.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-30.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Liam Carter </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Systems Analyst</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-14.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-14.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Emily Davis  </p>
+																	<span class="fs-12 d-block mb-0 fs-12">IT Helpdesk Technician</span>
 																</div>
 															</div>
 
@@ -285,36 +274,33 @@
 														<div class="faq-sidebar-body-inner mt-2">
 															<div
 																class="d-flex align-items-center justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Escalation Contact
-																	Points (2) </span>
+																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
 																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
 															</div>
 
 															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-11.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-11.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Noah Thompson </p>
+																	<span class="fs-12 d-block mb-0 fs-12"> IT Security Analyst</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-24.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-24.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Sophia Martinez </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Technical Support Engineer</span>
 																</div>
 															</div>
 
@@ -394,7 +380,7 @@
 										</div>
 											</div>
 											<div class="col-xl-1 col-lg-1">
-												<a class="admor-plus">
+												<a class="admor-plus" href="create-new-category.php">
 												<i class="fa-solid fa-plus"></i>
 												</a>
 											</div>
@@ -428,24 +414,19 @@
 										<div class="row align-items-baseline">
 											<div class="col-xl-11 col-lg-11">
 											<div class="row mt-2">
-											<div class="col-lg-4">
+											<div class="col-lg-4 ">
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<div>
-														<span class="fs-16 text-dark">Sales Issue <a href="javascript:;"
-																data-bs-toggle="modal"
-																data-bs-target="#exampleModaleditname"><i
-																	class="fa-solid fa-pen fs-10"></i>
-																</a></span>
-														</div>
+														<div><span class="fs-16 text-dark">Sales Issue 
+															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
+																<i class="fa-solid fa-pen fs-10"></i></a></span>
+																</div>
 														<div>
 														<button class="btn collapsed w-100 d-flex justify-content-between"
 															type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
 														<span class="toggleIcon">+</span> 
 													</button>
 														</div>
-													
-
 													</div>
 													<div class="faq-sidebar-body collapse" id="collapse4">
 														<div class="faq-sidebar-body-inner">
@@ -453,7 +434,7 @@
 															<span class="text-body d-block fs-14 mb-2">Default/User
 																defined</span>
 															<div class="table-responsive">
-																<table class="table table-borderless ">
+																<table class="table table-borderless innser-table">
 																	<thead>
 																		<tr>
 																			<th scope="col"></th>
@@ -499,8 +480,7 @@
 
 
 														<div class="faq-sidebar-body-inner mt-2">
-															<div
-																class="d-flex align-items-center justify-content-between mb-3">
+															<div class="d-flex align-items-baseline justify-content-between mb-3">
 																<span class="text-info d-block fs-14">Assigned Support
 																	Agents (4) </span>
 																<span class="text-body d-block fs-12 mb-2"><a href="">
@@ -508,58 +488,54 @@
 															</div>
 
 															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-25.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-25.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Oliver Smith  </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Senior IT Support Specialist</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-18.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-18.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Ava Johnson </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Network Administrator</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-30.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-30.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Liam Carter </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Systems Analyst</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-14.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-14.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Emily Davis  </p>
+																	<span class="fs-12 d-block mb-0 fs-12">IT Helpdesk Technician</span>
 																</div>
 															</div>
 
@@ -568,36 +544,33 @@
 														<div class="faq-sidebar-body-inner mt-2">
 															<div
 																class="d-flex align-items-center justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Escalation Contact
-																	Points (2) </span>
+																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
 																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
 															</div>
 
 															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-11.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-11.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Noah Thompson </p>
+																	<span class="fs-12 d-block mb-0 fs-12"> IT Security Analyst</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-24.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-24.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Sophia Martinez </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Technical Support Engineer</span>
 																</div>
 															</div>
 
@@ -715,22 +688,19 @@
 										<div class="row align-items-baseline">
 											<div class="col-xl-11 col-lg-11">
 											<div class="row mt-2">
-											<div class="col-lg-4">
+											<div class="col-lg-4 ">
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<div>
-														<span class="fs-16 text-dark">Sales Issue <a href="javascript:;"
-																data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
+														<div><span class="fs-16 text-dark">Sales Issue 
+															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
 																<i class="fa-solid fa-pen fs-10"></i></a></span>
-														</div>
+																</div>
 														<div>
-														<button class="btn collapsed w-100 d-flex justify-content-between align-items-center mb-0"
-														type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
-															<span class="toggleIcon">+</span>
-                                                      </button>
+														<button class="btn collapsed w-100 d-flex justify-content-between"
+															type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+														<span class="toggleIcon">+</span> 
+													</button>
 														</div>
-														
-
 													</div>
 													<div class="faq-sidebar-body collapse" id="collapse7">
 														<div class="faq-sidebar-body-inner">
@@ -738,7 +708,7 @@
 															<span class="text-body d-block fs-14 mb-2">Default/User
 																defined</span>
 															<div class="table-responsive">
-																<table class="table table-borderless ">
+																<table class="table table-borderless innser-table">
 																	<thead>
 																		<tr>
 																			<th scope="col"></th>
@@ -784,8 +754,7 @@
 
 
 														<div class="faq-sidebar-body-inner mt-2">
-															<div
-																class="d-flex align-items-center justify-content-between mb-3">
+															<div class="d-flex align-items-baseline justify-content-between mb-3">
 																<span class="text-info d-block fs-14">Assigned Support
 																	Agents (4) </span>
 																<span class="text-body d-block fs-12 mb-2"><a href="">
@@ -793,58 +762,54 @@
 															</div>
 
 															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-25.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-25.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Oliver Smith  </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Senior IT Support Specialist</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-18.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-18.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Ava Johnson </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Network Administrator</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-30.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-30.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Liam Carter </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Systems Analyst</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-14.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-14.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Emily Davis  </p>
+																	<span class="fs-12 d-block mb-0 fs-12">IT Helpdesk Technician</span>
 																</div>
 															</div>
 
@@ -853,36 +818,33 @@
 														<div class="faq-sidebar-body-inner mt-2">
 															<div
 																class="d-flex align-items-center justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Escalation Contact
-																	Points (2) </span>
+																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
 																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
 															</div>
 
 															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-11.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-11.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Noah Thompson </p>
+																	<span class="fs-12 d-block mb-0 fs-12"> IT Security Analyst</span>
 																</div>
 															</div>
 
 															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-32.webp"
+																<a href="assets/img/users/user-24.webp"
 																	data-fancycard="gallery" data-caption=""
 																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-32.webp"
+																	<img src="assets/img/users/user-24.webp"
 																		class="img-fluid rounded-3 " alt="img">
 																</a>
 																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Michael Philips </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Product
-																		manager</span>
+																	<p class="text-dark mb-0 fs-14">Sophia Martinez </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Technical Support Engineer</span>
 																</div>
 															</div>
 
@@ -963,7 +925,7 @@
 											</div>
 											
 											<div class="col-xl-1 col-lg-1">
-												<a class="admor-plus">
+												<a class="admor-plus" href="create-new-category.php">
 												<i class="fa-solid fa-plus"></i>
 												</a>
 											
