@@ -71,7 +71,7 @@
 					</div>
 				</div> -->
 
-					<div class="imp-hvr">
+					<!-- <div class="imp-hvr">
 						<div class="imp-hover-trigger d-flex justify-content-end" style="position: relative;">
 							<a href="javascript:;" class="imp-nt">Important Notes <i
 									class="fa-solid fa-circle-exclamation"></i></a>
@@ -104,7 +104,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<!-- /Breadcrumb -->
 

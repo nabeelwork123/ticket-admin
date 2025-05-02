@@ -79,27 +79,9 @@
 							<div class="imp-hvr-box">
 								<div class="row">
 									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Default SLA:</span>
-										<p class="fs-12 text-body">Each ticket management system has a default SLA. This
-											will be the default whenever a ticket is created in your ticket management
-											system. You also have the option of selecting a different default SLA for
-											specific sub-categories. You can do that by going on SLAs by categoies tab.
+										<span class="fs-16 d-block fw-bold text-dark">Create New Category</span>
+										<p class="fs-12 text-body">Choose the category name carefully, as it serves as the foundation for organizing your ticket structure. All related sub-categories will be created under this main category, so accuracy and clarity at this stage are crucial for maintaining a logical and efficient ticketing system.
 										</p>
-									</div>
-
-									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Reminders Policy:</span>
-										<p class="fs-12 text-body">A standard reminder policy will applied on all
-											tickets and categories before the Response Time and Resolve Time are
-											reached. The reminder emails can be tailored to your needs by navigating to
-											the Notifications tab.</p>
-									</div>
-
-									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Escalation Rules:</span>
-										<p class="fs-12 text-body">Standard escalation rules will be applied on tickets
-											and categories in case of SLA violations. You can customize the emails
-											dispatched during such violations through the Notifications tab.</p>
 									</div>
 								</div>
 							</div>

@@ -79,27 +79,20 @@
 							<div class="imp-hvr-box">
 								<div class="row">
 									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Default SLA:</span>
-										<p class="fs-12 text-body">Each ticket management system has a default SLA. This
-											will be the default whenever a ticket is created in your ticket management
-											system. You also have the option of selecting a different default SLA for
-											specific sub-categories. You can do that by going on SLAs by categoies tab.
+										<licy class="fs-16 d-block fw-bold text-dark">1. Default SLA Policy</licy>
+										<p class="fs-12 text-body">The Default SLA Policy defines the standard response and resolution time targets for incoming tickets based on their priority. It ensures consistent service delivery by setting expectations for how quickly tickets should be handled when no custom SLA is applied.
 										</p>
 									</div>
 
 									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Reminders Policy:</span>
-										<p class="fs-12 text-body">A standard reminder policy will applied on all
-											tickets and categories before the Response Time and Resolve Time are
-											reached. The reminder emails can be tailored to your needs by navigating to
-											the Notifications tab.</p>
+										<span class="fs-16 d-block fw-bold text-dark">2. Priority Policy</span>
+										<p class="fs-12 text-body">Priority Policy determines how tickets are categorized—such as Low, Medium, High, or Urgent—based on their urgency and impact. This helps in aligning response efforts and resources with the criticality of the issue.
+										</p>
 									</div>
 
 									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Escalation Rules:</span>
-										<p class="fs-12 text-body">Standard escalation rules will be applied on tickets
-											and categories in case of SLA violations. You can customize the emails
-											dispatched during such violations through the Notifications tab.</p>
+										<span class="fs-16 d-block fw-bold text-dark">3. Escalation Rules</span>
+										<p class="fs-12 text-body">Escalation Rules automatically trigger actions when a ticket remains unresolved within defined time limits. These rules help prevent delays by notifying higher-level staff or reassigning tickets to ensure timely resolution.</p>
 									</div>
 								</div>
 							</div>

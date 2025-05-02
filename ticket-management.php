@@ -89,7 +89,7 @@
 									<!-- <p class="text-body fs-12">List of ticket open by Customers</p> -->
 								</div>
 								<div class="d-flex align-items-center justify-content-end me-2">
-									<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1"class="btn btn-primary btn-sm h-25 me-0">Search by filters</a>
+									<a href="javascript:;" data-bs-toggle="offcanvas"  data-bs-target="#offcanvas1"class="btn btn-primary btn-sm text-white h-25 me-0">Search by filters</a>
 									<!-- <div class="btn-group me-2 py-2">
 										<button type="button" class="btn btn-secondary btn-sm dropdown-toggle"
 											data-bs-toggle="dropdown" aria-expanded="false">
@@ -2334,49 +2334,33 @@
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Ticket ID">
 								</div>
-								<!-- <div class="mb-3 d-none">
-									<label class="form-label  mb-1">Ticket ID</label>
-									<p class="text-dark">128B</p>
-									
-								</div> -->
+								
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Subject">
-									<!-- <select class="form-select">
-										<option></option>
-										<option></option>
-										<option></option>
-										<option></option>
-									</select> -->
+								
 								</div>								
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Employee name ">
-									<!-- <select class="form-select">
-										<option></option>
-										<option></option>
-										<option></option>
-										<option></option>
-									</select> -->
+									
 								</div>
 
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<input type="text" class="form-control" placeholder="Floor Number">
-									<!-- <select class="form-select">
-										<option></option>
-										<option></option>
-										<option></option>
-										<option></option>
-									</select> -->
+									
 								</div>
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<select class="form-select" placeholder="">
 										<option selected>Assignee</option>
-										<option>Jack</option>
-										<option>Oliver</option>
-										<option>Sarah</option>
+										<option>Michael Anderson</option>
+										<option>Emily Thompson</option>
+										<option>Daniel Brooks</option>
+										<option>Sophia Carter</option>
+										<option>James Preston</option>
+										<option>Olivia Bennett</option>
 
 									</select>
 								</div>								
@@ -2385,14 +2369,18 @@
 									<select class="form-select" placeholder="">
 										<option selected>Status</option>
 										<option>Open</option>
-										<option>Close</option>
-
+										<option>Overdue</option>
+										<option>Resolved</option>
+										<option>Closed</option>
+										<option>Reopened</option>
+										<option>Not Picked</option>
 									</select>
 								</div>
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
 									<select class="form-select" placeholder="">
 										<option selected>Priority</option>
+										<option>Urgent</option>
 										<option>High</option>
 										<option>Medium</option>
 										<option>Low</option>
@@ -2465,6 +2453,13 @@
 					console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
 				});
 			});
+
+			$(document).ready(function() {
+        $('.js-example-placeholder-multiple').select2({
+            placeholder: "Mark to employee",
+            allowClear: true
+        });
+    });
 		</script>
 
 </body>

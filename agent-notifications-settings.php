@@ -72,40 +72,7 @@
 					</div>
 				</div> -->
 
-					<div class="imp-hvr">
-						<div class="imp-hover-trigger d-flex justify-content-end" style="position: relative;">
-							<a href="javascript:;" class="imp-nt">Important Notes <i
-									class="fa-solid fa-circle-exclamation"></i></a>
-
-							<div class="imp-hvr-box">
-								<div class="row">
-									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Default SLA:</span>
-										<p class="fs-12 text-body">Each ticket management system has a default SLA. This
-											will be the default whenever a ticket is created in your ticket management
-											system. You also have the option of selecting a different default SLA for
-											specific sub-categories. You can do that by going on SLAs by categoies tab.
-										</p>
-									</div>
-
-									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Reminders Policy:</span>
-										<p class="fs-12 text-body">A standard reminder policy will applied on all
-											tickets and categories before the Response Time and Resolve Time are
-											reached. The reminder emails can be tailored to your needs by navigating to
-											the Notifications tab.</p>
-									</div>
-
-									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Escalation Rules:</span>
-										<p class="fs-12 text-body">Standard escalation rules will be applied on tickets
-											and categories in case of SLA violations. You can customize the emails
-											dispatched during such violations through the Notifications tab.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 				<!-- /Breadcrumb -->
 
