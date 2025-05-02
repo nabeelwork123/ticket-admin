@@ -131,7 +131,7 @@
 
 						<div class="card">
 							<div class="card-header border-0">
-								<h4 class="card-title mb-0">Set your default SLA policy</h4>
+								<h4 class="fs-15 fw-600 text-dark mb-3">1. Set your default SLA policy</h4>
 
 							</div>
 							<div class="row">
@@ -374,7 +374,7 @@
 						</div> -->
 
 						<div class="row align-items-center mb-3 px-2">
-							<h4 class="fs-15 fw-600 text-dark mb-3">Your default reminder policy</h4>
+							<h4 class="fs-15 fw-600 text-dark mb-3">2. Your default reminder policy</h4>
 							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
 								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
 										class="text-primary">5 mins before response time ends:</span> Reminder to admin
@@ -388,7 +388,7 @@
 
 
 						<div class="row align-items-center mb-3 px-2">
-							<h4 class="fs-15 fw-600 text-dark mb-3">Your default escalation policy</h4>
+							<h4 class="fs-15 fw-600 text-dark mb-3">3. Your default escalation policy</h4>
 							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
 								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
 										class="text-primary">Immediately after response time ends:</span> Reminder to
@@ -411,27 +411,7 @@
 								</select>
 								</div>
 
-								<div class="col-lg-8 py-3 px-3 rounded-3 lg-org-bg mt-3">
-
-									<span class="fs-14 fw-bold text-dark mb-3">Important <i class="fa-solid fa-circle-exclamation text-dark ms-1"></i></span>
-									<p class="fs-12 text-body">Do you wish to create unique SLA for every subcategory
-										set in this category?</p>
-									<div class="form-check form-check-inline">
-										<input class="form-check-input" type="radio" name="radioDefault"
-											id="radioDefault1">
-										<label class="form-check-label" for="radioDefault1">
-											Yes
-										</label>
-									</div>
-									<div class="form-check form-check-inline">
-										<input class="form-check-input" type="radio" name="radioDefault"
-											id="radioDefault2" checked>
-										<label class="form-check-label" for="radioDefault2">
-											No
-										</label>
-									</div>
-
-								</div>
+								
 								<!-- <div class="esc-box-out">
 									<div class="esc-box">
 										<label>Escalation notification recieptents</label>
@@ -444,7 +424,27 @@
 									</div>
 								</div> -->
 							</div>
+						<div class="col-lg-8 py-3 px-3 rounded-3 lg-org-bg mt-3">
 
+							<span class="fs-14 fw-bold text-dark mb-3">Important <i class="fa-solid fa-circle-exclamation text-dark ms-1"></i></span>
+							<p class="fs-12 text-body">Do you wish to create unique SLA for every subcategory
+								set in this category?</p>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="radioDefault"
+									id="radioDefault1">
+								<label class="form-check-label" for="radioDefault1">
+									Yes
+								</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="radioDefault"
+									id="radioDefault2" checked>
+								<label class="form-check-label" for="radioDefault2">
+									No
+								</label>
+							</div>
+
+							</div>
 
 						</div>
 

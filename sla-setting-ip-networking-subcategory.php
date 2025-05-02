@@ -71,40 +71,7 @@
 					</div>
 				</div> -->
 
-					<div class="imp-hvr">
-						<div class="imp-hover-trigger d-flex justify-content-end" style="position: relative;">
-							<a href="javascript:;" class="imp-nt">Important Notes <i
-									class="fa-solid fa-circle-exclamation"></i></a>
-
-							<div class="imp-hvr-box">
-								<div class="row">
-									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Default SLA:</span>
-										<p class="fs-12 text-body">Each ticket management system has a default SLA. This
-											will be the default whenever a ticket is created in your ticket management
-											system. You also have the option of selecting a different default SLA for
-											specific sub-categories. You can do that by going on SLAs by categoies tab.
-										</p>
-									</div>
-
-									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Reminders Policy:</span>
-										<p class="fs-12 text-body">A standard reminder policy will applied on all
-											tickets and categories before the Response Time and Resolve Time are
-											reached. The reminder emails can be tailored to your needs by navigating to
-											the Notifications tab.</p>
-									</div>
-
-									<div class="col-lg-12 mb-2">
-										<span class="fs-16 d-block fw-bold text-dark">Escalation Rules:</span>
-										<p class="fs-12 text-body">Standard escalation rules will be applied on tickets
-											and categories in case of SLA violations. You can customize the emails
-											dispatched during such violations through the Notifications tab.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 				<!-- /Breadcrumb -->
 
@@ -357,7 +324,7 @@
 
 
 						<div class="row align-items-center mb-3 px-2">
-							<h4 class="fs-15 fw-600 text-dark mb-3">Your default escalation policy</h4>
+							<h4 class="fs-15 fw-600 text-dark mb-3">3. Your default escalation policy</h4>
 							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
 								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
 										class="text-primary">Immediately after response time ends:</span> Reminder to
@@ -377,9 +344,7 @@
 										</ul>
 									</div>
 								</div> -->
-							</div>
-
-							<div class="col-lg-8 sest py-3 px-3 rounded-3 mt-3">
+								<div class="col-lg-8 sest py-3 px-3 rounded-3 mt-3">
 								<label class="form-label">Select recipients you wish to send escalation notice to</label>
 								<select class="js-example-placeholder-multiple select2 js-states  "
 									multiple="multiple">
@@ -391,6 +356,9 @@
 									<option value="fr-6">Olivia Bennett</option>
 								</select>
 								</div>
+							</div>
+
+							
 						</div>
 
 

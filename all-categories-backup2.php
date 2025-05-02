@@ -129,7 +129,7 @@
 										IT support
 										<div class="a-crown-box">
 											<span class="fs-12 px-2"><i class="fa-solid fa-crown"></i></span>
-											<span class="fs-12">Jason Smith</span>
+											<span class="fs-12">Muhammad Fareed</span>
 											<a class="fs-12 px-2" href="javascript:;" data-bs-toggle="modal"
 												data-bs-target="#exampleModaledit"><i class="fa-solid fa-pen"></i></a>
 										</div>
@@ -147,8 +147,8 @@
 											<div class="col-lg-4 ">
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<div><span class="fs-12 text-dark">Laptop 
-															<a class="fs-12" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
+														<div><span class="fs-16 text-dark">Sales Issue 
+															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
 																<i class="fa-solid fa-pen fs-10"></i></a></span>
 																</div>
 														<div>
@@ -160,16 +160,9 @@
 													</div>
 													<div class="faq-sidebar-body collapse" id="collapse1">
 														<div class="faq-sidebar-body-inner">
-															<div class="d-flex align-items-center justify-content-between">
-																<div>
-																<span class="text-info d-block fs-14">SLA Status</span>
-																<span class="text-body d-block fs-14 mb-2">Default/User	defined</span>
-																</div>
-																<div>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
-																</div>
-															</div>
-															
+															<span class="text-info d-block fs-14">SLA Status</span>
+															<span class="text-body d-block fs-14 mb-2">Default/User
+																defined</span>
 															<div class="table-responsive">
 																<table class="table table-borderless innser-table">
 																	<thead>
@@ -220,7 +213,7 @@
 															<div class="d-flex align-items-baseline justify-content-between mb-3">
 																<span class="text-info d-block fs-14">Assigned Support
 																	Agents (4) </span>
-																<span class="text-body d-block fs-12 mb-2"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalassign">
+																<span class="text-body d-block fs-12 mb-2"><a href="">
 																		<i class="fa-solid fa-pen"></i></a></span>
 															</div>
 
@@ -282,7 +275,6 @@
 															<div
 																class="d-flex align-items-center justify-content-between mb-3">
 																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
 																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
 															</div>
 
@@ -322,8 +314,8 @@
 
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-													<div><span class="fs-12 text-dark">Work station 
-															<a class="fs-12" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
+													<div><span class="fs-16 text-dark">Sales Issue 
+															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
 																<i class="fa-solid fa-pen fs-10"></i></a></span>
 																</div>
 														<div>
@@ -336,167 +328,28 @@
 
 													<div class="faq-sidebar-body collapse" id="collapse2">
 														<div class="faq-sidebar-body-inner">
-														<div class="d-flex align-items-center justify-content-between">
-																<div>
-																<span class="text-info d-block fs-14">SLA Status</span>
-																<span class="text-body d-block fs-14 mb-2">Default/User	defined</span>
-																</div>
-																<div>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
-																</div>
-															</div>
-															<div class="table-responsive">
-																<table class="table table-borderless innser-table">
-																	<thead>
-																		<tr>
-																			<th scope="col"></th>
-																			<th scope="col" class="text-primary">Respose
-																			</th>
-																			<th scope="col" class="text-primary">Resolve
-																			</th>
-																			<th scope="col"></th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																		<tr>
-																			<td><b class="text-dark">Urgent</b> </td>
-																			<td>3 hrs</td>
-																			<td>3 hrs</td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td><b class="text-dark">High</b> </td>
-																			<td>3 mis</td>
-																			<td>3 mis</td>
-																			<td></td>
-																		</tr>
-																		<tr class="etrbg"
-																			style="background-color:#D8F2FF!important;">
-																			<td><b class="text-dark">Medium</b> </td>
-																			<td>5 days</td>
-																			<td>5 days</td>
-																			<td><b
-																					class="text-purple"><i>Default</i></b>
-																			</td>
-																		</tr>
-																		<tr>
-																			<td><b class="text-dark">Low</b> </td>
-																			<td>7 days</td>
-																			<td>7 days</td>
-																			<td></td>
-																		</tr>
-																	</tbody>
-																</table>
-															</div>
+															<span class="text-info d-block fs-14">SLA Status:</span>
+															<span class="text-body d-block fs-14 mb-0">Default/User
+																defined</span>
+														</div>
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Assigned Support Agents(4)</span>
 														</div>
 
-
-														<div class="faq-sidebar-body-inner mt-2">
-															<div class="d-flex align-items-baseline justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Assigned Support
-																	Agents (4) </span>
-																<span class="text-body d-block fs-12 mb-2"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalassign">
-																		<i class="fa-solid fa-pen"></i></a></span>
-															</div>
-
-															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-25.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-25.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Oliver Smith  </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Senior IT Support Specialist</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-18.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-18.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Ava Johnson </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Network Administrator</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-30.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-30.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Liam Carter </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Systems Analyst</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-14.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-14.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Emily Davis  </p>
-																	<span class="fs-12 d-block mb-0 fs-12">IT Helpdesk Technician</span>
-																</div>
-															</div>
-
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-
-														<div class="faq-sidebar-body-inner mt-2">
-															<div
-																class="d-flex align-items-center justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
-																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
-															</div>
-
-															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-11.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-11.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Noah Thompson </p>
-																	<span class="fs-12 d-block mb-0 fs-12"> IT Security Analyst</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-24.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-24.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Sophia Martinez </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Technical Support Engineer</span>
-																</div>
-															</div>
-
-
-														</div>
+														
 													</div>
 												</div>
 											</div>
 											<div class="col-lg-4">
+
+
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-													<div><span class="fs-12 text-dark">Keyboard 
-															<a class="fs-12" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
+													<div><span class="fs-16 text-dark">Sales Issue 
+															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
 																<i class="fa-solid fa-pen fs-10"></i></a></span>
 																</div>
 														<div>
@@ -509,159 +362,18 @@
 
 													<div class="faq-sidebar-body collapse" id="collapse3">
 														<div class="faq-sidebar-body-inner">
-														<div class="d-flex align-items-center justify-content-between">
-																<div>
-																<span class="text-info d-block fs-14">SLA Status</span>
-																<span class="text-body d-block fs-14 mb-2">Default/User	defined</span>
-																</div>
-																<div>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
-																</div>
-															</div>
-															<div class="table-responsive">
-																<table class="table table-borderless innser-table">
-																	<thead>
-																		<tr>
-																			<th scope="col"></th>
-																			<th scope="col" class="text-primary">Respose
-																			</th>
-																			<th scope="col" class="text-primary">Resolve
-																			</th>
-																			<th scope="col"></th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																		<tr>
-																			<td><b class="text-dark">Urgent</b> </td>
-																			<td>3 hrs</td>
-																			<td>3 hrs</td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td><b class="text-dark">High</b> </td>
-																			<td>3 mis</td>
-																			<td>3 mis</td>
-																			<td></td>
-																		</tr>
-																		<tr class="etrbg"
-																			style="background-color:#D8F2FF!important;">
-																			<td><b class="text-dark">Medium</b> </td>
-																			<td>5 days</td>
-																			<td>5 days</td>
-																			<td><b
-																					class="text-purple"><i>Default</i></b>
-																			</td>
-																		</tr>
-																		<tr>
-																			<td><b class="text-dark">Low</b> </td>
-																			<td>7 days</td>
-																			<td>7 days</td>
-																			<td></td>
-																		</tr>
-																	</tbody>
-																</table>
-															</div>
+															<span class="text-info d-block fs-14">SLA Status:</span>
+															<span class="text-body d-block fs-14 mb-0">Default/User
+																defined</span>
+														</div>
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Assigned Support Agents(4)</span>
 														</div>
 
-
-														<div class="faq-sidebar-body-inner mt-2">
-															<div class="d-flex align-items-baseline justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Assigned Support
-																	Agents (4) </span>
-																<span class="text-body d-block fs-12 mb-2"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalassign">
-																		<i class="fa-solid fa-pen"></i></a></span>
-															</div>
-
-															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-25.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-25.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Oliver Smith  </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Senior IT Support Specialist</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-18.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-18.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Ava Johnson </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Network Administrator</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-30.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-30.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Liam Carter </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Systems Analyst</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-14.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-14.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Emily Davis  </p>
-																	<span class="fs-12 d-block mb-0 fs-12">IT Helpdesk Technician</span>
-																</div>
-															</div>
-
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-
-														<div class="faq-sidebar-body-inner mt-2">
-															<div
-																class="d-flex align-items-center justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
-																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
-															</div>
-
-															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-11.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-11.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Noah Thompson </p>
-																	<span class="fs-12 d-block mb-0 fs-12"> IT Security Analyst</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-24.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-24.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Sophia Martinez </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Technical Support Engineer</span>
-																</div>
-															</div>
-
-
-														</div>
+														
 													</div>
 												</div>
 											</div>
@@ -687,12 +399,12 @@
 										Customer support
 										<div class="a-crown-box">
 											<span class="fs-12 px-2"><i class="fa-solid fa-crown"></i></span>
-											<span class="fs-12">Jason Smith</span>
+											<span class="fs-12">Muhammad Fareed</span>
 											<a class="fs-12 px-2" href="javascript:;" data-bs-toggle="modal"
 												data-bs-target="#exampleModaledit"><i class="fa-solid fa-pen"></i></a>
 										</div>
 
-										<span class="cts-badge">2 subcategories</span>
+										<span class="cts-badge">3 subcategories</span>
 									</button>
 								</h2>
 								<div id="SpacingTwo" class="accordion-collapse collapse"
@@ -705,7 +417,7 @@
 											<div class="col-lg-4 ">
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-														<div><span class="fs-12 text-dark">Sales Issue 
+														<div><span class="fs-16 text-dark">Sales Issue 
 															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
 																<i class="fa-solid fa-pen fs-10"></i></a></span>
 																</div>
@@ -718,15 +430,9 @@
 													</div>
 													<div class="faq-sidebar-body collapse" id="collapse4">
 														<div class="faq-sidebar-body-inner">
-														<div class="d-flex align-items-center justify-content-between">
-																<div>
-																<span class="text-info d-block fs-14">SLA Status</span>
-																<span class="text-body d-block fs-14 mb-2">Default/User	defined</span>
-																</div>
-																<div>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
-																</div>
-															</div>
+															<span class="text-info d-block fs-14">SLA Status</span>
+															<span class="text-body d-block fs-14 mb-2">Default/User
+																defined</span>
 															<div class="table-responsive">
 																<table class="table table-borderless innser-table">
 																	<thead>
@@ -777,8 +483,7 @@
 															<div class="d-flex align-items-baseline justify-content-between mb-3">
 																<span class="text-info d-block fs-14">Assigned Support
 																	Agents (4) </span>
-																<span class="text-body d-block fs-12 mb-2">
-																	<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalassign">
+																<span class="text-body d-block fs-12 mb-2"><a href="">
 																		<i class="fa-solid fa-pen"></i></a></span>
 															</div>
 
@@ -840,7 +545,6 @@
 															<div
 																class="d-flex align-items-center justify-content-between mb-3">
 																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
 																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
 															</div>
 
@@ -880,7 +584,7 @@
 
 												<div class="faq-sidebar">
 													<div class="faq-sidebar-header">
-													<div><span class="fs-12 text-dark">Technical assistance
+													<div><span class="fs-16 text-dark">Sales Issue 
 															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
 																<i class="fa-solid fa-pen fs-10"></i></a></span>
 																</div>
@@ -894,159 +598,18 @@
 
 													<div class="faq-sidebar-body collapse" id="collapse5">
 														<div class="faq-sidebar-body-inner">
-														<div class="d-flex align-items-center justify-content-between">
-																<div>
-																<span class="text-info d-block fs-14">SLA Status</span>
-																<span class="text-body d-block fs-14 mb-2">Default/User	defined</span>
-																</div>
-																<div>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
-																</div>
-															</div>
-															<div class="table-responsive">
-																<table class="table table-borderless innser-table">
-																	<thead>
-																		<tr>
-																			<th scope="col"></th>
-																			<th scope="col" class="text-primary">Respose
-																			</th>
-																			<th scope="col" class="text-primary">Resolve
-																			</th>
-																			<th scope="col"></th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																		<tr>
-																			<td><b class="text-dark">Urgent</b> </td>
-																			<td>3 hrs</td>
-																			<td>3 hrs</td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td><b class="text-dark">High</b> </td>
-																			<td>3 mis</td>
-																			<td>3 mis</td>
-																			<td></td>
-																		</tr>
-																		<tr class="etrbg"
-																			style="background-color:#D8F2FF!important;">
-																			<td><b class="text-dark">Medium</b> </td>
-																			<td>5 days</td>
-																			<td>5 days</td>
-																			<td><b
-																					class="text-purple"><i>Default</i></b>
-																			</td>
-																		</tr>
-																		<tr>
-																			<td><b class="text-dark">Low</b> </td>
-																			<td>7 days</td>
-																			<td>7 days</td>
-																			<td></td>
-																		</tr>
-																	</tbody>
-																</table>
-															</div>
+															<span class="text-info d-block fs-14">SLA Status:</span>
+															<span class="text-body d-block fs-14 mb-0">Default/User
+																defined</span>
+														</div>
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Assigned Support Agents(4)</span>
 														</div>
 
-
-														<div class="faq-sidebar-body-inner mt-2">
-															<div class="d-flex align-items-baseline justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Assigned Support
-																	Agents (4) </span>
-																<span class="text-body d-block fs-12 mb-2"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModalassign">
-																		<i class="fa-solid fa-pen"></i></a></span>
-															</div>
-
-															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-25.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-25.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Oliver Smith  </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Senior IT Support Specialist</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-18.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-18.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Ava Johnson </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Network Administrator</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-30.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-30.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Liam Carter </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Systems Analyst</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-14.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-14.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Emily Davis  </p>
-																	<span class="fs-12 d-block mb-0 fs-12">IT Helpdesk Technician</span>
-																</div>
-															</div>
-
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
 														</div>
-
-														<div class="faq-sidebar-body-inner mt-2">
-															<div
-																class="d-flex align-items-center justify-content-between mb-3">
-																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
-																<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModal123"><i class="fa-solid fa-pen"></i></a>
-																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
-															</div>
-
-															<div class="d-flex align-items-start mb-2">
-																<a href="assets/img/users/user-11.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-11.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Noah Thompson </p>
-																	<span class="fs-12 d-block mb-0 fs-12"> IT Security Analyst</span>
-																</div>
-															</div>
-
-															<div class="d-flex align-items-start mb-3">
-																<a href="assets/img/users/user-24.webp"
-																	data-fancycard="gallery" data-caption=""
-																	class="avatar avatar-lg">
-																	<img src="assets/img/users/user-24.webp"
-																		class="img-fluid rounded-3 " alt="img">
-																</a>
-																<div class="ms-2 mb-2">
-																	<p class="text-dark mb-0 fs-14">Sophia Martinez </p>
-																	<span class="fs-12 d-block mb-0 fs-12">Technical Support Engineer</span>
-																</div>
-															</div>
-
-
-														</div>
+														
 													</div>
 												</div>
 											</div>
@@ -1114,29 +677,265 @@
 										Admin support
 										<div class="a-crown-box">
 											<span class="fs-12 px-2"><i class="fa-solid fa-crown"></i></span>
-											<span class="fs-12">Jason Smith</span>
+											<span class="fs-12">Muhammad Fareed</span>
 											<a class="fs-12 px-2" href="javascript:;" data-bs-toggle="modal"
 												data-bs-target="#exampleModaledit"><i class="fa-solid fa-pen"></i></a>
 										</div>
 
-										<span class="cts-badge">0 subcategories</span>
+										<span class="cts-badge">0 categories</span>
 									</button>
 								</h2>
 								<div id="SpacingThree" class="accordion-collapse collapse"
 									aria-labelledby="headingSpacingThree" data-bs-parent="#accordionSpacingExample">
 									<div class="accordion-body">
-										<div class="row align-items-center">
-									<div class="col-lg-3">
-									<p class="mb-0 fs-14">There is no subcategories created yet.</p>
-									</div>			
-								
-									<div class="col-xl-1 col-lg-1">
+
+										<div class="row align-items-baseline">
+											<div class="col-xl-11 col-lg-11">
+											<div class="row mt-2">
+											<div class="col-lg-4 ">
+												<div class="faq-sidebar">
+													<div class="faq-sidebar-header">
+														<div><span class="fs-16 text-dark">Sales Issue 
+															<a href="javascript:;" data-bs-toggle="modal" data-bs-target="#exampleModaleditname">
+																<i class="fa-solid fa-pen fs-10"></i></a></span>
+																</div>
+														<div>
+														<button class="btn collapsed w-100 d-flex justify-content-between"
+															type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+												<span class="toggleIcon">+</span> 
+													</button>
+														</div>
+													</div>
+													<div class="faq-sidebar-body collapse" id="collapse7">
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info d-block fs-14">SLA Status</span>
+															<span class="text-body d-block fs-14 mb-2">Default/User
+																defined</span>
+															<div class="table-responsive">
+																<table class="table table-borderless innser-table">
+																	<thead>
+																		<tr>
+																			<th scope="col"></th>
+																			<th scope="col" class="text-primary">Respose
+																			</th>
+																			<th scope="col" class="text-primary">Resolve
+																			</th>
+																			<th scope="col"></th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td><b class="text-dark">Urgent</b> </td>
+																			<td>3 hrs</td>
+																			<td>3 hrs</td>
+																			<td></td>
+																		</tr>
+																		<tr>
+																			<td><b class="text-dark">High</b> </td>
+																			<td>3 mis</td>
+																			<td>3 mis</td>
+																			<td></td>
+																		</tr>
+																		<tr class="etrbg"
+																			style="background-color:#D8F2FF!important;">
+																			<td><b class="text-dark">Medium</b> </td>
+																			<td>5 days</td>
+																			<td>5 days</td>
+																			<td><b
+																					class="text-purple"><i>Default</i></b>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td><b class="text-dark">Low</b> </td>
+																			<td>7 days</td>
+																			<td>7 days</td>
+																			<td></td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+
+
+														<div class="faq-sidebar-body-inner mt-2">
+															<div class="d-flex align-items-baseline justify-content-between mb-3">
+																<span class="text-info d-block fs-14">Assigned Support
+																	Agents (4) </span>
+																<span class="text-body d-block fs-12 mb-2"><a href="">
+																		<i class="fa-solid fa-pen"></i></a></span>
+															</div>
+
+															<div class="d-flex align-items-start mb-2">
+																<a href="assets/img/users/user-25.webp"
+																	data-fancycard="gallery" data-caption=""
+																	class="avatar avatar-lg">
+																	<img src="assets/img/users/user-25.webp"
+																		class="img-fluid rounded-3 " alt="img">
+																</a>
+																<div class="ms-2 mb-2">
+																	<p class="text-dark mb-0 fs-14">Oliver Smith  </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Senior IT Support Specialist</span>
+																</div>
+															</div>
+
+															<div class="d-flex align-items-start mb-3">
+																<a href="assets/img/users/user-18.webp"
+																	data-fancycard="gallery" data-caption=""
+																	class="avatar avatar-lg">
+																	<img src="assets/img/users/user-18.webp"
+																		class="img-fluid rounded-3 " alt="img">
+																</a>
+																<div class="ms-2 mb-2">
+																	<p class="text-dark mb-0 fs-14">Ava Johnson </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Network Administrator</span>
+																</div>
+															</div>
+
+															<div class="d-flex align-items-start mb-3">
+																<a href="assets/img/users/user-30.webp"
+																	data-fancycard="gallery" data-caption=""
+																	class="avatar avatar-lg">
+																	<img src="assets/img/users/user-30.webp"
+																		class="img-fluid rounded-3 " alt="img">
+																</a>
+																<div class="ms-2 mb-2">
+																	<p class="text-dark mb-0 fs-14">Liam Carter </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Systems Analyst</span>
+																</div>
+															</div>
+
+															<div class="d-flex align-items-start mb-3">
+																<a href="assets/img/users/user-14.webp"
+																	data-fancycard="gallery" data-caption=""
+																	class="avatar avatar-lg">
+																	<img src="assets/img/users/user-14.webp"
+																		class="img-fluid rounded-3 " alt="img">
+																</a>
+																<div class="ms-2 mb-2">
+																	<p class="text-dark mb-0 fs-14">Emily Davis  </p>
+																	<span class="fs-12 d-block mb-0 fs-12">IT Helpdesk Technician</span>
+																</div>
+															</div>
+
+														</div>
+
+														<div class="faq-sidebar-body-inner mt-2">
+															<div
+																class="d-flex align-items-center justify-content-between mb-3">
+																<span class="text-info d-block fs-14">Escalation Contact Points (2) </span>
+																<!-- <span class="text-body d-block fs-12 mb-2"><i class="fa-solid fa-pen"></i></span> -->
+															</div>
+
+															<div class="d-flex align-items-start mb-2">
+																<a href="assets/img/users/user-11.webp"
+																	data-fancycard="gallery" data-caption=""
+																	class="avatar avatar-lg">
+																	<img src="assets/img/users/user-11.webp"
+																		class="img-fluid rounded-3 " alt="img">
+																</a>
+																<div class="ms-2 mb-2">
+																	<p class="text-dark mb-0 fs-14">Noah Thompson </p>
+																	<span class="fs-12 d-block mb-0 fs-12"> IT Security Analyst</span>
+																</div>
+															</div>
+
+															<div class="d-flex align-items-start mb-3">
+																<a href="assets/img/users/user-24.webp"
+																	data-fancycard="gallery" data-caption=""
+																	class="avatar avatar-lg">
+																	<img src="assets/img/users/user-24.webp"
+																		class="img-fluid rounded-3 " alt="img">
+																</a>
+																<div class="ms-2 mb-2">
+																	<p class="text-dark mb-0 fs-14">Sophia Martinez </p>
+																	<span class="fs-12 d-block mb-0 fs-12">Technical Support Engineer</span>
+																</div>
+															</div>
+
+
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4">
+
+
+												<div class="faq-sidebar">
+													<div class="faq-sidebar-header">
+														<div>
+															<span class="fs-16 text-dark d-block">Sales Issue </span>
+															<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
+														</div>
+														<div>
+														<button class="btn collapsed w-100 d-flex justify-content-between align-items-center mb-0"
+														type="button" data-bs-toggle="collapse" data-bs-target="#collapse8">
+												<span class="toggleIcon">+</span> 
+                                                      </button>
+														</div>
+													</div>
+
+													<div class="faq-sidebar-body collapse" id="collapse8">
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info d-block fs-14">SLA Status:</span>
+															<span class="text-body d-block fs-14 mb-0">Default/User
+																defined</span>
+														</div>
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Assigned Support Agents(4)</span>
+														</div>
+
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+														
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4">
+
+
+												<div class="faq-sidebar">
+													<div class="faq-sidebar-header">
+														<div>
+															<span class="fs-16 text-dark d-block">Sales Issue </span>
+															<!-- <p class="fs-10 text-body"><i class="fa-solid fa-user me-2"></i>Muhammad Fareed </p> -->
+														</div>
+														<div>
+														<button class="btn collapsed w-100 d-flex justify-content-between align-items-center mb-0"
+																type="button" data-bs-toggle="collapse" data-bs-target="#collapse9">
+														<span class="toggleIcon">+</span> 
+														</button>
+														</div>
+													</div>
+
+													<div class="faq-sidebar-body collapse" id="collapse9">
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info d-block fs-14">SLA Status:</span>
+															<span class="text-body d-block fs-14 mb-0">Default/User
+																defined</span>
+														</div>
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Assigned Support Agents(4)</span>
+														</div>
+
+														<div class="faq-sidebar-body-inner">
+															<span class="text-info">Escalation Contact Points(2)</span>
+														</div>
+														
+													</div>
+												</div>
+											</div>
+										</div>
+											</div>
+											
+											<div class="col-xl-1 col-lg-1">
 												<a class="admor-plus" href="create-new-category.php" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Click to add more subcategories">
 												<i class="fa-solid fa-plus"></i>
 												</a>
+											
 											</div>
 										</div>
-										
+									
 									</div>
 								</div>
 							</div>
@@ -1147,260 +946,6 @@
 
 
 			</div>
-
-
-
-
-				<!-- ----------------- Table Modal Start ------------------------- -->
-				<div class="modal fade" id="exampleModal123" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-				  <div class="modal-content rounded-4">
-					<div class="modal-body px-md-4 px-3">
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="card bg-transparent border-0 shadow-none ">
-									<div class="card-header border-0 hdBtn-align">
-										<h4 class="fs-15 fw-600 text-dark mb-3">1.Set your selected subcategory SLA Policy </h4>			
-										<button type="button" class="" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-									</div>
-									<div class="">
-										<div class="table-responsive table-responsive-lg  sla-table sla-table1 ">
-											<table class="table table-borderless">
-												<thead class="">
-													<tr>
-													<th class="text-purple fs-16 fw-medium">Priority </th>
-													<th class="text-purple fs-16 fw-medium">Respond Within</th>
-													<th class="text-purple fs-16 fw-medium">Resolve Within</th>
-													<th class="text-purple fs-16 fw-medium">Default priority</th>
-													</tr>
-												</thead>
-												<tbody class="bg-transparent">
-													<tr>
-														<td>
-															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-																	class="ti ti-circle-filled fs-10 me-1 text-danger"></i>Urgent
-															</p>
-														</td>
-														<td>
-															<div class="d-flex align-items-center">
-																<div class=" me-2">
-																	<input type="number" class="form-control" placeholder="1">
-																</div>
-																<div class="">
-																	<select class="form-select">
-																		<option>Hrs</option>
-																		<option>Mins</option>
-																		<option>Sec</option>
-																	</select>
-																</div>
-															</div>
-														</td>
-														<td>
-															<div class="d-flex align-items-center ">
-																<div class=" me-2">
-																	<input type="number" class="form-control" placeholder="2">
-																</div>
-																<div class="">
-																	<select class="form-select">
-																		<option>Hrs</option>
-																		<option>Mins</option>
-																		<option>Sec</option>
-																	</select>
-																</div>
-															</div>
-														</td>
-														<td>
-															<div class="me-2">
-																<input type="number" class="form-control">
-															</div>
-														</td>
-													</tr>
-			
-													<tr>
-														<td>
-															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-																	class="ti ti-circle-filled fs-10 me-1 text-warning"></i>High
-															</p>
-														</td>
-														<td>
-															<div class="d-flex align-items-center">
-																<div class=" me-2">
-																	<input type="number" class="form-control" placeholder="2">
-																</div>
-																<div class="">
-																	<select class="form-select">
-																		<option>Hrs</option>
-																		<option>Mins</option>
-																		<option>Sec</option>
-																	</select>
-																</div>
-															</div>
-														</td>
-														<td>
-															<div class="d-flex align-items-center ">
-																<div class=" me-2">
-																	<input type="number" class="form-control" placeholder="6">
-																</div>
-																<div class="">
-																	<select class="form-select">
-																		<option>Hrs</option>
-																		<option>Mins</option>
-																		<option>Sec</option>
-																	</select>
-																</div>
-															</div>
-														</td>
-														<td>
-															<div class="me-2">
-																<input type="number" class="form-control">
-															</div>
-														</td>
-													</tr>
-			
-													<tr>
-														<td>
-															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-																	class="ti ti-circle-filled fs-10 me-1 text-purple"></i>Medium
-															</p>
-														</td>
-														<td>
-															<div class="d-flex align-items-center">
-																<div class=" me-2">
-																	<input type="number" class="form-control" placeholder="1">
-																</div>
-																<div class="">
-																	<select class="form-select">
-																		<option>Hrs</option>
-																		<option>Mins</option>
-																		<option>Sec</option>
-																	</select>
-																</div>
-															</div>
-														</td>
-														<td>
-															<div class="d-flex align-items-center ">
-																<div class=" me-2">
-																	<input type="number" class="form-control" placeholder="2">
-																</div>
-																<div class="">
-																	<select class="form-select">
-																		<option>Hrs</option>
-																		<option>Mins</option>
-																		<option>Sec</option>
-																	</select>
-																</div>
-															</div>
-														</td>
-														<td>
-															<div class="me-2">
-																<input type="number" class="form-control">
-															</div>
-														</td>
-													</tr>
-			
-													<tr>
-														<td>
-															<p class="fs-14 d-inline-flex align-items-center mb-0"><i
-																	class="ti ti-circle-filled fs-10 me-1 text-success"></i>Low
-															</p>
-														</td>
-														<td>
-															<div class="d-flex align-items-center">
-																<div class=" me-2">
-																	<input type="number" class="form-control" placeholder="2">
-																</div>
-																<div class="">
-																	<select class="form-select">
-																		<option>Hrs</option>
-																		<option>Mins</option>
-																		<option>Sec</option>
-																	</select>
-																</div>
-															</div>
-														</td>
-														<td>
-															<div class="d-flex align-items-center ">
-																<div class=" me-2">
-																	<input type="number" class="form-control" placeholder="4">
-																</div>
-																<div class="">
-																	<select class="form-select">
-																		<option>Hrs</option>
-																		<option>Mins</option>
-																		<option>Sec</option>
-																	</select>
-																</div>
-															</div>
-														</td>
-														<td>
-															<div class="me-2">
-																<input type="number" class="form-control">
-															</div>
-														</td>
-													</tr>
-			
-												</tbody>
-											</table>
-										</div>
-			
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row align-items-center mb-3 px-2">
-							<h4 class="fs-15 fw-600 text-dark mb-3">2. Your default reminder policy</h4>
-							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
-								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
-										class="text-primary">mins before response time ends:</span> Reminder to admin to
-									assign ticket and reminder to agents to begin action.</p>
-								<p class="mb-0"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
-										class="text-primary">5 mins before resolution time:</span> Reminder to agent to
-									resolve ticket and to the admin to follow up with the agent.</p>
-							</div>
-						</div>
-						<div class="row align-items-center mb-3 px-2">
-							<h4 class="fs-15 fw-600 text-dark mb-3">3. Your default escalation policy</h4>
-							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
-								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
-										class="text-primary">Immediately after response time ends:</span> Reminder to
-									admin to assign ticket and reminder to agents to begin action.</p>
-								<p class="mb-0"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
-										class="text-primary">Immediately after resolution time: </span> Reminder to
-									agent to resolve ticket and to the admin to follow up with the agent.</p>
-
-								<!-- <div class="esc-box-out">
-									<div class="esc-box">
-										<label>Escalation notification recieptents</label>
-										<ul class="esc-box-list">
-											<li>Assigned Agent <i class="fa-solid fa-xmark"></i></li>
-											<li>Label <i class="fa-solid fa-xmark"></i></li>
-											<li>Peter Holmes <i class="fa-solid fa-xmark"></i></li>
-										</ul>
-									</div>
-								</div> -->
-								<div class="mt-3 sest">
-								<label class="form-label">Select recipients you wish to send escalation notice to</label>
-								<select class="js-example-placeholder-multiple select2 js-states "
-									multiple="multiple">
-									<option value="fr-1">Noah Thompson</option>
-									<option value="fr-2">Sophia Martinez</option>
-									<option value="fr-3">James Patel</option>
-									<option value="fr-4">Isabella Nguyen</option>
-									<option value="fr-5">Ethan Roberts</option>
-									<option value="fr-6">Olivia Bennett</option>
-								</select>
-								</div>
-							</div>
-							<!-- <div class="col-lg-12 sest py-3 bg-gray px-3 rounded-3 mt-3">
-								
-								</div> -->
-						</div>
-					</div>
-				  </div>
-				</div>
-			</div>
-			<!-- ----------------- Table Modal End ------------------------- -->
-
 
 
 			  <!-- Modal -->

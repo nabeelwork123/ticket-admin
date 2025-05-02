@@ -2231,7 +2231,7 @@
 											</td>
 											
 										<td>
-												 <select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+												 <select class="js-example-placeholder-multiple select2 js-states employee-mark" multiple="multiple">
                             		<option value="fr-1">Michael Anderson</option>
 									<option value="fr-2">Emily Thompson</option>
 									<option value="fr-3">Daniel Brooks</option>
@@ -2342,7 +2342,15 @@
 								</div>								
 								<div class="mb-0">
 									<label class="form-label  mb-1"></label>
-									<input type="text" class="form-control" placeholder="Employee name ">
+									<select class="js-example-placeholder-multiple select2 js-states " multiple="multiple">
+									<option value="fr-1">Michael Anderson</option>
+									<option value="fr-2">Emily Thompson</option>
+									<option value="fr-3">Daniel Brooks</option>
+									<option value="fr-4">Sophia Carter</option>
+									<option value="fr-5">James Preston</option>
+									<option value="fr-6">Olivia Bennett</option>
+                            </select>
+									<!-- <input type="text" class="form-control" placeholder="Employee name "> -->
 									
 								</div>
 
@@ -2442,10 +2450,15 @@
 			</div>
 			<!-- /Main Wrapper -->
 		</div>
-
+	
+		
 
 		<?php include 'includes/script.php'; ?>
-		<script>
+		
+
+</div>
+
+<script>
 			$(function () {
 				$('input[name="daterange"]').daterangepicker({
 					opens: 'left'
@@ -2460,8 +2473,29 @@
             allowClear: true
         });
     });
-		</script>
 
+// 	$(document).ready(function() {
+//     $('.employee-mark').select2({
+//         placeholder: "Mark to employee",
+//         allowClear: true
+//     });
+
+//     $('.task-mark').select2({
+//         placeholder: "Mark to employee",
+//         allowClear: true
+//     });
+// });
+
+// $(document).ready(function() {
+//     $('.js-example-placeholder-multiple').each(function() {
+//         $(this).select2({
+//             placeholder: $(this).data('placeholder'),
+//             allowClear: true
+//         });
+//     });
+// });
+
+		</script>
 </body>
 
 </html>

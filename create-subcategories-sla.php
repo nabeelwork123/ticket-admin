@@ -380,7 +380,7 @@
 
 
 						<div class="row align-items-center mb-3 px-2">
-							<h4 class="fs-15 fw-600 text-dark mb-3">Your default escalation policy</h4>
+							<h4 class="fs-15 fw-600 text-dark mb-3">3. Your default escalation policy</h4>
 							<div class="col-lg-12 bg-li-bg p-4 rounded-2">
 								<p class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2 fs-10"></i><span
 										class="text-primary">Immediately after response time ends:</span> Reminder to
